@@ -70,7 +70,7 @@
   </div>
 
   <!-- Modal Structure -->
-  <div id="modal1" class="modal">
+  <div id="modal1" class="modal" style="box-shadow: black 0px 0px 5px 1px; ">
     <div class="modal-content">
       <!--<h4>获取成功</h4>-->
       <!--<p>您已经成功获取入场券</p>-->
@@ -83,7 +83,7 @@
   </div>
 
   <!-- Modal Structure -->
-  <div id="modal2" class="modal modal-fixed-footer">
+  <div id="modal2" class="modal modal-fixed-footer" style="box-shadow: black 0px 0px 5px 1px; ">
 
     <form id="form1">
 
@@ -168,7 +168,7 @@
   </div>
 
   <!-- Modal Structure -->
-  <div id="modal3" class="modal modal-fixed-footer">
+  <div id="modal3" class="modal modal-fixed-footer" style="box-shadow: black 0px 0px 5px 1px; ">
     <div class="modal-content">
       <h4>报名演讲</h4>
 
@@ -248,17 +248,19 @@
 
 <script>
     let h_screen = window.screen.height;
-    import 'jquery.cookie'
     export default {
         name: "apply",
         methods: {
           open1() {
+            $('.modal').modal();
             $('#modal1').modal('open');
           },
           open2() {
+            $('.modal').modal();
             $('#modal2').modal('open');
           },
           open3() {
+            $('.modal').modal();
             $('#modal3').modal('open');
           },
           sub() {

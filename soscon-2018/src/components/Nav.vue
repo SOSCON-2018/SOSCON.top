@@ -38,7 +38,7 @@
       <li><router-link to="" class="t1">感谢</router-link></li>
       <li @click="closeNav"><router-link to="/aboutUs"  >关于我们</router-link></li>
       <li><a class="dropdown-trigger t1"  data-target="dropdown2" >语言/Language<i class="material-icons right">arrow_drop_down</i></a></li>
-      <li class="t3"><a class="modal-trigger waves-effect waves-light btn" @click="open1">登陆</a></li>
+      <li class=" t1 t3"><a class="modal-trigger waves-effect waves-light btn" >登陆</a></li>
 
     </ul>
 

@@ -1,5 +1,5 @@
 <template>
-    <div :style="{marginTop:mt1}">
+    <div>
       <div class="pic1" :style="{height:h1}" >
         <home-image></home-image>
       </div>
@@ -16,15 +16,7 @@
     export default {
         name: "home",
       components: {homeImage, About},
-      data(){
-          return{
-            mt : 0
-          }
-      },
       computed: {
-        mt1: function () {
-            return this.mt + 'px'
-        },
         h1: function () {
             return h_screen +'px'
         },
@@ -33,21 +25,21 @@
         }
       },
 
-      methods:{
-        scrollFunc(){
-          let e = e || window.event
-
-          if(e.wheelDelta> 0) {
-            this.mt = 0
-          }
-          else if(e.wheelDelta<0 ){
-            this.mt = -h_screen
-           }
-        }
-      },
-      mounted(){
-          window.addEventListener("mousewheel", this.scrollFunc)
-      }
+      // methods:{
+      //   scrollFunc(){
+      //     let e = e || window.event
+      //
+      //     if(e.wheelDelta> 0) {
+      //       this.mt = 0
+      //     }
+      //     else if(e.wheelDelta<0 ){
+      //       this.mt = -h_screen
+      //      }
+      //   }
+      // },
+      // mounted(){
+      //     window.addEventListener("mousewheel", this.scrollFunc)
+      // }
 
     }
 
