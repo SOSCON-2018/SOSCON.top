@@ -1,0 +1,315 @@
+.my_button{
+  position: absolute;
+  bottom: 10px;
+}
+.pic {
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+
+.pos {
+    margin-left: 30px;
+}
+.bod{
+    background-image: url("../img/pic7.jpg");
+    height: 100% ;
+}
+.pic1{
+    display: flex;
+    background-image: url("../img/pic5.png");
+    background-position: center;
+    backface-visibility: hidden;
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    flex:1 1 auto;
+    margin: 0 auto;
+    transition: 0.3s ease-in-out;
+
+}
+/*img{
+    display: flex;
+    flex-shrink: 1;
+}*/
+
+.t1{
+    filter: opacity(.1);
+}
+.title1{
+    /*background-image: url("../img/back.png");*/
+    background:rgba(0,0,0,.5);
+    position: fixed;
+    z-index: 1;
+}
+.tit1{
+    background-color: #282828;
+    color: white!important;
+}
+
+.SOSCON_main{
+  background-image: url("../img/SOSCON_main.png");
+  background-size: cover;
+  width: 432px;
+  height: 332px;
+  margin-top: 20%;
+  right: 10%;
+  z-index: 10;
+  position: absolute;
+}
+
+.about{
+    display: inline-block;
+    /*border: 1px solid black;*/
+    opacity: 0.8;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-shadow:black 0px 0px 5px 1px;
+    text-align: left;
+    width: 60%;
+    height: auto;
+    color: black;
+    background-color: white;
+    align-self: center;
+    margin-top: 5%;
+
+    /*filter: opacity(.95);*/
+    overflow:hidden;
+    transition: 0.3s ease-in-out;
+
+
+}
+
+
+.about1{
+    display: flex;
+    justify-content: center;
+    background-image: url("../img/pic6.jpg");
+    background-size: cover;
+    background-position: center;
+
+    height: auto;
+    left: 0;
+    top: 0;
+    transition: 0.3s ease-in-out;
+
+}
+.main{
+    display: flex;
+    justify-content: center;
+    background-image: url("../img/pic5.png");
+    background-size: cover;
+    position: relative;
+    transition: 0.3s ease-in-out;
+}
+.about h4 p{
+    flex: 0 1 auto;
+}
+
+.homeTitle{
+  height: 381px;
+  width: 482px;
+  margin: auto auto;
+  background-image: url("../img/homeTitle.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  transition: 0.3s ease-in-out;
+}
+
+.homeButton1{
+  height: 46px;
+  width: 200px;
+  top:380px;
+  left: 10px;
+  background-image:url("../img/aboutSoscon.png");
+  position: absolute;
+}
+
+.homeButton2{
+  height: 50px;
+  width: 200px;
+  top: 380px;
+  right: 10px;
+  background-image: url("../img/join.png");
+  position: absolute;
+}
+.baoming{
+  display:flex;
+  flex-direction: row;
+  flex-wrap:nowrap;
+  justify-content: center;
+  align-items: stretch;
+  box-shadow:black 0px 0px 5px 1px;
+  padding: 1%;
+  text-align: left;
+  height:auto;
+  color: black;
+  background-color: white;
+  align-self: center;
+  margin-top: 20%;
+  margin-bottom: 3%;
+  filter: opacity(.95);
+}
+.applyContainer{
+  position: relative;
+  height: 500px;
+}
+.button{
+  position: absolute;
+  bottom:-30px;
+}
+.aboutus{
+  /*display: flex;
+  flex-direction: column;*/
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 0;
+  display: inline-block;
+  width: 100px;
+  margin-left: 10%;
+  margin-right: 5%;
+  margin-top: 20px;
+}
+.timeandmap{
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 20px;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 0;
+  /*margin-right: 10%;*/
+  margin-left: 5%;
+  margin-right: 5%;
+  width:300px;
+}
+.aboutandmap{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.baidumap{
+  width: 100%;
+  height: 500px;
+}
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('//at.alicdn.com/t/font_603550_ynate9ebciwcow29.eot');
+  src: url('//at.alicdn.com/t/font_603550_ynate9ebciwcow29.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_603550_ynate9ebciwcow29.woff') format('woff'),
+  url('//at.alicdn.com/t/font_603550_ynate9ebciwcow29.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_603550_ynate9ebciwcow29.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:24px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;}
+.icon{
+  float: right;
+}
+.foot{
+  float: right;
+  font-size: small;
+  color: gray;
+}
+
+@media only screen and (max-width: 1050px){
+  .applyContainer{
+    height: 550px;
+  }
+
+}
+
+@media only screen and (max-width: 700px){
+  .applyContainer{
+    height: 650px;
+  }
+
+}
+
+@media only screen and (max-width: 600px){
+  .applyContainer{
+    height: 420px;
+  }
+
+}
+
+@media only screen and (max-width: 500px){
+  .map{
+    margin-left: 0;
+  }
+  .about1{
+    display: flex;
+    justify-content: center;
+    background-image: url("../img/pic6.jpg");
+    background-size: cover;
+    background-position: center;
+    backface-visibility: hidden;
+    height: auto;
+    transition: 0.3s ease-in-out;
+    font-size: 1rem;
+    position: fixed;
+    z-index: -1;
+  }
+
+  .about{
+    display: inline-block;
+    /*border: 1px solid black;*/
+    /*opacity: 0.8;*/
+    padding-left: 2%;
+    padding-right: 2%;
+    box-shadow:black 0px 0px 5px 1px;
+    text-align: left;
+    font-size: 1rem;
+    margin:0 1% 0 1%;
+    width: 100%;
+    height: auto;
+    color: black;
+    background-color: white;
+    align-self: center;
+    margin-top: 5%;
+
+    /*filter: opacity(.95);*/
+    overflow:hidden;
+
+  }
+  .pic1{
+    display: flex;
+    background-image: url("../img/Background-1-Phone.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size:cover;
+    background-position: center;
+    backface-visibility: hidden;
+    height: 100%;
+    flex:1 1 auto;
+    margin: 0 auto;
+    transition: 0.3s ease-in-out;
+
+  }
+  .main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    background-image: url("../img/pic5.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  .homeButton1 {
+    display: none;
+  }
+  .homeButton2{
+    display: none;
+  }
+  .homeTitle{
+    display: none;
+  }
+
+}
