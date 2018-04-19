@@ -20,7 +20,7 @@
           <li class="t1"><router-link to="">感谢</router-link></li>
           <li><router-link to="/aboutUs" >关于我们</router-link></li>
           <li class="t1"><a class="dropdown-trigger" href="#!"  data-target="dropdown1">语言/Language<i class="material-icons right">arrow_drop_down</i></a></li>
-          <li class=" t1 t3"><a class="modal-trigger waves-effect waves-light btn" >登陆</a></li>
+          <li class=" t1 t3"><a class="modal-trigger waves-effect waves-light btn" >登录/注册</a></li>
         </ul>
       </div>
     </nav>
@@ -38,7 +38,7 @@
       <li><router-link to="" class="t1">感谢</router-link></li>
       <li @click="closeNav"><router-link to="/aboutUs"  >关于我们</router-link></li>
       <li><a class="dropdown-trigger t1"  data-target="dropdown2" >语言/Language<i class="material-icons right">arrow_drop_down</i></a></li>
-      <li class=" t1 t3"><a class="modal-trigger waves-effect waves-light btn" >登陆</a></li>
+      <li class=" t1 t3"><a class="modal-trigger waves-effect waves-light btn" >登录/注册</a></li>
 
     </ul>
 
@@ -85,10 +85,6 @@
 <script>
     export default {
         name: "nav",
-        data:{
-          name : 'none'
-        },
-
         methods:{
           closeNav() {
             $('.sidenav').sidenav('close');
@@ -122,7 +118,6 @@
     }
     window.onload=function () {
       // $(".dropdown-trigger").dropdown();
-      $('.sidenav').sideNav();
       $('.modal').modal();
     }
 </script>

@@ -9,7 +9,6 @@
 
 <script>
 
-    let h_screen = document.documentElement.clientHeight
     import About from "./about";
     import homeImage from "./homeImage";
     let state = 1;
@@ -17,11 +16,15 @@
         name: "home",
       components: {homeImage, About},
       computed: {
+        h_screen: function(){
+            console.log(123)
+            return document.documentElement.clientHeight
+        },
         h1: function () {
-            return h_screen +'px'
+            return this.h_screen +'px'
         },
         h2: function () {
-            return h_screen + 'px'
+            return this.h_screen + 'px'
         }
       },
 

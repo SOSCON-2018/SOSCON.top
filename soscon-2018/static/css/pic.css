@@ -10,13 +10,11 @@
 .pos {
     margin-left: 30px;
 }
-.bod{
-    background-image: url("../img/pic7.jpg");
-    height: 100% ;
-}
+
+
 .pic1{
     display: flex;
-    background-image: url("../img/pic5.png");
+    background-image: url("../img/pic5.jpg");
     background-position: center;
     backface-visibility: hidden;
     background-size:cover;
@@ -47,16 +45,7 @@
     color: white!important;
 }
 
-.SOSCON_main{
-  background-image: url("../img/SOSCON_main.png");
-  background-size: cover;
-  width: 432px;
-  height: 332px;
-  margin-top: 20%;
-  right: 10%;
-  z-index: 10;
-  position: absolute;
-}
+
 
 .about{
     display: inline-block;
@@ -97,7 +86,7 @@
 .main{
     display: flex;
     justify-content: center;
-    background-image: url("../img/pic5.png");
+    background-image: url("../img/pic5.jpg");
     background-size: cover;
     position: relative;
     transition: 0.3s ease-in-out;
@@ -108,10 +97,10 @@
 
 .homeTitle{
   height: 381px;
-  width: 482px;
-  margin: auto auto;
+  width: 483px;
+  margin: 10% auto;
   background-image: url("../img/homeTitle.png");
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   position: relative;
   transition: 0.3s ease-in-out;
@@ -120,7 +109,7 @@
 .homeButton1{
   height: 46px;
   width: 200px;
-  top:380px;
+  top:400px;
   left: 10px;
   background-image:url("../img/aboutSoscon.png");
   position: absolute;
@@ -129,7 +118,7 @@
 .homeButton2{
   height: 50px;
   width: 200px;
-  top: 380px;
+  top: 400px;
   right: 10px;
   background-image: url("../img/join.png");
   position: absolute;
@@ -147,7 +136,7 @@
   color: black;
   background-color: white;
   align-self: center;
-  margin-top: 20%;
+  margin-top: 15%;
   margin-bottom: 3%;
   filter: opacity(.95);
 }
@@ -297,19 +286,35 @@
     width: 100%;
     height: 100%;
     justify-content: center;
-    background-image: url("../img/pic5.png");
+    background-image: url("../img/pic5.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
   }
-  .homeButton1 {
-    display: none;
-  }
-  .homeButton2{
-    display: none;
-  }
   .homeTitle{
-    display: none;
+    height: 270px;
+    width: 285px;
+    margin-top: 25%;
+    background-image: url("/static/img/MainPageChar-Phont.png");
+  }
+
+  .homeButton1{
+    height: 30px;
+    width: 110px;
+    top:300px;
+    left: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+  }
+
+  .homeButton2{
+    height: 30px;
+    width: 110px;
+    top: 300px;
+    right: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 
 }

@@ -2,7 +2,7 @@
   <div>
     <div style="width: 80%;margin: 0 auto;">
       <div>
-        <div style="display: inline-block;text-align: center;">
+        <div style="display: inline-block;text-align: center;margin-top: 135px">
           <!--<p style="background-color: black;color: white;width: 260px;height: 65px;font-size: x-large" >SOSCON<span style="color:#66ccff;">18</span></p>-->
         <h4 style="background-color: black;color: white;padding: 20px 20px;">SOSCON<span style="color: #66ccff">18</span></h4>
         </div>
@@ -25,7 +25,7 @@
         <iframe v-bind:width="mapWidth" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=106.45307779312135%2C29.56162451639962%2C106.48067235946656%2C29.574968703557974&amp;layer=mapnik&amp;marker=29.56830242911509%2C106.46686649270123" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=29.5683&amp;mlon=106.4669#map=16/29.5683/106.4669&amp;layers=N">查看更大的地图</a></small>
       </div>
     </div>
-    <div style="width: 80%; left: 0;right: 0;margin: 0 auto;overflow: hidden">
+    <div style="width: 80%; left: 0;right: 0;margin: 50px auto 10px auto;overflow: hidden;">
       <span style="font-size: small;color: gray">畅想未来，拥抱开源</span>
       <span style="font-size: small;color: gray;margin-left: 3%">联系我们: soscon@openingsource.org</span>
       <span class="foot" style="margin-left: 10px">Attending us</span>
@@ -41,7 +41,6 @@
 </template>
 
 <script>
-    let w_screen = document.documentElement.clientWidth
     export default {
         name: "about",
         data(){
@@ -52,8 +51,11 @@
           }
         },
       computed:{
+          w_screen:function(){
+            return document.documentElement.clientWidth
+          },
           mapWidth:function () {
-              return w_screen / 1.26 + 'px'
+              return this.w_screen / 1.26 + 'px'
             }
 
       },
