@@ -135,6 +135,8 @@
           <label class="col "><input type="checkbox" name="teams" value="5"><i>✓</i>放映组：负责会场的放映，帮助嘉宾准备演讲。</label><br>
           <label class="col "><input type="checkbox" name="teams" value="6"><i>✓</i>宣传组：负责撰写文案，联系媒体。</label><br>
           <label class="col "><input type="checkbox" name="teams" value="7"><i>✓</i>赞助组：负责和赞助商联系接洽。</label><br>
+          <label class="col "><input type="checkbox" name="teams" value="8"><i>✓</i>设计组：负责设计会议用品，纪念品，舞台等。</label><br>
+          <label class="col "><input type="checkbox" name="teams" value="9"><i>✓</i>主持人：负责主持会议（仅招4人）。</label><br>
         </div>
 
 
