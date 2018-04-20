@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Nav @userLogin="Login"></Nav>
+    <Nav ></Nav>
     <transition :name=transitionName>
       <router-view class="child-view"></router-view>
     </transition>
@@ -27,6 +27,9 @@
 </script>
 
 <style>
+  [target=_blank]{
+    display: none;
+  }
   ::-webkit-scrollbar{
     display: none;
   }
