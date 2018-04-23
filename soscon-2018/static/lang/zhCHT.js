@@ -1,0 +1,20 @@
+module.exports={
+  Nav:{
+    home:'首頁',
+    apply:'報名',
+    agenda:'議程',
+    news:'動態',
+    thanks:'感謝',
+    aboutUs:'關於我們',
+    lang:'語言',
+    register:'註冊',
+    name:'暱稱',
+    email:'郵箱',
+    password:'密碼',
+    password2:'確認密碼',
+    login:'登錄',
+  },
+  About:{
+    soscon:'学生开源年会',
+  }
+}

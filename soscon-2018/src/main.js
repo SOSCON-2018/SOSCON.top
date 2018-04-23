@@ -3,15 +3,27 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import VueI18n from 'vue-i18n'
+import en from '../static/lang/en'
+import zhCHS from '../static/lang/zhCHS'
+import zhCHT from '../static/lang/zhCHT'
 
-
-
+Vue.use(VueI18n)
+const i18n = new VueI18n({
+  locale: 'zhCHS',
+  messages:{
+    'en': en,
+    'zhCHS': zhCHS,
+    'zhCHT': zhCHT,
+  }
+})
 
 
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
+  i18n,
   components: { App },
   template: '<App/>'
 })

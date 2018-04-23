@@ -1,0 +1,20 @@
+module.exports={
+  Nav:{
+    home:'home',
+    apply:'apply',
+    agenda:'agenda',
+    news:'news',
+    thanks:'thanks',
+    aboutUs:'aboutUs',
+    lang:'language',
+    register:'register',
+    name:'name',
+    email:'email',
+    password:'password',
+    password2:'CheckPassword',
+    login:'login',
+  },
+  About:{
+    soscon:'学生开源年会',
+  }
+}

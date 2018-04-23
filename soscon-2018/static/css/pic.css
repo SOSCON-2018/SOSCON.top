@@ -1,3 +1,21 @@
+.position{
+  position: fixed!important;
+  top: 80%!important;
+  right: 0px!important;
+}
+
+.allH4{
+  font-size: 2rem;
+}
+
+#modalLogin{
+  width: 500px;
+}
+
+.modal{
+  box-shadow: black 0 0 5px 1px
+}
+
 .my_button{
   position: absolute;
   bottom: 10px;
@@ -184,13 +202,18 @@
   height: 500px;
 }
 
+#qrmodal{
+  width: 360px;
+  padding: 0;
+}
+
 @font-face {
-  font-family: 'iconfont';
-  src: url('//at.alicdn.com/t/font_603550_ynate9ebciwcow29.eot');
-  src: url('//at.alicdn.com/t/font_603550_ynate9ebciwcow29.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_603550_ynate9ebciwcow29.woff') format('woff'),
-  url('//at.alicdn.com/t/font_603550_ynate9ebciwcow29.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_603550_ynate9ebciwcow29.svg#iconfont') format('svg');
+  font-family: 'iconfont';  /* project id 603550 */
+  src: url('//at.alicdn.com/t/font_603550_722298y6s5gvte29.eot');
+  src: url('//at.alicdn.com/t/font_603550_722298y6s5gvte29.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_603550_722298y6s5gvte29.woff') format('woff'),
+  url('//at.alicdn.com/t/font_603550_722298y6s5gvte29.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_603550_722298y6s5gvte29.svg#iconfont') format('svg');
 }
 .iconfont{
   font-family:"iconfont" !important;
@@ -229,6 +252,9 @@
 }
 
 @media only screen and (max-width: 500px){
+  #modalLogin{
+    width: 90%;
+  }
   .map{
     margin-left: 0;
   }

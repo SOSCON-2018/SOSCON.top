@@ -46,7 +46,7 @@
             <h2 class="center brown-text"><i class="material-icons co3">credit_card</i></h2>
             <h5 class="center">获取入场券</h5>
             <div style="margin-top:40px;">
-              <P>SOSCON票务即将开放
+              <P>SOSCON票务已经开放
                 <br>在这里, 你能感受到科技的魅力
                 也能结交到志同道合的朋友
 
@@ -55,7 +55,7 @@
                 <br>如果你相信开源的力量
                 那么就点击取票
                 和我们一起, 成为第一批开拓者, 见证元年的盛事
-                <br>第一轮放票将在4月22日正式开启
+                <!--<br>第一轮放票将在4月22日正式开启-->
               </p>
             </div>
             <!-- Modal Trigger -->
@@ -70,24 +70,98 @@
   </div>
 
   <!-- Modal Structure -->
-  <div id="modal1" class="modal" style="box-shadow: black 0px 0px 5px 1px; ">
-    <div class="modal-content">
-      <!--<h4>获取成功</h4>-->
-      <!--<p>您已经成功获取入场券</p>-->
-      <!--<p>余票：</p>-->
-      <p>尚未开始</p>
-    </div>
-    <div class="modal-footer">
-      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">关闭</a>
-    </div>
+  <div id="modal1" class="modal" >
+
+    <form id="formTicket">
+
+      <div class="modal-content row" style="box-shadow: black 0px 0px 5px 1px">
+          <h5>入场券发放中</h5>
+          <p>
+          个人信息填写请务必准确，会议当天会根据个人信息发放物资。
+          </p>
+          <p>
+          如果有任何问题请发邮件与我们取得联系（邮箱：soscon@openingsource.org）
+          </p>
+
+        <div class="input-field col l6 s12 ">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="ticketname" type="text" class="validate" name="realname">
+          <label for="ticketname">姓名<!--<span style="color: red">*</span>--> </label>
+        </div>
+
+        <div class="input-field col l6 s12 ">
+          <i class="material-icons prefix">school</i>
+          <input id="school" type="text" class="validate" name="school">
+          <label for="school">学校<!--<span style="color: red">*</span>--> </label>
+        </div>
+
+
+        <div class="input-field col s12">
+          <p style="font-size: medium">
+            性别
+          </p>
+          <select  class="browser-default" name="sex">
+            <option value="" disabled selected>性别</option>
+            <option value="1">男</option>
+            <option value="2">女</option>
+            <option value="3">跨性别者</option>
+            <option value="4">不便透漏</option>
+          </select>
+        </div>
+
+        <div class="input-field col s12">
+          <p style="font-size: medium">
+            饮食习惯
+          </p>
+          <select  class="browser-default" name="eat">
+            <option value="" disabled selected>饮食习惯</option>
+            <option value="1">无特殊要求</option>
+            <option value="2">素食</option>
+            <option value="3">其他特殊要求（请在下方备注说明）</option>
+          </select>
+        </div>
+        <div class="input-field col s12">
+              <i class="material-icons prefix">mode_edit</i>
+              <textarea id="icon_prefix4" class="materialize-textarea" name="foodNote"></textarea>
+              <label for="icon_prefix4">饮食特殊备注</label>
+        </div>
+
+        <div class="input-field col s12">
+          <p style="font-size: medium">
+            对开源项目了解程度
+          </p>
+          <select  class="browser-default" name="experience">
+            <option value="" disabled selected>对开源项目了解程度</option>
+            <option value="1">想要参与</option>
+            <option value="2">有过贡献</option>
+            <option value="3">长期贡献</option>
+            <option value="4">主导过开源项目</option>
+          </select>
+        </div>
+
+        <div class="input-field col s12">
+          <i class="material-icons prefix">mode_edit</i>
+          <textarea id="icon_prefix5" class="materialize-textarea" name="other"></textarea>
+          <label for="icon_prefix5">其他备注</label>
+        </div>
+
+
+       </div>
+
+      <div class="modal-footer" >
+        <input type="button" class="btn waves-effect waves-light" @click="subTicket" value="申请">
+      </div>
+
+    </form>
+
   </div>
 
   <!-- Modal Structure -->
-  <div id="modal2" class="modal modal-fixed-footer" style="box-shadow: black 0px 0px 5px 1px; ">
+  <div id="modal2" class="modal modal-fixed-footer" >
 
     <form id="form1">
 
-    <div class="modal-content row">
+    <div class="modal-content row" style="box-shadow: black 0px 0px 5px 1px">
         <h5>志愿者信息填写</h5>
         <p>填写志工信息。我们的负责人将会在之后的三个工作日内联系你。
         </p>
@@ -113,18 +187,18 @@
           <label for="phonenumber">电话号码<span style="color: red">*</span> </label>
         </div>
 
-        <!--<div class="input-field col s12">-->
-          <!--<select  class="browser-default" >-->
-            <!--<option value="" disabled>志愿者分组</option>-->
-            <!--<option value="1">摄影组</option>-->
-            <!--<option value="2">翻译组</option>-->
-            <!--<option value="3">场务组</option>-->
-            <!--<option value="4">服务组</option>-->
-            <!--<option value="5">放映组</option>-->
-            <!--<option value="6">宣传组</option>-->
-            <!--<option value="7">赞助组</option>-->
-          <!--</select>-->
-        <!--</div>-->
+        <!--<div class="input-field col s12">
+          <select  class="browser-default" >
+            <option value="" disabled>志愿者分组</option>
+            <option value="1">摄影组</option>
+            <option value="2">翻译组</option>
+            <option value="3">场务组</option>
+            <option value="4">服务组</option>
+            <option value="5">放映组</option>
+            <option value="6">宣传组</option>
+            <option value="7">赞助组</option>
+          </select>
+        </div>-->
 
         <div class="row">
           <span style="font-size: 1rem">愿意加入志愿者的哪些组？(多选)<span style="color: red">*</span> </span><br>
@@ -135,8 +209,8 @@
           <label class="col "><input type="checkbox" name="teams" value="5"><i>✓</i>放映组：负责会场的放映，帮助嘉宾准备演讲。</label><br>
           <label class="col "><input type="checkbox" name="teams" value="6"><i>✓</i>宣传组：负责撰写文案，联系媒体。</label><br>
           <label class="col "><input type="checkbox" name="teams" value="7"><i>✓</i>赞助组：负责和赞助商联系接洽。</label><br>
-          <label class="col "><input type="checkbox" name="teams" value="8"><i>✓</i>设计组：负责设计会议用品，纪念品，舞台等。</label><br>
-          <label class="col "><input type="checkbox" name="teams" value="9"><i>✓</i>主持人：负责主持会议（仅招4人）。</label><br>
+          <label class="col "><input type="checkbox" name="teams" value="8"><i>✓</i>设计组: 负责设计会议用品，纪念品，舞台等。</label><br>
+          <label class="col "><input type="checkbox" name="teams" value="9"><i>✓</i>主持人: 负责主持会议（仅招4人）。</label><br>
         </div>
 
 
@@ -170,8 +244,8 @@
   </div>
 
   <!-- Modal Structure -->
-  <div id="modal3" class="modal modal-fixed-footer" style="box-shadow: black 0px 0px 5px 1px; ">
-    <div class="modal-content">
+  <div id="modal3" class="modal modal-fixed-footer" >
+    <div class="modal-content" style="box-shadow: black 0px 0px 5px 1px">
       <h4>报名演讲</h4>
 
       <div class="divider"></div>
@@ -244,18 +318,39 @@
       <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">同意</a>
     </div>
   </div>
+
+
   </div>
 
 </template>
 
 <script>
     let h_screen = window.screen.height;
+    import 'jquery.cookie'
     export default {
         name: "apply",
         methods: {
           open1() {
-            $('.modal').modal();
-            $('#modal1').modal('open');
+            if(this.name[0] === "none") {
+              swal({
+                text: '请先登录',
+                type: 'warning',
+              })
+            }
+            else if(this.name[1] === true){
+              swal({
+                text:"你已经获得了入场券，点击右侧二维码图标查看你的二维码"
+              })
+            }
+            else if(this.leftTicket <= 0){
+              swal({
+                text:"本轮票务已全部放完，感谢你的参与，下次放票时间请关注相关资讯"
+              })
+            }
+            else {
+              $('.modal').modal();
+              $('#modal1').modal('open');
+            }
           },
           open2() {
             $('.modal').modal();
@@ -288,12 +383,74 @@
 
             }
             })
-          }
+          },
+          subTicket(){
+            $.ajax({
+              method:'post',
+              url:'/account/ticket',
+              data: $('#formTicket').serialize()
+            }).done(function (data) {
+              if(data.result === '领取成功'){
+                swal({
+                  text:data.result,
+                  type:'success',
+                  timer:2000
+                })
+                setTimeout(function () {
+                  window.location.reload()
+                },1000)
+              }
+              else if(data.result==='没票了'){
+                swal({
+                  text:data.result,
+                  type:'warning',
+                  timer:2000
+                })
+                setTimeout(function () {
+                  window.location.reload()
+                },1000)
+              }
+              else{
+                swal({
+                  text:data.result,
+                  type:'error',
+                  timer:2000
+                })
+              }
+
+            })
+          },
         },
         computed:{
           h1(){
             console.log(h_screen + 'px')
             return h_screen + 'px'
+          },
+          leftTicket(){
+            let l;
+            $.ajax({
+              method:'post',
+              url:'/account/leftticket',
+              async:false
+            }).done(function (data) {
+              l = data.left
+            })
+            return l
+          },
+          name(){
+            let n,h;
+            $.ajax({
+              method:'post',
+              url:'/account/check',
+              async:false
+            }).done(function (data) {
+              n = data.name
+              h = data.haveTicket
+            })
+            return [n,h]
+          },
+          img(){
+            return '/account/img/'+this.name[0]
           }
       }
 
