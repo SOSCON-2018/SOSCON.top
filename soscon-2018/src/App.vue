@@ -16,6 +16,21 @@
 
 <script>
   import Nav from "./components/Nav";
+
+  //判断语言
+  var currnetLang = navigator.language;
+  if(!localStorage.lang) {
+    if (!currnetLang) {
+      localStorage.lang = 'zhCHS'
+    }
+    else if (currnetLang == "zh-CN" || currnetLang == "zh-TW") {
+      localStorage.lang = 'zhCHT'
+    }
+    else {
+      localStorage.lang = 'en'
+    }
+  }
+
   export default {
     name: 'App',
     components: {Nav},
@@ -108,7 +123,8 @@
       qrurl:function () {
         return '/account/img/' + this.ID
       }
-    }
+    },
+
   }
 </script>
 

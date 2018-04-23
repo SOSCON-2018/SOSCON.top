@@ -72,7 +72,7 @@
         <router-link to="" class="t1">{{$t("Nav.news")}}</router-link>
       </li>
       <li>
-        <router-link to="" class="t1">{{$t("Nav.thinks")}}</router-link>
+        <router-link to="" class="t1">{{$t("Nav.thanks")}}</router-link>
       </li>
       <li @click="closeNav">
         <router-link to="/aboutUs">{{$t("Nav.aboutUs")}}</router-link>
@@ -249,12 +249,15 @@
         })
       },
       toZHCHS(){
+        localStorage.lang='zhCHS'
         this.$i18n.locale='zhCHS'
       },
       toZHCHT(){
+        localStorage.lang='zhCHT'
         this.$i18n.locale='zhCHT'
       },
       toEN(){
+        localStorage.lang='en'
         this.$i18n.locale='en'
       }
     },
