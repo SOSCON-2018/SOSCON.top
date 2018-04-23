@@ -33,6 +33,9 @@
           <li class="t1">
             <router-link to="">{{$t("Nav.news")}}</router-link>
           </li>
+          <li class="t3">
+            <router-link to="/community">{{$t("Nav.community")}}</router-link>
+          </li>
           <li class="t1">
             <router-link to="">{{$t("Nav.thanks")}}</router-link>
           </li>
@@ -70,6 +73,9 @@
       </li>
       <li>
         <router-link to="" class="t1">{{$t("Nav.news")}}</router-link>
+      </li>
+      <li class="t3">
+        <router-link to="/community">{{$t("Nav.community")}}</router-link>
       </li>
       <li>
         <router-link to="" class="t1">{{$t("Nav.thanks")}}</router-link>
@@ -116,7 +122,7 @@
         </form>
       </div>
       <div class="modal-footer">
-        <input type="button" value={{$t("Nav.register")}} class="modal-trigger waves-effect waves-light btn" @click="subRegister">
+        <input type="button" :value="$t('Nav.register')" class="modal-trigger waves-effect waves-light btn" @click="subRegister">
       </div>
     </div>
     <!--登录模态框-->
@@ -158,10 +164,12 @@
 
 
 <script>
+
   export default {
     name: "nav",
     props: ['name'],
     methods: {
+
       open1() {
         $('#modalLogin').modal('open');
       },
@@ -174,6 +182,7 @@
       },
 
       subLogin() {
+        var that = this
         $.ajax({
           method: 'post',
           url: '/account/login',
@@ -182,7 +191,7 @@
         }).done(function (result) {
           if (result.result === '登录成功') {
             swal({
-              text: result.result,
+              text: that.$t('JS.successLogin'),
               type:'success',
               allowOutsideClick:true,
             })
@@ -194,7 +203,7 @@
           else {
             console.log(result.result)
             swal({
-              text: result.result,
+              text: that.$t('JS.errorLogin'),
               type: 'error',
               timer: 2000
             })
@@ -204,6 +213,7 @@
       },
 
       subRegister(){
+        var that = this
         $.ajax({
           method: 'post',
           url: '/account/UserRegister',
@@ -211,7 +221,7 @@
         }).then(function (data) {
           if (data.result === '注册成功') {
             swal({
-              text: data.result,
+              text: that.$t('JS.successRegister'),
               type:'success',
               allowOutsideClick:false,
             }),
@@ -220,21 +230,63 @@
               window.location.reload()
             },1000)
           }
-          else {
+          else if(data.result === '账号不能为空') {
             swal({
-              text: data.result,
+              text: that.$t('JS.nameBlank'),
               type: 'error',
               timer: 2000
+            })
+          }
+          else if(data.result === '用户名已存在'){
+            swal({
+              text: that.$t('JS.nameHave'),
+              type: 'error',
+              timer: 2000
+            })
+          }
+          else if(data.result === '邮箱不能为空'){
+            swal({
+              text: that.$t('JS.emailBlank'),
+              type: 'error',
+              timer: 2000
+            })
+          }
+          else if(data.result === '邮箱已注册'){
+            swal({
+              text: that.$t('JS.emailHave'),
+              type: 'error',
+              timer: 2000
+            })
+          }
+          else if(data.result === '邮箱格式不正确'){
+            swal({
+              text: that.$t('JS.errorEmail'),
+              type: 'error',
+              timer: 2000
+            })
+          }
+          else if(data.result === '密码至少为六位'){
+            swal({
+              text: that.$t('JS.shortPassword'),
+              type: 'error',
+              timer:2000
+            })
+          }
+          else{
+            swal({
+              text: that.$t('JS.passwordDifferent'),
+              type: 'error',
+              timer:2000
             })
           }
         })
       },
       logoutCheck(){
         swal({
-          text:'确定退出登录吗？',
+          text:this.$t('JS.wLogout'),
           type:'warning',
           showCancelButton:true,
-          confirmButtonText:'确定退出',
+          confirmButtonText:this.$t('JS.cLogout'),
           preConfirm:function () {
             $.ajax({
               method: 'post',
@@ -251,6 +303,7 @@
       toZHCHS(){
         localStorage.lang='zhCHS'
         this.$i18n.locale='zhCHS'
+
       },
       toZHCHT(){
         localStorage.lang='zhCHT'
@@ -260,6 +313,7 @@
         localStorage.lang='en'
         this.$i18n.locale='en'
       }
+
     },
 
   }

@@ -4,7 +4,7 @@ import home from '@/components/home'
 import about from '@/components/about'
 import aboutUs from '@/components/aboutUs'
 import apply from '@/components/apply'
-
+import community from '@/components/community'
 
 Vue.use(Router)
 
@@ -26,14 +26,6 @@ export default new Router({
         Num:0
       }
     },
-    // {
-    //   path: '/about',
-    //   name: 'about',
-    //   component:about,
-    //   meta:{
-    //     Num:0
-    //   }
-    // },
     {
       path: '/aboutUs',
       name: '/aboutUs',
@@ -46,6 +38,14 @@ export default new Router({
       path: '/apply',
       name: '/apply',
       component:apply,
+      meta:{
+        Num:1
+      }
+    },
+    {
+      path: '/community',
+      name: '/community',
+      component:community,
       meta:{
         Num:1
       }

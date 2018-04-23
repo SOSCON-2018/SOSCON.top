@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img src="../../static/img/navback.jpg" style="height: auto;width: 100%;position: fixed"/>
+    <img src="../../static/img/navback.jpg" style="height: 64px;width: 100%;position: fixed"/>
     <div style="width: 80%;margin: 0 auto;">
       <div>
           <div style="display: inline-block;text-align: center;margin-top: 80px">
@@ -56,6 +56,17 @@
                 </div>
               </div>
 
+              <div class="col s12 m6 l3" style="margin-top: 3%">
+                  <div class="card" style="width: 225px;height: 256px;">
+                      <div class="card-image" style="height: 220px;" >
+                        <img src="../../static/img/xdlug.jpg" >
+                      </div>
+                      <div class="card-action" style="background-color: black">
+                         <a href="http://www.pkuosa.org/" style="color: white">西大开源协会</a>
+                      </div>
+                  </div>
+              </div>
+
       </div>
           </p>
       </div>
@@ -65,13 +76,14 @@
           <!--<p style="background-color: black;color: white;width: 260px;height: 65px;font-size: x-large" >SOSCON<span style="color:#66ccff;">18</span></p>-->
           <h5 style="background-color: black;color: white;padding: 13px 16px;">合作社区</h5>
         </div>
-        <p style="font-weight: 700;font-size: x-large;margin-top: 0%;margin-bottom: -2%"><b>————</b></p>
+        <p style="font-weight: 700;font-size: x-large;margin-top: 0%;margin-bottom: -5%"><b>————</b></p>
 
         <p>
         <div class="row" style="margin-left:-1%">
-          <div class="col s12 m6 l3"style="margin-top: 3%" >
-            <div class="card" style="width: 225px;height: 256px;">
-              <div class="card-image" style="height: 220px;" >
+
+          <div class="col s12 m4 l2"style="margin-top:7%" >
+            <div class="card" style="width: 170px;height: 170px;">
+              <div class="card-image" style="height: 150px;" >
                 <img src="../../static/img/ls.png">
               </div>
               <div class="card-action" style="background-color: black">
@@ -80,10 +92,10 @@
             </div>
           </div>
 
-          <div class="col s12 m6 l3" style="margin-top: 3%">
-            <div class="card" style="width: 225px;height: 256px;">
-              <div class="card-image" style="height: 220px;" >
-                <img src="../../static/img/pku1.jpg" style="height: auto">
+          <div class="col s12 m4 l2" style="margin-top: 7%!important">
+            <div class="card" style="width: 170px;height:170px;">
+              <div class="card-image" style="height: 150px;" >
+                <img src="../../static/img/pku1.jpg" style="height:150px">
               </div>
               <div class="card-action" style="background-color: black">
                 <a href="http://www.pkuosa.org/" style="color: white">北大开源协会</a>
@@ -91,13 +103,165 @@
             </div>
           </div>
 
+        <div class="col s12 m4 l2" style="margin-top: 7%!important">
+          <div class="card" style="width: 170px;height:170px;">
+            <div class="card-image" style="height: 150px;" >
+              <img src="../../static/img/info.jpg" style="height:150px">
+            </div>
+            <div class="card-action" style="background-color: black">
+              <a href="#" style="color: white">重邮LUG</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m4 l2" style="margin-top: 7%!important">
+          <div class="card" style="width: 170px;height:170px;">
+            <div class="card-image" style="height: 150px;" >
+              <!--<img src="../../static/img/pku1.jpg" style="height:150px">-->
+              <img src="../../static/img/info.jpg" style="height:150px">
+            </div>
+            <div class="card-action" style="background-color: black">
+              <a href="#" style="color: white;margin-left: -15%;margin-right: -15%;">西邮Linux兴趣小组</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m4 l2" style="margin-top:7%">
+          <div class="card" style="width: 170px;height:170px;">
+            <div class="card-image" style="height: 150px;" >
+              <!--<img src="../../static/img/pku1.jpg" style="height:150px">-->
+              <img src="../../static/img/info.jpg" style="height:150px">
+            </div>
+            <div class="card-action" style="background-color: black">
+              <a href="#" style="color: white">西电开源社区</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m4 l2" style="margin-top:7%">
+          <div class="card" style="width: 170px;height:170px;">
+            <div class="card-image" style="height: 150px;" >
+              <!--<img src="../../static/img/pku1.jpg" style="height:150px">-->
+              <img src="../../static/img/info.jpg" style="height:150px">
+            </div>
+            <div class="card-action" style="background-color: black">
+              <a href="#" style="color:white; margin-left: -15%;margin-right: -15%;">重师开源软件协会</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m4 l2" style="margin-top:7%">
+          <div class="card" style="width: 170px;height:170px;">
+            <div class="card-image" style="height: 150px;" >
+              <!--<img src="../../static/img/pku1.jpg" style="height:150px">-->
+              <img src="../../static/img/info.jpg" style="height:150px">
+            </div>
+            <div class="card-action" style="background-color: black">
+              <a href="#" style="color: white;margin-left: -15%;margin-right: -15%;">同济大学开源社区</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m4 l2" style="margin-top:7%">
+          <div class="card" style="width: 170px;height:170px;">
+            <div class="card-image" style="height: 150px;" >
+              <!--<img src="../../static/img/pku1.jpg" style="height:150px">-->
+              <img src="../../static/img/info.jpg" style="height:150px">
+            </div>
+            <div class="card-action" style="background-color: black">
+              <a href="#" style="color: white;margin-left: -15%;margin-right: -15%;">重庆大学开源协会</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m4 l2" style="margin-top:7%">
+          <div class="card" style="width: 170px;height:170px;">
+            <div class="card-image" style="height: 150px;" >
+              <!--<img src="../../static/img/pku1.jpg" style="height:150px">-->
+              <img src="../../static/img/info.jpg" style="height:150px">
+            </div>
+            <div class="card-action" style="background-color: black">
+              <a href="#" style="color: white;margin-left: -15%;margin-right: -15%;">华南农业大学LUG</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m4 l2" style="margin-top:7%">
+          <div class="card" style="width: 170px;height:170px;">
+            <div class="card-image" style="height: 150px;" >
+              <!--<img src="../../static/img/pku1.jpg" style="height:150px">-->
+              <img src="../../static/img/info.jpg" style="height:150px">
+            </div>
+            <div class="card-action" style="background-color: black">
+              <a href="#" style="color: white;margin-left: -15%;margin-right: -15%;">四川大学信网协会</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m4 l2" style="margin-top:7%">
+          <div class="card" style="width: 170px;height:170px;">
+            <div class="card-image" style="height: 150px;" >
+              <img src="../../static/img/logo.a7995ad.svg" style="height:150px">
+            </div>
+            <div class="card-action" style="background-color: black">
+              <a href="https://juejin.im/" style="color: white">掘金</a>
+            </div>
+          </div>
+        </div>
+
+
         </div>
         </p>
       </div>
 
+      <div>
+        <div style="display: inline-block;text-align: center;margin-top: 80px">
+          <!--<p style="background-color: black;color: white;width: 260px;height: 65px;font-size: x-large" >SOSCON<span style="color:#66ccff;">18</span></p>-->
+          <h5 style="background-color: black;color: white;padding: 13px 16px;">合作媒体</h5>
+        </div>
+        <p style="font-weight: 700;font-size: x-large;margin-top: 0%;margin-bottom: -2%"><b>————</b></p>
+
+        <p>
+        <div class="row" style="margin-left:-1%">
+          <div class="col s12 m4 l2"style="margin-top: 3%" >
+            <div class="card" style="width: 170px;height: 170px;">
+              <div class="card-image" style="height: 150px;" >
+                <img src="../../static/img/Linuxcn.jpg" style="position: relative;top:20%">
+              </div>
+              <div class="card-action" style="background-color: black">
+                <a href="https://linuxstory.org/" style="color: white">Linux中国</a>
+              </div>
+            </div>
+          </div>
+
+        <div class="col s12 m4 l2"style="margin-top: 3%" >
+          <div class="card" style="width: 170px;height: 170px;">
+            <div class="card-image" style="height: 150px;" >
+              <img src="../../static/img/oschina.jpg" style="position: relative;top:20%">
+            </div>
+            <div class="card-action" style="background-color: black">
+              <a href="https://linuxstory.org/" style="color: white">开源中国</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m4 l2"style="margin-top: 3%" >
+          <div class="card" style="width: 170px;height: 170px;">
+            <div class="card-image" style="height: 150px;" >
+              <img src="../../static/img/logo_bigger.jpg" style="position: relative;top:30%">
+            </div>
+            <div class="card-action" style="background-color: black">
+              <a href="https://linuxstory.org/" style="color: white">InfoQ</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+        </p>
+      </div>
     </div>
 
-    <div style="width: 80%; left: 0;right: 0;margin: 110px auto 10px auto;overflow: hidden;">
+    <div style="width: 80%; left: 0;right: 0;margin: 130px auto 10px auto;overflow: hidden;">
       <p style="font-weight: 700;font-size: x-large;"><b>————</b></p>
       <span style="font-size: small;color: gray">畅想未来，拥抱开源</span>
       <span style="font-size: small;color: gray;margin-left: 3%">联系我们: soscon@openingsource.org</span>

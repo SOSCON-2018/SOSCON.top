@@ -16,7 +16,6 @@
 
 <script>
   import Nav from "./components/Nav";
-
   //判断语言
   var currnetLang = navigator.language;
   if(!localStorage.lang) {
@@ -74,7 +73,7 @@
               }).done(function (data) {
                 if(data.result==='验证通过'){
                   swal({
-                    text:data.result,
+                    text:this.$t("JS.successCheck"),
                     type:'success'
                   })
                   setTimeout(function () {
@@ -83,7 +82,7 @@
                 }
                 else {
                   swal({
-                    text:data.result,
+                    text:this.$t("JS.errorCheck"),
                     type:'error',
                     timer:1000
                   })
