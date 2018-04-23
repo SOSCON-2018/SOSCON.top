@@ -20,10 +20,10 @@
   //判断语言
   var currnetLang = navigator.language;
   if(!localStorage.lang) {
-    if (!currnetLang) {
+    if (!currnetLang || currnetLang=="zh-CN") {
       localStorage.lang = 'zhCHS'
     }
-    else if (currnetLang == "zh-CN" || currnetLang == "zh-TW") {
+    else if (currnetLang == "zh-HK" || currnetLang == "zh-TW") {
       localStorage.lang = 'zhCHT'
     }
     else {
