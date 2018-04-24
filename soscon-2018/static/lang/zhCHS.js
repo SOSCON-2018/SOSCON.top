@@ -133,7 +133,7 @@ module.exports={
     modalspeaknotice1:'注意事项',
     modalspeaknotice2:'1.演讲内容力求是原创，如有引用，应注明出处。',
     modalspeaknotice3:'2.任何演讲内容不得侵犯任何第三方的著作权、专利权或其它合法的法律权利。若作品或其使用的素材侵犯了他人的合法权利，由此产生的全部法律责任由该演讲者承担。',
-    modalagreee:'同意',
+    modalagree:'同意',
   },
   JS:{
       successRegister:'注册成功',

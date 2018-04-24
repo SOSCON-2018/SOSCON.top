@@ -7,7 +7,7 @@ module.exports={
     thanks:'感謝',
     aboutUs:'關於我們',
     lang:'語言',
-    community:''
+    community:'社區',
     register:'註冊',
     name:'暱稱',
     email:'郵箱',
@@ -133,6 +133,27 @@ module.exports={
     modalspeaknotice1:'注意事項',
     modalspeaknotice2:'1.演講內容力求是原創，如有引用，應註明出處。',
     modalspeaknotice3:'2.任何演講內容不得侵犯任何第三方的著作權、專利權或其它合法的法律權利。若作品或其使用的素材侵犯了他人的合法權利，由此產生的全部法律責任由該演講者承擔。',
-    modalagreee:'同意',
+    modalagree:'同意',
+  },
+  JS:{
+    successRegister:'註冊成功',
+    successCheck:'验证成功',
+    errorCheck:'驗證成功',
+    errorLogin:'郵箱或密碼錯誤',
+    successLogin:'登录成功',
+    nameBlank:'登錄成功',
+    nameHave:'用户名已存在',
+    emailBlank:'用戶名已存在',
+    emailHave:'郵箱已註冊',
+    errorEmail:'郵箱格式不正確',
+    shortPassword:'密碼至少爲六位',
+    passwordDifferent:'兩次輸入的密碼不同',
+    wLogout:'确定要注销吗？',
+    cLogout:'確定要註銷嗎',
+    loginFirst:'請先登錄',
+    haveQrcode:'你已經獲得了入場券，點擊右側二維碼圖標查看你的二維碼',
+    noTicket:'本輪票務已全部放完，感謝你的參與，下次放票時間請關注相關資訊',
+    vlerrorSub:'請按正確格式填寫',
+    successSub:'提交成功'
   }
 }

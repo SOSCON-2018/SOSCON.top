@@ -83,7 +83,7 @@
       <li @click="closeNav">
         <router-link to="/aboutUs">{{$t("Nav.aboutUs")}}</router-link>
       </li>
-      <li><a class="dropdown-trigger t1" data-target="dropdown2">{{$t("Nav.lang")}}<i class="material-icons right">arrow_drop_down</i></a>
+      <li><a class="dropdown-trigger" data-target="dropdown2">{{$t("Nav.lang")}}<i class="material-icons right">arrow_drop_down</i></a>
       </li>
       <li class=" t3" v-if="name === 'none'"><a class="modal-trigger waves-effect waves-light btn" @click="open1">{{$t("Nav.login")}}/{{$t("Nav.register")}}</a></li>
       <li class="t3" v-else @click="logoutCheck">{{ name }}</li>
@@ -91,7 +91,7 @@
     <!--注册模态框-->
     <div id="modalRegister" class="modal">
       <div class="modal-content">
-        <h5>注册</h5>
+        <h5>{{$t("Nav.register")}}</h5>
         <form id="register">
         <div class="row">
           <div class="input-field col s6">

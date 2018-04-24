@@ -160,7 +160,7 @@
           <h5>{{$t("Apply.modalvo1")}}</h5>
           <p>{{$t("Apply.modalvo2")}}
           </p>
-          <p><span style="font-weight: 800">{{$t("Apply.modalvo3")}}</span>{{$t("apply.modalvo4")}}
+          <p><span style="font-weight: 800">{{$t("Apply.modalvo3")}}</span>{{$t("Apply.modalvo4")}}
           </p>
           <p style="color: red">{{$t("Apply.modalvo5")}}</p>
           <p>
