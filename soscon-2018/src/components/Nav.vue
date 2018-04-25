@@ -303,15 +303,17 @@
       toZHCHS(){
         localStorage.lang='zhCHS'
         this.$i18n.locale='zhCHS'
-
+        window.location.reload()
       },
       toZHCHT(){
         localStorage.lang='zhCHT'
         this.$i18n.locale='zhCHT'
+        window.location.reload()
       },
       toEN(){
         localStorage.lang='en'
         this.$i18n.locale='en'
+        window.location.reload()
       }
 
     },
