@@ -1,0 +1,306 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="description" content="Materialize is a modern responsive CSS framework based on Material Design by Google. ">
+    <title>SOSCON注册</title>
+    <!-- Favicons-->>
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta name="msapplication-TileImage" content="images/favicon/mstile-144x144.png">
+    <!--  Android 5 Chrome Color-->
+    <meta name="theme-color" content="#EE6E73">
+    <!-- CSS-->
+    <link href="css/prism.css" rel="stylesheet">
+    <link href="css/materialize1.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <!--<link href="css/ghpages-materialize.css" type="text/css" rel="stylesheet" media="screen,projection">-->
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/pic.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/title.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <!-- if !isDemo-->
+    <!--   script.-->
+    <!--     window.liveSettings = {-->
+    <!--       api_key: "a0b49b34b93844c38eaee15690d86413",-->
+    <!--       picker: "bottom-right",-->
+    <!--       detectlang: true,-->
+    <!--       dynamic: true,-->
+    <!--       autocollect: true-->
+    <!--     };-->
+    <!--   script(src='//cdn.transifex.com/live.js')-->
+    <style>
+        .carousel {
+            overflow: hidden;
+            position: relative;
+            width: 120%;
+            height: 400px;
+            -webkit-perspective: 500px;
+            perspective: 500px;
+            -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+            -webkit-transform-origin: 0% 50%;
+            transform-origin: 0% 50%;
+            overflow-y: scroll;
+        }
+        .bl
+        {
+            position: relative;
+            top:100px;
+        }
+      body {
+          background-image: url("img/pic6.jpg");
+      }
+        .about{
+            width:100%!important;
+        }
+        .butt{
+            position: relative;
+            left:20px;
+        }
+    </style>
+  <!--  Scripts-->
+  <script src="jquery/dist/jquery.min.js"></script>
+  <script src="js/jquery.timeago.min.js"></script>
+  <script src="js/prism.js"></script>
+  <script src="jade/lunr.min.js"></script>
+  <script src="jade/search.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+</head>
+
+<body>
+
+<!-- Sidebar BSA-->
+<div>
+    <ul id="dropdown1" class="dropdown-content tit1">
+        <li><a href="#!">简体中文</a></li>
+        <li><a href="#!">繁体中文</a></li>
+        <!--<li class="divider"></li>-->
+        <li><a href="#!">English</a></li>
+    </ul>
+    <nav class="title1">
+        <div class="nav-wrapper">
+            <a href="#!" class="brand-logo">SOSCON<span style="color: #66ccff">18</span></a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="">首页</a></li>
+                <li class="t1"><a href="">议程</a></li>
+                <li class="t1"><a href="">地图</a></li>
+                <li class="t1"><a href="">动态</a></li>
+                <li class="t1"><a href="">赞助</a></li>
+                <li class="t1"><a href="">工作人员</a></li>
+                <li><a href="">关于我们</a></li>
+
+                <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">语言<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li class="t2"><a href="">注册</a></li>
+                <li class="t3"><a href="">登陆</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+
+<div class="container back">
+
+
+
+    <div class="row">
+    </div>
+
+
+    <div class="row bl">
+        <div class="col s2"></div>
+
+        <div class="col s8">
+            <div class="about">
+            <div class="row">
+                <div class="input-field col s6">
+                    <input id="first_name" type="text" class="validate">
+                    <label for="first_name">真实姓名</label>
+                </div>
+                <div class="input-field col s6">
+                    <input id="Nick" type="text" class="validate">
+                    <label for="Nick">惯用名</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="password" type="password" class="validate">
+                    <label for="password">密码</label>
+                </div>
+                <div class="input-field col s12">
+                    <input id="password2" type="password" class="validate">
+                    <label for="password2">确认密码</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="email" type="email" class="validate">
+                    <label for="email">邮件</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="number" type="number" class="validate">
+                    <label for="number">手机号码</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <select >
+                        <option value="" disabled selected>饮食习惯</option>
+                        <option value="1">无特殊要求</option>
+                        <option value="2">素食</option>
+                        <option value="3">清真</option>
+                    </select>
+                    <label>饮食习惯</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <select>
+                        <option value="" disabled selected>性别</option>
+                        <option value="1">男</option>
+                        <option value="2">女</option>
+                        <option value="3">跨性别者</option>
+                        <option value="4">不便透漏</option>
+                    </select>
+                    <label>性别</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <select>
+                        <option value="" disabled selected>身份</option>
+                        <option value="1">学生</option>
+                        <option value="2">IT从业者</option>
+                        <option value="3">社会人士</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <select>
+                        <option value="" disabled selected>学历/非学生请填社会人士</option>
+                        <option value="1">高中生及以下</option>
+                        <option value="2">专科</option>
+                        <option value="3">本科</option>
+                        <option value="4">硕士研究生</option>
+                        <option value="5">博士研究生</option>
+                        <option value="6">社会人士</option>
+                    </select>
+                    <label>学历/非学生请填社会人士</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <select>
+                        <option value="" disabled selected>您认为自己的整体软件开发程度或研究水平如何？</option>
+                        <option value="1">入门（学习了一门或几门编程语言）</option>
+                        <option value="2">初学（可以实现一些自己的程序）</option>
+                        <option value="3">进阶（有完成项目开发的经验）</option>
+                        <option value="4">高级（项目经验丰富，熟悉各种协议及原理）</option>
+                    </select>
+                    <label>您认为自己的整件开发或研究水平如何？</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <select multiple>
+                        <option value="" disabled selected>您擅长的领域</option>
+                        <option value="1">前端</option>
+                        <option value="2">web后端</option>
+                        <option value="7">APP开发</option>
+                        <option value="8">游戏开发</option>
+                        <option value="9">算法研究</option>
+                        <option value="3">数据库</option>
+                        <option value="4">嵌入式系统</option>
+                        <option value="5">机器学习</option>
+                        <option value="6">区块链</option>
+                        <option value="10">信息安全</option>
+                        <option value="11">数据处理</option>
+                        <option value="12">操作系统</option>
+                        <option value="13">其他</option>
+                    </select>
+                    <label>您擅长的领域</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <select>
+                        <option value="" disabled selected>对开源的了解程度</option>
+                        <option value="1">不怎么了解</option>
+                        <option value="2">大概了解</option>
+                        <option value="3">有过开源贡献</option>
+                        <option value="4">有开源项目的开发经验</option>
+                    </select>
+                    <label>对开源程度的了解</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <select>
+                        <option value="" disabled selected>T恤尺寸</option>
+                        <option value="1">XS</option>
+                        <option value="2">S</option>
+                        <option value="3">M</option>
+                        <option value="4">XL</option>
+                        <option value="5">XXL</option>
+                    </select>
+                    <label>T恤尺寸</label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="place" type="text" class="validate">
+                    <label for="place">居住地区</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="place" type="text" class="validate">
+                    <label for="place">学校/单位名称</label>
+                </div>
+            </div>
+            <div class="row">
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix">mode_edit</i>
+                            <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                            <label for="icon_prefix2">备注(特殊需求联络our@email.org)</label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <select>
+                        <option value="" disabled selected>邀请票</option>
+                        <option value="1">个人</option>
+                        <option value="2">社团</option>
+                        <option value="3">其他</option>
+                    </select>
+                    <label>邀请票</label>
+                </div>
+            </div>
+            <div class="row">
+                <button class="btn waves-effect waves-light butt" type="submit" name="action" >提交
+                    <i class="material-icons right">send</i>
+                </button>
+            </div>
+            </div>
+        </div>
+
+        <div class="col s2"></div>
+    </div>
+</div>
+
+
+</body>
+</html>

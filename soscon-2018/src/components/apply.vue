@@ -248,9 +248,14 @@
 
           <ul>
             <li>{{$t("Apply.modalspeak2")}}</li>
+            <br>
             <li>{{$t("Apply.modalspeak3")}}</li>
+            <br>
             <li>{{$t("Apply.modalspeak4")}}</li>
+            <br>
             <li>{{$t("Apply.modalspeak5")}}</li>
+            <br>
+            <li>{{$t("Apply.modalspeakn")}}</li>
           </ul>
 
         </div>
@@ -316,7 +321,7 @@
 </template>
 
 <script>
-    let h_screen = window.screen.height;
+    let h_screen = document.documentElement.clientHeight
     import 'jquery.cookie'
     export default {
         name: "apply",

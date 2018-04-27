@@ -66,7 +66,7 @@
 
 
 .about{
-    display: inline-block;
+    display: block;
     /*border: 1px solid black;*/
     opacity: 0.8;
     padding-left: 2%;
@@ -77,24 +77,14 @@
     height: auto;
     color: black;
     background-color: white;
-    align-self: center;
-    margin-top: 5%;
-
+    margin: 5% auto 10px auto;
     /*filter: opacity(.95);*/
-    overflow:hidden;
+    overflow:auto;
     transition: 0.3s ease-in-out;
-
-
 }
 
 
 .about1{
-    display: flex;
-    justify-content: center;
-    background-image: url("../img/pic6.jpg");
-    background-size: cover;
-    background-position: center;
-
     height: auto;
     left: 0;
     top: 0;
@@ -134,6 +124,16 @@
   transition: 0.3s ease-in-out;
 }
 
+.twHomeTitle{
+  height: 381px;
+  width: 483px;
+  margin: 10% auto;
+  background-image: url("../img/MainPageChar-tc.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  transition: 0.3s ease-in-out;
+}
 
 .homeButton1{
   height: 50px;
@@ -168,6 +168,24 @@
   top: 400px;
   right: 10px;
   background-image: url("../img/Button-Apply-en.png");
+  position: absolute;
+}
+
+.twHomeButton1{
+  height: 50px;
+  width: 200px;
+  top:400px;
+  left: 10px;
+  background-image:url("../img/Button-About-tc.png");
+  position: absolute;
+}
+
+.twHomeButton2{
+  height: 50px;
+  width: 200px;
+  top: 400px;
+  right: 10px;
+  background-image: url("../img/Button-Apply-tc.png");
   position: absolute;
 }
 
@@ -291,9 +309,6 @@
   .about1{
     display: flex;
     justify-content: center;
-    background-image: url("../img/pic6.jpg");
-    background-size: cover;
-    background-position: center;
     backface-visibility: hidden;
     height: auto;
     transition: 0.3s ease-in-out;
@@ -303,24 +318,7 @@
   }
 
   .about{
-    display: inline-block;
-    /*border: 1px solid black;*/
-    /*opacity: 0.8;*/
-    padding-left: 2%;
-    padding-right: 2%;
-    box-shadow:black 0px 0px 5px 1px;
-    text-align: left;
-    font-size: 1rem;
-    margin:0 1% 0 1%;
-    width: 100%;
-    height: auto;
-    color: black;
-    background-color: white;
-    align-self: center;
-    margin-top: 5%;
-
-    /*filter: opacity(.95);*/
-    overflow:hidden;
+    width: 95%;
 
   }
   .pic1{
@@ -361,6 +359,14 @@
     background-image: url("/static/img/MainPageChar-Phone-en.png");
   }
 
+  .twHomeTitle{
+    height: 270px;
+    width: 285px;
+    margin-top: 25%;0
+    background-image: url("/static/img/MainPageChar-Phone-tc.png");
+  }
+
+
   .homeButton1{
     height: 30px;
     width: 110px;
@@ -391,6 +397,25 @@
   }
 
   .enHomeButton2{
+    height: 30px;
+    width: 110px;
+    top: 300px;
+    right: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .twHomeButton1{
+    height: 30px;
+    width: 110px;
+    top:300px;
+    left: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+  }
+
+  .twHomeButton2{
     height: 30px;
     width: 110px;
     top: 300px;

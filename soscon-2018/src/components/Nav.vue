@@ -22,9 +22,9 @@
         </router-link>
         <ul class="right hide-on-med-and-down" style="margin-right: 3%">
           <li>
-            <router-link to="/">{{$t("Nav.home")}}</router-link>
+            <route
+          <li>r-link to="/">{{$t("Nav.home")}}</router-link>
           </li>
-          <li>
             <router-link to="apply">{{$t("Nav.apply")}}</router-link>
           </li>
           <li class="t1">
