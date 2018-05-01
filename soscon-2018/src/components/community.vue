@@ -1,5 +1,7 @@
 <template>
-  <div style="background-image: url('../../static/img/Background-3.jpg');height: auto;background-size: cover;background-attachment: fixed">
+
+
+  <div style="background-image: url('../../static/img/back3.jpg');height: auto;background-attachment: fixed">
     <!--<img src="../../static/img/Background-3.jpg" :style="{height:h1}" style="width: 100%;position: fixed;" ></img>-->
     <div style="width: 80%;margin: 0 auto;">
       <div>
@@ -275,12 +277,22 @@
       </div>
         <!--</p>-->
       </div>
+      <p style="font-weight: 700;font-size: x-large;margin-top: 20%"><b>————</b></p>
     </div>
 
+<<<<<<< HEAD
     <div style="width:80%; left: 0;right: 0;margin: 130px auto 10px auto;overflow: hidden;">
       <p style="font-weight: 700;font-size: x-large;"><b>————</b></p>
       <span style="font-size: small;color: gray">{{$t("Community.foot")}}</span><!--畅想未来，拥抱开源-->
       <span style="font-size: small;color: gray;margin-left: 3%">{{$t("Community.contactus")}}</span><!--联系我们: soscon@openingsource.org-->
+=======
+    <div style="background-color: white;margin-bottom: -3% ">
+    <div style="width:80%; left: 0;right: 0;margin: 0 auto 10px auto;overflow: hidden;">
+      <p>   </p>
+     <!-- <p style="font-weight: 700;font-size: x-large;"><b>————</b></p>-->
+      <span style="font-size: small;color: gray">畅想未来，拥抱开源</span>
+      <span style="font-size: small;color: gray;margin-left: 3%">联系我们: soscon@openingsource.org</span>
+>>>>>>> 8e45bce049dfc399d91a682c97a32b6b26379240
       <span class="foot" style="margin-left: 10px">Attending us</span>
       <span class="foot" style="margin-left: 10px">Follow us</span>
       <span class="foot">About us</span>
@@ -292,6 +304,7 @@
       <a href="https://t.me/soscon"><img class="icon icon2" src="../../static/img/Flickr-B.png" alt="Flickr"/></a>
       <a><img class="icon icon2" src="../../static/img/Youtube-B.png" alt="Youtube"/></a>
       <a href="https://t.me/soscon"><img class="icon" src="../../static/img/Telegram-B.png" alt="Telegram"/></a>
+    </div>
     </div>
 
    </div>
