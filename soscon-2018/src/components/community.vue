@@ -275,24 +275,42 @@
       </div>
         <!--</p>-->
       </div>
-    </div>
-
-    <div style="width:80%; left: 0;right: 0;margin: 130px auto 10px auto;overflow: hidden;">
-      <p style="font-weight: 700;font-size: x-large;"><b>————</b></p>
-      <span style="font-size: small;color: gray">{{$t("Community.foot")}}</span><!--畅想未来，拥抱开源-->
-      <span style="font-size: small;color: gray;margin-left: 3%">{{$t("Community.contactus")}}</span><!--联系我们: soscon@openingsource.org-->
+      <div style="overflow: hidden">
+      <span style="font-size: small;color: gray">{{$t("AboutUs.footer1")}}</span>
+      <span style="font-size: small;color: gray;margin-left: 3%">{{$t("AboutUs.contact")}}</span>
       <span class="foot" style="margin-left: 10px">Attending us</span>
       <span class="foot" style="margin-left: 10px">Follow us</span>
       <span class="foot">About us</span>
       <hr style="clear: both"/>
-      <span style="font-size: small;color: gray;">Copyright &copy; 2018 SOSCON {{$t("Community.foot1")}}</span><!--学生开源年会-->
-      <!--<i class="iconfont icon" style="margin-left: 10px">&#xe8d0;</i>
+      <div style="vertical-align: bottom;overflow: hidden">
+        <p style="font-size: small;color: gray;float: left;margin-bottom: 0"><span>Copyright &copy; 2018 SOSCON</span><span> {{$t("AboutUs.footer")}}</span></p>
+        <!--<i class="iconfont icon" style="margin-left: 10px">&#xe8d0;</i>
+        <i class="iconfont icon" style="margin-left: 10px">&#xe660;</i>
+        <i class="iconfont icon">&#xe8db;</i>-->
+        <a href="https://t.me/soscon"><img class="icon icon2" src="../../static/img/Flickr-B.png" alt="Flickr"/></a>
+        <a><img class="icon icon2" src="../../static/img/Youtube-B.png" alt="Youtube"/></a>
+        <a href="https://t.me/soscon"><img class="icon" src="../../static/img/Telegram-B.png" alt="Telegram"/></a>
+      </div>
+    </div>
+    </div>
+
+    <!--<div style="width:80%; left: 0;right: 0;margin: 130px auto 10px auto;overflow: hidden;">
+      <p style="font-weight: 700;font-size: x-large;"><b>————</b></p>
+      <span style="font-size: small;color: gray">{{$t("Community.foot")}}</span>&lt;!&ndash;畅想未来，拥抱开源&ndash;&gt;
+      <span style="font-size: small;color: gray;margin-left: 3%">{{$t("Community.contactus")}}</span>&lt;!&ndash;联系我们: soscon@openingsource.org&ndash;&gt;
+      <span class="foot" style="margin-left: 10px">Attending us</span>
+      <span class="foot" style="margin-left: 10px">Follow us</span>
+      <span class="foot">About us</span>
+      <hr style="clear: both"/>
+      <span style="font-size: small;color: gray;">Copyright &copy; 2018 SOSCON {{$t("Community.foot1")}}</span>&lt;!&ndash;学生开源年会&ndash;&gt;
+      &lt;!&ndash;<i class="iconfont icon" style="margin-left: 10px">&#xe8d0;</i>
       <i class="iconfont icon" style="margin-left: 10px">&#xe660;</i>
-      <i class="iconfont icon">&#xe8db;</i>-->
+      <i class="iconfont icon">&#xe8db;</i>&ndash;&gt;
       <a href="https://t.me/soscon"><img class="icon icon2" src="../../static/img/Flickr-B.png" alt="Flickr"/></a>
       <a><img class="icon icon2" src="../../static/img/Youtube-B.png" alt="Youtube"/></a>
       <a href="https://t.me/soscon"><img class="icon" src="../../static/img/Telegram-B.png" alt="Telegram"/></a>
-    </div>
+    </div>-->
+
 
    </div>
 
