@@ -89,6 +89,10 @@
         </figure>
         <figure class="block">
           <img src="../../static/img/headPortrait.jpg" class="img"/>
+          <figcaption class="person">田淙宇</figcaption>
+        </figure>
+        <figure class="block">
+          <img src="../../static/img/headPortrait.jpg" class="img"/>
           <figcaption class="person">贾峥</figcaption>
         </figure>
         <figure class="block">
@@ -140,9 +144,9 @@
           <!--<i class="iconfont icon" style="margin-left: 10px">&#xe8d0;</i>
           <i class="iconfont icon" style="margin-left: 10px">&#xe660;</i>
           <i class="iconfont icon">&#xe8db;</i>-->
-          <img class="icon icon2" src="../../static/img/Flickr-B.png" alt="Flickr"/>
-          <img class="icon icon2" src="../../static/img/Youtube-B.png" alt="Youtube"/>
-          <img class="icon" src="../../static/img/Telegram-B.png" alt="Telegram"/>
+          <a href="https://t.me/soscon"><img class="icon icon2" src="../../static/img/Flickr-B.png" alt="Flickr"/></a>
+          <a><img class="icon icon2" src="../../static/img/Youtube-B.png" alt="Youtube"/></a>
+          <a href="https://t.me/soscon"><img class="icon" src="../../static/img/Telegram-B.png" alt="Telegram"/></a>
         </div>
       </div>
     </div>
