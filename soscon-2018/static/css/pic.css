@@ -271,6 +271,10 @@
   -moz-osx-font-smoothing: grayscale;}
 .icon{
   float: right;
+  height: auto;
+}
+.icon2{
+  margin-left: 10px;
 }
 .foot{
   float: right;
@@ -349,21 +353,21 @@
     height: 270px;
     width: 285px;
     margin-top: 25%;
-    background-image: url("/static/img/MainPageChar-Phont.png");
+    background-image: url("../../static/img/MainPageChar-Phont.png");
   }
 
   .enHomeTitle{
     height: 270px;
     width: 285px;
     margin-top: 25%;
-    background-image: url("/static/img/MainPageChar-Phone-en.png");
+    background-image: url("../../static/img/MainPageChar-Phone-en.png");
   }
 
   .twHomeTitle{
     height: 270px;
     width: 285px;
-    margin-top: 25%;0
-    background-image: url("/static/img/MainPageChar-Phone-tc.png");
+    margin-top: 25%;
+    background-image: url("../../static/img/MainPageChar-Phone-tc.png");
   }
 
 
@@ -424,4 +428,33 @@
     background-repeat: no-repeat;
   }
 
+}
+.workers{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.group{
+  font-size: x-large;
+  font-weight: 700;
+}
+.block{
+  display: inline-block;
+  width: auto;
+  margin: 0;
+  margin-right: -30px!important;
+}
+.person{
+  text-align: center;
+  width:50%;
+  text-align: center;
+}
+figure{
+  margin-left: 0px!important;
+}
+figure+figure{
+  margin-left: -50px;
+}
+.img{
+  width: 50%;
+  height: 50%;
 }

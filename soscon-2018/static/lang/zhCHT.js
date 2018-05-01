@@ -33,19 +33,33 @@ module.exports={
 
     bottom1:'暢想未來，擁抱開源',
     bottom2:'聯繫我們: soscon@openingsource.org',
-    foot:'2018 SOSCON 學生開源年會',
+    foot:'學生開源年會',/*2018 SOSCON*/
   },
   AboutUs:{
-    about:'關於我們',
-    about1:'SOSON全稱是學生開源年會 ( Student Open Source Conference )是中國大陸首屆面向學生的開源會議，講者，工作人員，聽衆幾乎全爲學生，暢想未來，我們學生更有感覺。',
-    contact:'聯繫我們',
-    contact1:'總召：劉煜民',
+    about:'工作人員名單',
+    about1:'總召',
+    about2:'設計組',
+    about3:'導演組',
+    about4:'開發組',
+    about5:'場務組',
+    footer1:'暢想未來，擁抱開源',
+    contact:'聯繫我們: soscon@openingsource.org',
+    footer:'學生開源年會',
+    /*contact1:'總召：劉煜民',
     contact2:'導演組：葉偉豪',
     contact3:'設計組：蔣昊辰',
     contact4:'開發組：邵明琦',
     contact5:'志願者團隊：劉昊天',
     attend:'關注我們',
-    foot:'暢想未來，擁抱開源。Copyleft@2018學生開源年會 SOSCON.top'
+    foot:'暢想未來，擁抱開源。Copyleft@2018學生開源年會 SOSCON.top'*/
+  },
+  Community:{
+    community:'聯合創始社區',
+    community1:'合作社區',
+    media:'合作媒體',
+    foot:'暢想未來，擁抱開源',
+    contactus:'聯繫我們: soscon@openingsource.org',
+    foot1:'學生開源年會',
   },
   Apply:{
     speak1:'招募演講者',

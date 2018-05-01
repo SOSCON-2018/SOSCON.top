@@ -36,16 +36,22 @@ module.exports={
     foot:'Students Open Source Conference',
   },
   AboutUs:{
-    about:'关于我们',
-    about1:'SOSON全称是学生开源年会 ( Student Open Source Conference )是中国大陆首届面向学生的开源会议，讲者，工作人员，听众几乎全为学生，畅想未来，我们学生更有感觉。',
-    contact:'联系我们',
-    contact1:'总召：刘煜民',
+    about:'List of staff',
+    about1:'SOSCON\'s Event General Coordinator',
+    about2:'Design team',
+    about3:'Director team',
+    about4:'Development team',
+    about5:'Field Service team',
+    footer1:'Imagine the future and embrace open source',
+    contact:'Contact Us: soscon@openingsource.org',
+    footer:'Students Open Source Conference',
+    /*contact1:'总召：刘煜民',
     contact2:'导演组：叶伟豪',
     contact3:'设计组：蒋昊辰',
     contact4:'开发组：邵明琦',
     contact5:'志愿者团队：刘昊天',
     attend:'关注我们',
-    foot:'畅想未来，拥抱开源。Copyleft@2018学生开源年会 SOSCON.top'
+    foot:'畅想未来，拥抱开源。Copyleft@2018学生开源年会 SOSCON.top'*/
   },
  Apply:{
     speak1:'Recruit Speakers ',
@@ -159,5 +165,13 @@ module.exports={
       noTicket:' This round of ticketing has been completed. Thank you for your participation. Please pay attention to the relevant information at the next ticketing time',
       vlerrorSub:' Please fill in the correct format',
       successSub:' Submission success',
+  },
+  Community:{
+    community:'Joint founding community',
+    community1:'Cooperative community',
+    media:'Cooperative Media',
+    foot:'Imagine the future and embrace open source',
+    contactus:'Contact Us: soscon@openingsource.org',
+    foot1:'Students Open Source Conference',
   }
 }

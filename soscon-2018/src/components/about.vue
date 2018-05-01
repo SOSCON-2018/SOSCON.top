@@ -39,10 +39,13 @@
       <span class="foot" style="margin-left: 10px">Follow us</span>
       <span class="foot">About us</span>
       <hr style="clear: both"/>
-      <span style="font-size: small;color: gray;">Copyright &copy; 2018 SOSCON 学生开源年会</span>
-      <i class="iconfont icon" style="margin-left: 10px">&#xe8d0;</i>
+      <span style="font-size: small;color: gray;">Copyright &copy; 2018 SOSCON{{$t("About.foot")}}</span><!--学生开源年会-->
+      <!--<i class="iconfont icon" style="margin-left: 10px">&#xe8d0;</i>
       <i class="iconfont icon" style="margin-left: 10px">&#xe660;</i>
-      <i class="iconfont icon">&#xe8db;</i>
+      <i class="iconfont icon">&#xe8db;</i>-->
+      <img class="icon icon2" src="../../static/img/Flickr-B.png" alt="Flickr"/>
+      <img class="icon icon2" src="../../static/img/Youtube-B.png" alt="Youtube"/>
+      <img class="icon" src="../../static/img/Telegram-B.png" alt="Telegram"/>
     </div>
   </div>
 </template>

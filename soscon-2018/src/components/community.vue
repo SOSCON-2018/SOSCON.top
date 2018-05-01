@@ -1,15 +1,15 @@
 <template>
-  <div style="background-image: url('../../static/img/Background-3.jpg');height: auto;background-attachment: fixed">
+  <div style="background-image: url('../../static/img/Background-3.jpg');height: auto;background-size: cover;background-attachment: fixed">
     <!--<img src="../../static/img/Background-3.jpg" :style="{height:h1}" style="width: 100%;position: fixed;" ></img>-->
     <div style="width: 80%;margin: 0 auto;">
       <div>
           <div style="display: inline-block;text-align: center;margin-top: 80px">
             <!--<p style="background-color: black;color: white;width: 260px;height: 65px;font-size: x-large" >SOSCON<span style="color:#66ccff;">18</span></p>-->
-            <h5 style="background-color: black;color: white;padding: 13px 16px;">联合创始社区</h5>
+            <h5 style="background-color: black;color: white;padding: 13px 16px;">{{$t("Community.community")}}</h5>
           </div>
           <p style="font-weight: 700;font-size: x-large;margin-top: 0%;margin-bottom: -2%"><b>————</b></p>
 
-          <p>
+          <!--<p>-->
              <div class="row" style="margin-left:-1%">
 
                 <div class="col s12 m6 l3"style="margin-top: 3%">
@@ -68,17 +68,17 @@
               </div>
 
       </div>
-          </p>
+          <!--</p>-->
       </div>
 
       <div>
         <div style="display: inline-block;text-align: center;margin-top: 80px">
           <!--<p style="background-color: black;color: white;width: 260px;height: 65px;font-size: x-large" >SOSCON<span style="color:#66ccff;">18</span></p>-->
-          <h5 style="background-color: black;color: white;padding: 13px 16px;">合作社区</h5>
+          <h5 style="background-color: black;color: white;padding: 13px 16px;">{{$t("Community.community1")}}</h5>
         </div>
         <p style="font-weight: 700;font-size: x-large;margin-top: 0%;margin-bottom: -5%"><b>————</b></p>
 
-        <p>
+        <!--<p>-->
         <div class="row" style="margin-left:-1%">
 
           <div class="col s12 m4 l2"style="margin-top:7%" >
@@ -227,17 +227,17 @@
 
 
         </div>
-        </p>
+        <!--</p>-->
       </div>
 
       <div>
         <div style="display: inline-block;text-align: center;margin-top: 80px">
           <!--<p style="background-color: black;color: white;width: 260px;height: 65px;font-size: x-large" >SOSCON<span style="color:#66ccff;">18</span></p>-->
-          <h5 style="background-color: black;color: white;padding: 13px 16px;">合作媒体</h5>
+          <h5 style="background-color: black;color: white;padding: 13px 16px;">{{$t("Community.media")}}</h5><!--合作媒体-->
         </div>
         <p style="font-weight: 700;font-size: x-large;margin-top: 0%;margin-bottom: -2%"><b>————</b></p>
 
-        <p>
+        <!--<p>-->
         <div class="row" style="margin-left:-1%">
           <div class="col s12 m4 l2"style="margin-top: 3%" >
             <div class="card" style="width: 170px;height: 170px;">
@@ -273,22 +273,25 @@
         </div>
 
       </div>
-        </p>
+        <!--</p>-->
       </div>
     </div>
 
     <div style="width:80%; left: 0;right: 0;margin: 130px auto 10px auto;overflow: hidden;">
       <p style="font-weight: 700;font-size: x-large;"><b>————</b></p>
-      <span style="font-size: small;color: gray">畅想未来，拥抱开源</span>
-      <span style="font-size: small;color: gray;margin-left: 3%">联系我们: soscon@openingsource.org</span>
+      <span style="font-size: small;color: gray">{{$t("Community.foot")}}</span><!--畅想未来，拥抱开源-->
+      <span style="font-size: small;color: gray;margin-left: 3%">{{$t("Community.contactus")}}</span><!--联系我们: soscon@openingsource.org-->
       <span class="foot" style="margin-left: 10px">Attending us</span>
       <span class="foot" style="margin-left: 10px">Follow us</span>
       <span class="foot">About us</span>
       <hr style="clear: both"/>
-      <span style="font-size: small;color: gray;">Copyright &copy; 2018 SOSCON 学生开源年会</span>
-      <i class="iconfont icon" style="margin-left: 10px">&#xe8d0;</i>
+      <span style="font-size: small;color: gray;">Copyright &copy; 2018 SOSCON {{$t("Community.foot1")}}</span><!--学生开源年会-->
+      <!--<i class="iconfont icon" style="margin-left: 10px">&#xe8d0;</i>
       <i class="iconfont icon" style="margin-left: 10px">&#xe660;</i>
-      <i class="iconfont icon">&#xe8db;</i>
+      <i class="iconfont icon">&#xe8db;</i>-->
+      <img class="icon icon2" src="../../static/img/Flickr-B.png" alt="Flickr"/>
+      <img class="icon icon2" src="../../static/img/Youtube-B.png" alt="Youtube"/>
+      <img class="icon" src="../../static/img/Telegram-B.png" alt="Telegram"/>
     </div>
 
    </div>
