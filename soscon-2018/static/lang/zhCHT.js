@@ -41,7 +41,7 @@ module.exports={
     about2:'設計組',
     about3:'導演組',
     about4:'開發組',
-    about5:'場務組',
+    about5:'行政組',
     footer1:'暢想未來，擁抱開源',
     contact:'聯繫我們: soscon@openingsource.org',
     footer:'學生開源年會',

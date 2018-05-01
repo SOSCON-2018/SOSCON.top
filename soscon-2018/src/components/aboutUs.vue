@@ -36,6 +36,29 @@
         <img src="../../static/img/headPortrait.jpg" class="img"/>
         <figcaption class="person">刘煜民</figcaption>
       </figure>
+      <p class="group">{{$t("AboutUs.about5")}}</p>
+      <div>
+        <figure class="block">
+          <img src="../../static/img/headPortrait.jpg" class="img"/>
+          <figcaption class="person">刘昊天</figcaption>
+        </figure>
+        <figure class="block">
+          <img src="../../static/img/headPortrait.jpg" class="img"/>
+          <figcaption class="person">周新林</figcaption>
+        </figure>
+        <figure class="block">
+          <img src="../../static/img/headPortrait.jpg" class="img"/>
+          <figcaption class="person">董学竹</figcaption>
+        </figure>
+        <figure class="block">
+          <img src="../../static/img/headPortrait.jpg" class="img"/>
+          <figcaption class="person">赵启铭</figcaption>
+        </figure>
+        <figure class="block">
+          <img src="../../static/img/headPortrait.jpg" class="img"/>
+          <figcaption class="person">陈盛玮</figcaption>
+        </figure>
+      </div>
       <!--<p class="group">行政组</p>
       <div>
         <figure class="block" style="margin: 0;margin-right: -30px!important;">
@@ -108,29 +131,28 @@
           <figcaption class="person">彭启标</figcaption>
         </figure>
       </div>
-      <p class="group">{{$t("AboutUs.about5")}}</p>
-      <div>
-        <figure class="block">
-          <img src="../../static/img/headPortrait.jpg" class="img"/>
-          <figcaption class="person">刘昊天</figcaption>
-        </figure>
-        <figure class="block">
-          <img src="../../static/img/headPortrait.jpg" class="img"/>
-          <figcaption class="person">周新林</figcaption>
-        </figure>
-        <figure class="block">
-          <img src="../../static/img/headPortrait.jpg" class="img"/>
-          <figcaption class="person">董学竹</figcaption>
-        </figure>
-        <figure class="block">
-          <img src="../../static/img/headPortrait.jpg" class="img"/>
-          <figcaption class="person">赵启铭</figcaption>
-        </figure>
-        <figure class="block">
-          <img src="../../static/img/headPortrait.jpg" class="img"/>
-          <figcaption class="person">陈盛玮</figcaption>
-        </figure>
+      <div style="display: inline-block;text-align: center;margin-top: 7%">
+        <h4 style="background-color: black;color: white;padding: 20px 20px;margin: 0;">联系方式</h4>
       </div>
+      <div>
+        <p class="contact">官方邮箱: soscon@openingsource.org</p>
+      </div>
+      <div>
+        <p class="contact">总召:刘煜民<br/>lbb@openingsource.org</p>
+      </div>
+      <div>
+        <p class="contact">行政组:刘昊天<br/>volhtt@gmail.com</p>
+      </div>
+      <div>
+        <p class="contact">设计组:蒋昊辰<br/>jhc@openingsource.org</p>
+      </div>
+      <div>
+        <p class="contact">导演组:叶伟豪<br/>1348067084@qq.com</p>
+      </div>
+      <div>
+        <p class="contact">开发组:邵明琦<br/>qichen0906@gmail.com</p>
+      </div>
+      <div></div>
       <p class="group" style="margin-top: 40px">————</p>
       <div style="overflow: hidden">
         <span style="font-size: small;color: gray">{{$t("AboutUs.footer1")}}</span>
@@ -149,6 +171,7 @@
           <a href="https://t.me/soscon"><img class="icon" src="../../static/img/Telegram-B.png" alt="Telegram"/></a>
         </div>
       </div>
+
     </div>
   </div>
 </template>
