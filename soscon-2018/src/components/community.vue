@@ -256,7 +256,7 @@
               <img src="../../static/img/oschina.jpg" style="position: relative;top:20%">
             </div>
             <div class="card-action" style="background-color:#282828">
-              <a href="https://linuxstory.org/" style="color: white">开源中国</a>
+              <a href="https://www.oschina.net/" style="color: white">开源中国</a>
             </div>
           </div>
         </div>
@@ -267,7 +267,7 @@
               <img src="../../static/img/logo_bigger.jpg" style="position: relative;top:30%">
             </div>
             <div class="card-action" style="background-color:#282828">
-              <a href="https://linuxstory.org/" style="color: white">InfoQ</a>
+              <a href="http://www.infoq.com/cn/" style="color: white">InfoQ</a>
             </div>
           </div>
         </div>
