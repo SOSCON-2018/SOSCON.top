@@ -41,7 +41,7 @@ module.exports={
     about2:'Design team',
     about3:'Director team',
     about4:'Development team',
-    about5:'Field Service team',
+    about5:'Administrative team',
     footer1:'Imagine the future and embrace open source',
     contact:'Contact Us: soscon@openingsource.org',
     footer:'Students Open Source Conference',
