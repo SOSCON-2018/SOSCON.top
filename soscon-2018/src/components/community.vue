@@ -143,7 +143,7 @@
         <div class="col s12 m4 l2" style="margin-top: 7%!important">
           <div class="card" style="width: 170px;height:170px;">
             <div class="card-image" style="height: 150px;" >
-              <img src="../../static/img/info.jpg" style="height:150px">
+              <img src="../../static/img/cquptlug.jpg" style="height: 150px;width: 150px;margin-left: 6%">
             </div>
             <div class="card-action" style="background-color:#282828">
               <a href="#" style="color: white">重邮LUG</a>
@@ -275,6 +275,7 @@
       </div>
         </p>
       </div>
+
       <p style="font-weight: 700;font-size: x-large;margin-top: 20%"><b>————</b></p>
     </div>
 
@@ -284,16 +285,53 @@
      <!-- <p style="font-weight: 700;font-size: x-large;"><b>————</b></p>-->
       <span style="font-size: small;color: gray">畅想未来，拥抱开源</span>
       <span style="font-size: small;color: gray;margin-left: 3%">联系我们: soscon@openingsource.org</span>
+=======
+      <div style="overflow: hidden">
+      <span style="font-size: small;color: gray">{{$t("AboutUs.footer1")}}</span>
+      <span style="font-size: small;color: gray;margin-left: 3%">{{$t("AboutUs.contact")}}</span>
       <span class="foot" style="margin-left: 10px">Attending us</span>
       <span class="foot" style="margin-left: 10px">Follow us</span>
       <span class="foot">About us</span>
       <hr style="clear: both"/>
+      <div style="vertical-align: bottom;overflow: hidden">
+        <p style="font-size: small;color: gray;float: left;margin-bottom: 0"><span>Copyright &copy; 2018 SOSCON</span><span> {{$t("AboutUs.footer")}}</span></p>
+        <!--<i class="iconfont icon" style="margin-left: 10px">&#xe8d0;</i>
+        <i class="iconfont icon" style="margin-left: 10px">&#xe660;</i>
+        <i class="iconfont icon">&#xe8db;</i>-->
+        <a href="https://t.me/soscon"><img class="icon icon2" src="../../static/img/Flickr-B.png" alt="Flickr"/></a>
+        <a><img class="icon icon2" src="../../static/img/Youtube-B.png" alt="Youtube"/></a>
+        <a href="https://t.me/soscon"><img class="icon" src="../../static/img/Telegram-B.png" alt="Telegram"/></a>
+      </div>
+    </div>
+    </div>
+
+    <!--<div style="width:80%; left: 0;right: 0;margin: 130px auto 10px auto;overflow: hidden;">
+      <p style="font-weight: 700;font-size: x-large;"><b>————</b></p>
+      <span style="font-size: small;color: gray">{{$t("Community.foot")}}</span>&lt;!&ndash;畅想未来，拥抱开源&ndash;&gt;
+      <span style="font-size: small;color: gray;margin-left: 3%">{{$t("Community.contactus")}}</span>&lt;!&ndash;联系我们: soscon@openingsource.org&ndash;&gt;
+>>>>>>> 4e8a82175cd36963f4dd5e35eb204c55f278cb66
+      <span class="foot" style="margin-left: 10px">Attending us</span>
+      <span class="foot" style="margin-left: 10px">Follow us</span>
+      <span class="foot">About us</span>
+      <hr style="clear: both"/>
+<<<<<<< HEAD
       <span style="font-size: small;color: gray;">Copyright &copy; 2018 SOSCON 学生开源年会</span>
       <i class="iconfont icon" style="margin-left: 10px">&#xe8d0;</i>
       <i class="iconfont icon" style="margin-left: 10px">&#xe660;</i>
       <i class="iconfont icon">&#xe8db;</i>
     </div>
     </div>
+=======
+      <span style="font-size: small;color: gray;">Copyright &copy; 2018 SOSCON {{$t("Community.foot1")}}</span>&lt;!&ndash;学生开源年会&ndash;&gt;
+      &lt;!&ndash;<i class="iconfont icon" style="margin-left: 10px">&#xe8d0;</i>
+      <i class="iconfont icon" style="margin-left: 10px">&#xe660;</i>
+      <i class="iconfont icon">&#xe8db;</i>&ndash;&gt;
+      <a href="https://t.me/soscon"><img class="icon icon2" src="../../static/img/Flickr-B.png" alt="Flickr"/></a>
+      <a><img class="icon icon2" src="../../static/img/Youtube-B.png" alt="Youtube"/></a>
+      <a href="https://t.me/soscon"><img class="icon" src="../../static/img/Telegram-B.png" alt="Telegram"/></a>
+    </div>-->
+
+>>>>>>> 4e8a82175cd36963f4dd5e35eb204c55f278cb66
 
    </div>
 
