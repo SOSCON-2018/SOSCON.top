@@ -132,46 +132,49 @@
         </figure>
       </div>
       <div style="display: inline-block;text-align: center;margin-top: 7%">
-        <h4 style="background-color: black;color: white;padding: 20px 20px;margin: 0;">联系方式</h4>
+        <h4 style="background-color: black;color: white;padding: 20px 20px;margin: 0;">{{$t("AboutUs.contactWay")}}</h4>
       </div>
       <div>
-        <p class="contact">官方邮箱: soscon@openingsource.org</p>
+        <p class="contact"><span>{{$t("AboutUs.email")}}</span><span>:</span><br/><span>soscon@openingsource.org</span></p>
       </div>
       <div>
-        <p class="contact">总召:刘煜民<br/>lbb@openingsource.org</p>
+        <p class="contact"><span>{{$t("AboutUs.email1")}}</span><span>:刘煜民</span><br/><span>lbb@openingsource.org</span></p>
       </div>
       <div>
-        <p class="contact">行政组:刘昊天<br/>volhtt@gmail.com</p>
+        <p class="contact"><span>{{$t("AboutUs.email2")}}</span><span>:刘昊天</span><br/><span>volhtt@gmail.com</span></p>
       </div>
       <div>
-        <p class="contact">设计组:蒋昊辰<br/>jhc@openingsource.org</p>
+        <p class="contact"><span>{{$t("AboutUs.email3")}}</span><span>:蒋昊辰</span><br/><span>jhc@openingsource.org</span></p>
       </div>
       <div>
-        <p class="contact">导演组:叶伟豪<br/>1348067084@qq.com</p>
+        <p class="contact"><span>{{$t("AboutUs.email4")}}</span><span>:叶伟豪</span><br/>1348067084@qq.com<span></span></p>
       </div>
       <div>
-        <p class="contact">开发组:邵明琦<br/>qichen0906@gmail.com</p>
+        <p class="contact"><span>{{$t("AboutUs.email5")}}</span><span>:邵明琦</span><br/><span>qichen0906@gmail.com</span></p>
       </div>
       <div></div>
-      <p class="group" style="margin-top: 40px">————</p>
-      <div style="overflow: hidden">
+    </div>
+    <div style="background-color: white;margin-bottom: -3% ">
+      <div style="width:80%; left: 0;right: 0;margin: 0 auto 10px auto;overflow: hidden;">
+        <p>   </p>
         <span style="font-size: small;color: gray">{{$t("AboutUs.footer1")}}</span>
         <span style="font-size: small;color: gray;margin-left: 3%">{{$t("AboutUs.contact")}}</span>
-        <span class="foot" style="margin-left: 10px">Attending us</span>
-        <span class="foot" style="margin-left: 10px">Follow us</span>
-        <span class="foot">About us</span>
+        <br>
+        <div>
+          <span class="foot" style="margin-left: 10px">Attending us</span>
+          <span class="foot" style="margin-left: 10px">Follow us</span>
+          <span class="foot">About us</span>
+        </div>
         <hr style="clear: both"/>
         <div style="vertical-align: bottom;overflow: hidden">
           <p style="font-size: small;color: gray;float: left;margin-bottom: 0">Copyright &copy; 2018 SOSCON {{$t("AboutUs.footer")}}</p>
-          <!--<i class="iconfont icon" style="margin-left: 10px">&#xe8d0;</i>
-          <i class="iconfont icon" style="margin-left: 10px">&#xe660;</i>
-          <i class="iconfont icon">&#xe8db;</i>-->
-          <a href="https://t.me/soscon"><img class="icon icon2" src="../../static/img/Flickr-B.png" alt="Flickr"/></a>
-          <a><img class="icon icon2" src="../../static/img/Youtube-B.png" alt="Youtube"/></a>
-          <a href="https://t.me/soscon"><img class="icon" src="../../static/img/Telegram-B.png" alt="Telegram"/></a>
+          <div>
+            <a><img class="icon icon2" src="../../static/img/Flickr-B.png" alt="Flickr"/></a>
+            <a><img class="icon icon2" src="../../static/img/Youtube-B.png" alt="Youtube"/></a>
+            <a href="https://t.me/soscon"><img class="icon" src="../../static/img/Telegram-B.png" alt="Telegram"/></a>
+          </div>
         </div>
       </div>
-
     </div>
   </div>
 </template>
