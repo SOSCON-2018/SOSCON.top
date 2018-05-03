@@ -5,7 +5,7 @@
     <transition :name=transitionName >
       <router-view class="child-view" ></router-view>
     </transition>
-    <div class="modal" id="qrmodal">
+    <div v-show="haveTicket" class="modal" id="qrmodal">
       <div class="modal-content">
         <p style="text-align: center">仅供工作人员使用</p>
         <img :src="this.qrurl" style="display: block;margin: auto">
@@ -120,7 +120,10 @@
         return this.Login()[2]
       },
       qrurl:function () {
-        return '/account/img/' + this.ID
+        if(this.haveTicket)
+          return '/account/img/' + this.ID
+        else
+          return ''
       }
     },
 

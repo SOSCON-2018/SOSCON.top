@@ -132,7 +132,7 @@
         </figure>
       </div>
       <div style="display: inline-block;text-align: center;margin-top: 7%">
-        <h4 style="background-color: black;color: white;padding: 20px 20px;margin: 0;">联系方式</h4>
+        <h4 style="background-color: black;color: white;padding: 20px 20px;margin: 0;">{{$t("AboutUs.contactWay")}}</h4>
       </div>
       <div>
         <p class="contact"><span>{{$t("AboutUs.email")}}</span><span>:</span><br/><span>soscon@openingsource.org</span></p>
@@ -153,15 +153,21 @@
         <p class="contact"><span>{{$t("AboutUs.email5")}}</span><span>:邵明琦</span><br/><span>qichen0906@gmail.com</span></p>
       </div>
       <div></div>
-      <p class="group" style="margin-top: 40px">————</p>
-      <div style="overflow: hidden">
+    </div>
+    <div style="background-color: white;margin-bottom: -3% ">
+      <div style="width:80%; left: 0;right: 0;margin: 0 auto 10px auto;overflow: hidden;">
+        <p>   </p>
         <span style="font-size: small;color: gray">{{$t("AboutUs.footer1")}}</span>
         <span style="font-size: small;color: gray;margin-left: 3%">{{$t("AboutUs.contact")}}</span>
-        <span class="foot" style="margin-left: 10px">Attending us</span>
-        <span class="foot" style="margin-left: 10px">Follow us</span>
-        <span class="foot">About us</span>
+        <br>
+        <div>
+          <span class="foot" style="margin-left: 10px">Attending us</span>
+          <span class="foot" style="margin-left: 10px">Follow us</span>
+          <span class="foot">About us</span>
+        </div>
         <hr style="clear: both"/>
         <div style="vertical-align: bottom;overflow: hidden">
+<<<<<<< HEAD
           <p style="font-size: small;color: gray;float: left;margin-bottom: 0"><span>Copyright &copy; 2018 SOSCON</span><span> {{$t("AboutUs.footer")}}</span></p>
           <!--<i class="iconfont icon" style="margin-left: 10px">&#xe8d0;</i>
           <i class="iconfont icon" style="margin-left: 10px">&#xe660;</i>
@@ -169,9 +175,16 @@
           <a href="https://t.me/soscon"><img class="icon icon2" src="../../static/img/Flickr-B.png" alt="Flickr"/></a>
           <a><img class="icon icon2" src="../../static/img/Youtube-B.png" alt="Youtube"/></a>
           <a href="https://t.me/soscon"><img class="icon" src="../../static/img/Telegram-B.png" alt="Telegram"/></a>
+=======
+          <p style="font-size: small;color: gray;float: left;margin-bottom: 0">Copyright &copy; 2018 SOSCON {{$t("AboutUs.footer")}}</p>
+          <div>
+            <a><img class="icon icon2" src="../../static/img/Flickr-B.png" alt="Flickr"/></a>
+            <a><img class="icon icon2" src="../../static/img/Youtube-B.png" alt="Youtube"/></a>
+            <a href="https://t.me/soscon"><img class="icon" src="../../static/img/Telegram-B.png" alt="Telegram"/></a>
+          </div>
+>>>>>>> 549f13efb6bb17c7ad1c57ea906a54abec730ca2
         </div>
       </div>
-
     </div>
   </div>
 </template>
