@@ -48,24 +48,7 @@
         <a href="https://t.me/soscon"><img class="icon" src="../../static/img/Telegram-B.png" alt="Telegram"/></a>
       </div>
     </div>
-<<<<<<< HEAD
-    <!--<div style="width: 80%; left: 0;right: 0;margin: 50px auto 10px auto;overflow: hidden;">
-      <span style="font-size: small;color: gray">{{$t("About.bottom1")}}</span>
-      <span style="font-size: small;color: gray;margin-left: 3%">{{$t("About.bottom2")}}</span>
-      <span class="foot" style="margin-left: 10px">Attending us</span>
-      <span class="foot" style="margin-left: 10px">Follow us</span>
-      <span class="foot">About us</span>
-      <hr style="clear: both"/>
-      <span style="font-size: small;color: gray;">Copyright &copy; 2018 SOSCON{{$t("About.foot")}}</span>&lt;!&ndash;学生开源年会&ndash;&gt;
-      &lt;!&ndash;<i class="iconfont icon" style="margin-left: 10px">&#xe8d0;</i>
-      <i class="iconfont icon" style="margin-left: 10px">&#xe660;</i>
-      <i class="iconfont icon">&#xe8db;</i>&ndash;&gt;
-      <a href="https://t.me/soscon"><img class="icon icon2" src="../../static/img/Flickr-B.png" alt="Flickr"/></a>
-      <a><img class="icon icon2" src="../../static/img/Youtube-B.png" alt="Youtube"/></a>
-      <a href="https://t.me/soscon"><img class="icon" src="../../static/img/Telegram-B.png" alt="Telegram"/></a>
-    </div>-->
 
-=======
     <div style="background-color: white;margin-bottom: -3% ">
       <div style="width:80%; left: 0;right: 0;margin: 0 auto 10px auto;overflow: hidden;">
         <p>   </p>
@@ -87,7 +70,7 @@
           </div>
         </div>
       </div>
->>>>>>> 549f13efb6bb17c7ad1c57ea906a54abec730ca2
+
     </div>
   </div>
 </template>
