@@ -127,7 +127,7 @@ module.exports={
     modalvoloption3:'翻译组：SOSCON是面向全球学生的开源年会，如果你擅长英语交流，请不吝赐教。',
     modalvoloption4:'场务组：负责会议筹备到正式进行期间场地的相关问题。',
     modalvoloption5:'服务组：负责检票&发放物资，在会场帮助引导嘉宾。',
-    modalvoloption6:'放映组：负责会场的放映，帮助嘉宾准备演讲。',
+    modalvoloption6:'放映组：负责会场的放映(linux环境下)，帮助嘉宾准备演讲。',
     modalvoloption7:'宣传组：负责撰写文案，联系媒体。',
     modalvoloption8:'赞助组：负责和赞助商联系接洽。',
     modalvoloption9:'设计组: 负责设计会议用品，纪念品，舞台等。',

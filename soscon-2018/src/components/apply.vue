@@ -198,9 +198,6 @@
           <div class="row">
             <span style="font-size: 1rem">{{$t("Apply.modalvoloption1")}}<span style="color: red">*</span> </span><br>
             <label class="col "><input type="checkbox" name="teams" value="1"><i>✓</i>{{$t("Apply.modalvoloption2")}}</label><br>
-            <label class="col "><input type="checkbox" name="teams" value="2"><i>✓</i>{{$t("Apply.modalvoloption3")}}</label><br>
-            <label class="col "><input type="checkbox" name="teams" value="3"><i>✓</i>{{$t("Apply.modalvoloption4")}}</label><br>
-            <label class="col "><input type="checkbox" name="teams" value="4"><i>✓</i>{{$t("Apply.modalvoloption5")}}</label><br>
             <label class="col "><input type="checkbox" name="teams" value="5"><i>✓</i>{{$t("Apply.modalvoloption6")}}</label><br>
             <label class="col "><input type="checkbox" name="teams" value="6"><i>✓</i>{{$t("Apply.modalvoloption7")}}</label><br>
             <label class="col "><input type="checkbox" name="teams" value="7"><i>✓</i>{{$t("Apply.modalvoloption8")}}</label><br>

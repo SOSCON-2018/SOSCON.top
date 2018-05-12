@@ -167,22 +167,12 @@
         </div>
         <hr style="clear: both"/>
         <div style="vertical-align: bottom;overflow: hidden">
-<<<<<<< HEAD
-          <p style="font-size: small;color: gray;float: left;margin-bottom: 0"><span>Copyright &copy; 2018 SOSCON</span><span> {{$t("AboutUs.footer")}}</span></p>
-          <!--<i class="iconfont icon" style="margin-left: 10px">&#xe8d0;</i>
-          <i class="iconfont icon" style="margin-left: 10px">&#xe660;</i>
-          <i class="iconfont icon">&#xe8db;</i>-->
-          <a href="https://t.me/soscon"><img class="icon icon2" src="../../static/img/Flickr-B.png" alt="Flickr"/></a>
-          <a><img class="icon icon2" src="../../static/img/Youtube-B.png" alt="Youtube"/></a>
-          <a href="https://t.me/soscon"><img class="icon" src="../../static/img/Telegram-B.png" alt="Telegram"/></a>
-=======
           <p style="font-size: small;color: gray;float: left;margin-bottom: 0">Copyright &copy; 2018 SOSCON {{$t("AboutUs.footer")}}</p>
           <div>
             <a><img class="icon icon2" src="../../static/img/Flickr-B.png" alt="Flickr"/></a>
             <a><img class="icon icon2" src="../../static/img/Youtube-B.png" alt="Youtube"/></a>
             <a href="https://t.me/soscon"><img class="icon" src="../../static/img/Telegram-B.png" alt="Telegram"/></a>
           </div>
->>>>>>> 549f13efb6bb17c7ad1c57ea906a54abec730ca2
         </div>
       </div>
     </div>
