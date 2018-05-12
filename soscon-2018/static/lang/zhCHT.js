@@ -182,5 +182,22 @@ module.exports={
     noTicket:'本輪票務已全部放完，感謝你的參與，下次放票時間請關注相關資訊',
     vlerrorSub:'請按正確格式填寫',
     successSub:'提交成功'
-  }
+  },
+  Agenda:{
+    title1:'會議議程',
+    process1:'入場',
+    process2:'相聲',
+    process3:'開場致詞',
+    process4:'休息時間',
+    process5:'演講1',
+    process6:'演講2',
+    process7:'演講3',
+    process8:'演講4',
+  },
+  News:{
+    title1:'會議動態',
+    newstitle1:'這裏是新聞的標題',
+    newscontent1:'這裏是新聞的內容',
+    newstime1:'這裏是新聞發佈的時間',
+  },
 }

@@ -180,5 +180,22 @@ module.exports={
     foot:'Imagine the future and embrace open source',
     contactus:'Contact Us: soscon@openingsource.org',
     foot1:'Students Open Source Conference',
-  }
+  },
+  Agenda:{
+    title1:'conference agenda',
+    process1:'entry ',
+    process2:'crosstalk',
+    process3:'The opening speech',
+    process4:'Time to rest',
+    process5:'Lecture 1',
+    process6:'Lecture 2',
+    process7:'Lecture 3',
+    process8:'Lecture 4'
+  },
+  News:{
+    title1:'Conference News ',
+    newstitle1:'This is the title of the news',
+    newscontent1:'This is the content of the news',
+    newstime1:'This is the time',
+  },
 }

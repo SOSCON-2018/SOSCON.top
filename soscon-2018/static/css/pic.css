@@ -462,3 +462,74 @@ figure+figure{
   font-size: x-large;
   font-weight: 700;
 }
+.AgendaProcess {
+  display: flex;
+  height: 50px;
+  background-color: white !important;
+  color: black;
+}
+
+.process {
+  align-self: center;
+  /*padding-left: 50px;
+  padding-right: 50px;*/
+  padding-left: 9%;
+  border-left: 2px solid black;
+}
+
+.start {
+  align-self: center;
+  width: 20%;
+  text-align: center;
+  border-left: 2px solid black;
+}
+
+.speach {
+  align-self: center;
+  width: 20%;
+  text-align: center;
+  border-left: 2px solid black;
+}
+
+.time {
+  align-self: center;
+  text-align: center;
+  width: 20%;
+  /*padding: 30px 50px;*/
+}
+
+.AgendaProcess + .AgendaProcess {
+  margin-top: 40px;
+}
+
+.Background {
+  background-image: url('../img/Background-3.jpg');
+  background-size: cover;
+  height: auto !important;
+  background-attachment: fixed
+}
+
+.News {
+  color: black;
+  margin: 0 auto;
+  background-color: white
+}
+
+.NewsTitle {
+  width: 80%;
+  margin: 20px auto;
+  font-size: x-large;
+  font-weight: 700
+}
+
+.NewsContent {
+  width: 80%;
+  margin: 20px auto
+}
+
+.NewsTime {
+  width: 80%;
+  margin: 20px auto;
+  text-align: right;
+  font-size: smaller;
+}

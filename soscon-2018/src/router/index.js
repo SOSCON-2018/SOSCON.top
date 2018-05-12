@@ -5,6 +5,8 @@ import about from '@/components/about'
 import aboutUs from '@/components/aboutUs'
 import apply from '@/components/apply'
 import community from '@/components/community'
+import agenda from '@/components/agenda'
+import news from '@/components/news'
 
 Vue.use(Router)
 
@@ -46,6 +48,22 @@ export default new Router({
       path: '/community',
       name: '/community',
       component:community,
+      meta:{
+        Num:1
+      }
+    },
+    {
+      path:'/agenda',
+      name:'/agenda',
+      component:agenda,
+      meta:{
+        Num:1
+      }
+    },
+    {
+      path:'/news',
+      name:'/news',
+      component:news,
       meta:{
         Num:1
       }

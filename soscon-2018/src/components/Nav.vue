@@ -27,11 +27,11 @@
           <li>
             <router-link to="apply">{{$t("Nav.apply")}}</router-link>
           </li>
-          <li class="t1">
-            <router-link to="">{{$t("Nav.agenda")}}</router-link>
+          <li>
+            <router-link to="/agenda">{{$t("Nav.agenda")}}</router-link>
           </li>
-          <li class="t1">
-            <router-link to="">{{$t("Nav.news")}}</router-link>
+          <li>
+            <router-link to="/news">{{$t("Nav.news")}}</router-link>
           </li>
           <li class="t3">
             <router-link to="/community">{{$t("Nav.community")}}</router-link>
@@ -69,10 +69,10 @@
         <router-link to="/apply">{{$t("Nav.apply")}}</router-link>
       </li>
       <li>
-        <router-link to="" class="t1">{{$t("Nav.agenda")}}</router-link>
+        <router-link to="/agenda">{{$t("Nav.agenda")}}</router-link>
       </li>
       <li>
-        <router-link to="" class="t1">{{$t("Nav.news")}}</router-link>
+        <router-link to="/news">{{$t("Nav.news")}}</router-link>
       </li>
       <li class="t3" @click="closeNav">
         <router-link to="/community">{{$t("Nav.community")}}</router-link>

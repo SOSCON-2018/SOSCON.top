@@ -182,7 +182,24 @@ module.exports={
     noTicket:'本轮票务已全部放完，感谢你的参与，下次放票时间请关注相关资讯',
     vlerrorSub:'请按正确格式填写',
     successSub:'提交成功'
-  }
+  },
+  Agenda:{
+    title1:'会议议程',
+    process1:'入场',
+    process2:'相声',
+    process3:'开场致词',
+    process4:'休息时间',
+    process5:'演讲1',
+    process6:'演讲2',
+    process7:'演讲3',
+    process8:'演讲4',
+  },
+  News:{
+    title1:'会议动态',
+    newstitle1:'这里是新闻的标题',
+    newscontent1:'这里是新闻的内容',
+    newstime1:'这里是新闻发布的时间',
+  },
 }
 
 
