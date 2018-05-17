@@ -78,7 +78,7 @@
         <img style="vertical-align:middle;margin-left: 1%;width: 35px;" src="../../static/img/Flickr-W.png"/>
         <img style="vertical-align:middle;margin-left: 1%;width: 35px;" src="../../static/img/Youtube-W.png"/>
         <img style="vertical-align:middle;margin-left: 1%;width: 35px;" src="../../static/img/Flickr-W.png"/>
-        <span style="color: #5f5f5f;float: right">畅想未来，拥抱开源。  Copyright © SOSCON 学生开源年会 2018</span>
+        <span style="color: #5f5f5f;float: right">{{$t("About.bottom1")}}。  Copyright© SOSCON {{$t("About.foot")}} 2018</span>
         <div style="clear: both"></div>
       </div>
 

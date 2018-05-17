@@ -184,15 +184,17 @@ module.exports={
     successSub:'提交成功'
   },
   Agenda:{
-    title1:'會議議程',
-    process1:'入場',
-    process2:'相聲',
-    process3:'開場致詞',
-    process4:'休息時間',
-    process5:'演講1',
+    /*title1:'會議議程',*/
+    process1:'開源辯論會',
+    process2:'BUGHUNT(並開始閃電演講報名)',
+    process3:'閃電演講(地點:分會場)',
+    process4:'開源辯論會',
+    /*process5:'演講1',
     process6:'演講2',
     process7:'演講3',
-    process8:'演講4',
+    process8:'演講4',*/
+    process9:'戶外活動-足球友誼賽',
+    process10:'戶外活動-乒乓球友誼賽',
   },
   News:{
     title1:'會議動態',

@@ -182,15 +182,17 @@ module.exports={
     foot1:'Students Open Source Conference',
   },
   Agenda:{
-    title1:'conference agenda',
-    process1:'entry ',
-    process2:'crosstalk',
-    process3:'The opening speech',
-    process4:'Time to rest',
-    process5:'Lecture 1',
+   /* title1:'conference agenda',*/
+    process1:'Open source debate',
+    process2:'BUGHUNT (and start lightning speech registration)',
+    process3:'Lightning speech (Location: Sub-meeting venue)',
+    process4:'Open source debate',
+    /*process5:'Lecture 1',
     process6:'Lecture 2',
     process7:'Lecture 3',
-    process8:'Lecture 4'
+    process8:'Lecture 4'*/
+    process9:'Outdoor Activities - Football Friendly match',
+    process10:'Outdoor Activities - Table Tennis Friendly match',
   },
   News:{
     title1:'Conference News ',

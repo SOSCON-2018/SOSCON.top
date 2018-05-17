@@ -184,15 +184,15 @@ module.exports={
     successSub:'提交成功'
   },
   Agenda:{
-    title1:'会议议程',
+    /*title1:'会议议程',*/
     process1:'开源辩论会',
     process2:'BUGHUNT(并开始闪电演讲报名)',
     process3:'闪电演讲(地点:分会场)',
     process4:'开源辩论会',
-    process5:'演讲1',
+    /*process5:'演讲1',
     process6:'演讲2',
     process7:'演讲3',
-    process8:'演讲4',
+    process8:'演讲4',*/
     process9:'户外活动-足球友谊赛',
     process10:'户外活动-乒乓球友谊赛',
   },
