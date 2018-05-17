@@ -14,6 +14,8 @@ module.exports={
     password:'密碼',
     password2:'確認密碼',
     login:'登錄',
+    agenda1:'6月9日議程',
+    agenda2:'6月10日議程'
   },
   About:{
     soscon:'學生開源年會',
@@ -195,6 +197,11 @@ module.exports={
     process8:'演講4',*/
     process9:'戶外活動-足球友誼賽',
     process10:'戶外活動-乒乓球友誼賽',
+    main:'主會場',
+    other1:'分會場A',
+    other2:'分會場B',
+    other3:'分會場C',
+    other4:'社區專場',
   },
   News:{
     title1:'會議動態',

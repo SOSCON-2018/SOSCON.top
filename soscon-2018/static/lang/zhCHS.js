@@ -14,6 +14,8 @@ module.exports={
     password:'密码',
     password2:'确认密码',
     login:'登录',
+    agenda1:'6月9日议程',
+    agenda2:'6月10日议程',
   },
   AboutUs:{
     about:'工作人员名单',
@@ -195,6 +197,11 @@ module.exports={
     process8:'演讲4',*/
     process9:'户外活动-足球友谊赛',
     process10:'户外活动-乒乓球友谊赛',
+    main:'主会场',
+    other1:'分会场A',
+    other2:'分会场B',
+    other3:'分会场C',
+    other4:'社区专场',
   },
   News:{
     title1:'会议动态',

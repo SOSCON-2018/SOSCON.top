@@ -7,68 +7,32 @@
         <div class="col s12 m4 l2 ImgWordStyle">
           <h5 class="ImgContent">SOSCON开发天团<br/>勇登高峰</h5>
           <div class="line"></div>
-          <div style="height: 200px"></div>
+          <div style="height: 200px;overflow: auto"></div>
           <div class="lineBigger"></div>
           <p class="contentfont">2018年5月12日<br/>来自西学家</p>
         </div>
       </router-link>
     </div>
-    <!--<div class="row newsbelow">
-      <div class="col s12 m6 l3" style="margin-right: 5%;background-color: #00b8d4;margin-top: 5%">
-        <p class="newsbelowcontentfont">SOSCON前端工程师不慎遗失了他的头</p>
-        <div style="height: 100px"></div>
-        <div class="line"></div>
-        <p class="newsbelowfontbelow">2018年5月13日<br/>来自头都没了的前端</p>
-      </div>
-      <div class="col s12 m6 l3" style="margin-right: 5%;background-color: #00b8d4;margin-top: 5%">
-        <p class="newsbelowcontentfont" style="">SOSCON前端工程师不慎遗失了他的头</p>
-        <div style="height: 100px"></div>
-        <div class="line"></div>
-        <p class="newsbelowfontbelow">2018年5月13日<br/>来自头都没了的前端</p>
-      </div>
-      <div class="col s12 m6 l3" style="margin-right: 5%;background-color: #00b8d4;margin-top: 5%">
-        <p class="newsbelowcontentfont">SOSCON前端工程师不慎遗失了他的头</p>
-        <div style="height: 100px"></div>
-        <div class="line"></div>
-        <p class="newsbelowfontbelow">2018年5月13日<br/>来自头都没了的前端</p>
-      </div>
-    </div>-->
     <div class="row newsbelow">
-      <div class="col s12 m6 l3" style="margin-right:5%;background-color: #00b8d4;margin-top: 5%">
+      <div class="col s12 m6 l3 newsbelowboxstyle">
         <p class="newsbelowcontentfont">SOSCON前端工程师不慎遗失了他的头</p>
-        <div style="height: 100px"></div>
-        <div class="line"></div>
+        <div style="height: 20vh;overflow: auto;"></div>
+        <div class="line1"></div>
         <p class="newsbelowfontbelow">2018年5月13日<br/>来自头都没了的前端</p>
-      </div>
-      <div class="col s12 m6 l3" style="margin-right:5%;background-color: #00b8d4;margin-top: 5%">
+      </div><!-- style="margin-right:5%;background-color: #00b8d4;margin-top: 5%;height: 45vh;position: relative;"-->
+      <div class="col s12 m6 l3 newsbelowboxstyle">
         <p class="newsbelowcontentfont">SOSCON后台工程师顺利找回了他的头</p>
-        <div style="height: 100px"></div>
-        <div class="line"></div>
+        <div style="height: 20vh;overflow: auto;"></div>
+        <div class="line1"></div>
         <p class="newsbelowfontbelow">2018年5月14日<br/>来自懒得反抗的总召</p>
       </div>
-      <div class="col s12 m6 l3" style="background-color: #00b8d4;margin-top: 5%">
+      <div class="col s12 m6 l3 newsbelowboxstyle">
         <p class="newsbelowcontentfont">然后他的头不行被总召给打爆了</p>
-        <div style="height: 100px"></div>
-        <div class="line"></div>
+        <div style="height: 20vh;overflow: auto;"></div>
+        <div class="line1"></div>
         <p class="newsbelowfontbelow">2018年5月15日<br/>来自模考咸鱼大师</p>
       </div>
     </div>
-    <!--<div style="width: 80%;margin: 0 auto;overflow: hidden;margin-top: 5%!important;">
-      <span style="font-size: small;color: gray">畅想未来，拥抱开源</span>
-      <span class="foot" style="margin-left: 10px">Attending us</span>
-      <span class="foot" style="margin-left: 10px">Follow us</span>
-      <span class="foot">About us</span>
-      <hr style="clear: both"/>
-      <div style="vertical-align: bottom;overflow: hidden">
-        <p style="font-size: small;color: gray;float: left;margin-bottom: 0">Copyright &copy; 2018 SOSCON 学生开源年会</p>
-        &lt;!&ndash;<i class="iconfont icon" style="margin-left: 10px">&#xe8d0;</i>
-        <i class="iconfont icon" style="margin-left: 10px">&#xe660;</i>
-        <i class="iconfont icon">&#xe8db;</i>&ndash;&gt;
-        <img class="icon icon2" src="../../static/img/Flickr-B.png" alt="Flickr"/>
-        <img class="icon icon2" src="../../static/img/Youtube-B.png" alt="Youtube"/>
-        <img class="icon" src="../../static/img/Telegram-B.png" alt="Telegram"/>
-      </div>
-    </div>-->
     <div style="width: 100%;height: 135px;background-color:#282828;">
       <div style="width:80%;height:100%;left:0;right:0;margin:0 auto;padding-top: 3vw">
         <!--<span style="height:100%;display:inline-block;vertical-align:middle;margin-left: 8%"></span>-->

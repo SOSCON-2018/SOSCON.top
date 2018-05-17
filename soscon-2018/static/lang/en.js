@@ -14,6 +14,8 @@ module.exports={
     password:'Password',
     password2:'CheckPassword',
     login:'Login',
+    agenda1:'Agenda for June 9',
+    agenda2:'Agenda for June 10',
   },
   About:{
     soscon:'Students Open Source Conference',
@@ -193,6 +195,11 @@ module.exports={
     process8:'Lecture 4'*/
     process9:'Outdoor Activities - Football Friendly match',
     process10:'Outdoor Activities - Table Tennis Friendly match',
+    main:'The main venue',
+    other1:'Session venue A',
+    other2:'Session venue B',
+    other3:'Session venue C',
+    other4: 'Community special',
   },
   News:{
     title1:'Conference News ',

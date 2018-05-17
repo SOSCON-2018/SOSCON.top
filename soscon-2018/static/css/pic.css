@@ -591,8 +591,8 @@ figure + figure {
 .agendaBox {
   height: 520px;
   overflow: auto;
-  width: 60%;
-  margin-top: 12%
+  width: 100%;
+  margin-top: 150px;
 }
 
 .NewsBox {
@@ -609,6 +609,8 @@ figure + figure {
 }
 
 .ImgWordStyle {
+  color: #ffffff;
+  position: relative;
   height: 100%;
   background-color: lightskyblue;
   padding-left: 3%;
@@ -616,7 +618,8 @@ figure + figure {
 }
 
 .ImgContent {
-  font-size: 2vw;
+  /*font-size: 2vw;*/
+  font-size: x-large;
   margin: 0 auto;
 }
 
@@ -626,13 +629,25 @@ figure + figure {
   border: 2px solid black
 }
 
+.line1 {
+  position: absolute;
+  bottom: 12vh;
+  width: 30%;
+  height: 1px;
+  border: 2px solid black
+}
+
 .lineBigger {
+  position: absolute;
+  bottom: 11vh;
   width: 30%;
   height: 1px;
   border: 3px solid black
 }
 
 .contentfont {
+  position: absolute;
+  bottom: 1vh;
   font-size: 1vw
 }
 
@@ -644,15 +659,21 @@ figure + figure {
 .newsbelowboxstyle {
   margin-right: 5%;
   background-color: #00b8d4;
-  margin-top: 5%
+  margin-top: 5%;
+  height: 45vh;
+  position: relative;
 }
 
 .newsbelowcontentfont {
-  font-size: 2vw;
+  /*font-size: 2vw;*/
+  font-size: x-large;
   color: white
 }
 
 .newsbelowfontbelow {
-  font-size: 1vw;
-  margin-top: 0
+  /*font-size: 1vw;*/
+  font-size: large;
+  margin-top: 0;
+  position: absolute;
+  bottom: 1vh;
 }

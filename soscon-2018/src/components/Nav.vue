@@ -15,25 +15,13 @@
     <ul id="dropdown3" class="dropdown-content tit1">
       <li>
         <!--<a @click="">主会场</a>-->
-        <router-link to="/agenda">主会场</router-link>
+        <router-link to="/agenda">6月9日议程</router-link>
       </li>
       <li>
         <!--<a @click="">分会场A</a>-->
-        <router-link to="/">分会场A</router-link>
+        <router-link to="/">6月10日议程</router-link>
       </li>
       <!--<li class="divider"></li>-->
-      <li>
-        <!--<a @click="">分会场B</a>-->
-        <router-link to="/">分会场B</router-link>
-      </li>
-      <li>
-        <!--<a @click="">分会场C</a>-->
-        <router-link to="/">分会场C</router-link>
-      </li>
-      <li>
-        <!--<a @click="">社区专场</a>-->
-        <router-link to="/">社区专场</router-link>
-      </li>
     </ul>
 
     <nav class="title1">
@@ -88,24 +76,11 @@
     <ul id="dropdown4" class="dropdown-content tit1">
       <li @click="closeNav">
         <!--<a @click="">主会场</a>-->
-        <router-link to="/agenda">主会场</router-link>
+        <router-link to="/agenda">{{$t("Nav.agenda1")}}</router-link>
       </li>
       <li @click="closeNav">
         <!--<a @click="">分会场A</a>-->
-        <router-link to="/">分会场A</router-link>
-      </li>
-      <!--<li class="divider"></li>-->
-      <li @click="closeNav">
-        <!--<a @click="">分会场B</a>-->
-        <router-link to="/">分会场B</router-link>
-      </li>
-      <li @click="closeNav">
-        <!--<a @click="">分会场C</a>-->
-        <router-link to="/">分会场C</router-link>
-      </li>
-      <li @click="closeNav">
-        <!--<a @click="">社区专场</a>-->
-        <router-link to="/">社区专场</router-link>
+        <router-link to="/">{{$t("Nav.agenda2")}}</router-link>
       </li>
     </ul>
     <ul class="sidenav" id="mobile-demo">
@@ -373,6 +348,7 @@
   window.onload = function () {
     $(".dropdown-trigger").dropdown();
     $('.modal').modal();
+    $('.tabs').tabs();
   }
 </script>
 
