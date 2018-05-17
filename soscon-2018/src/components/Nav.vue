@@ -1,4 +1,4 @@
-<template>
+<template xmlns:to="http://www.w3.org/1999/xhtml">
   <div>
     <ul id="dropdown1" class="dropdown-content tit1">
       <li>
@@ -12,7 +12,29 @@
         <a @click="toEN">English</a>
       </li>
     </ul>
-
+    <ul id="dropdown3" class="dropdown-content tit1">
+      <li>
+        <!--<a @click="">主会场</a>-->
+        <router-link to="/agenda">主会场</router-link>
+      </li>
+      <li>
+        <!--<a @click="">分会场A</a>-->
+        <router-link to="/">分会场A</router-link>
+      </li>
+      <!--<li class="divider"></li>-->
+      <li>
+        <!--<a @click="">分会场B</a>-->
+        <router-link to="/">分会场B</router-link>
+      </li>
+      <li>
+        <!--<a @click="">分会场C</a>-->
+        <router-link to="/">分会场C</router-link>
+      </li>
+      <li>
+        <!--<a @click="">社区专场</a>-->
+        <router-link to="/">社区专场</router-link>
+      </li>
+    </ul>
 
     <nav class="title1">
       <div class="nav-wrapper">
@@ -28,7 +50,9 @@
             <router-link to="apply">{{$t("Nav.apply")}}</router-link>
           </li>
           <li>
-            <router-link to="/agenda">{{$t("Nav.agenda")}}</router-link>
+            <!--<router-link to="/agenda">{{$t("Nav.agenda")}}</router-link>-->
+            <a class="dropdown-trigger"  data-target="dropdown3">{{$t("Nav.agenda")}}<i
+              class="material-icons right">arrow_drop_down</i></a>
           </li>
           <li>
             <router-link to="/news">{{$t("Nav.news")}}</router-link>
@@ -50,15 +74,38 @@
       </div>
     </nav>
     <ul id="dropdown2" class="dropdown-content tit1">
-      <li>
+      <li @click="closeNav">
         <a @click="toZHCHS">简体中文</a>
       </li>
-      <li>
+      <li @click="closeNav">
         <a @click="toZHCHT">繁体中文</a>
       </li>
       <!--<li class="divider"></li>-->
-      <li>
+      <li @click="closeNav">
         <a @click="toEN">English</a>
+      </li>
+    </ul>
+    <ul id="dropdown4" class="dropdown-content tit1">
+      <li @click="closeNav">
+        <!--<a @click="">主会场</a>-->
+        <router-link to="/agenda">主会场</router-link>
+      </li>
+      <li @click="closeNav">
+        <!--<a @click="">分会场A</a>-->
+        <router-link to="/">分会场A</router-link>
+      </li>
+      <!--<li class="divider"></li>-->
+      <li @click="closeNav">
+        <!--<a @click="">分会场B</a>-->
+        <router-link to="/">分会场B</router-link>
+      </li>
+      <li @click="closeNav">
+        <!--<a @click="">分会场C</a>-->
+        <router-link to="/">分会场C</router-link>
+      </li>
+      <li @click="closeNav">
+        <!--<a @click="">社区专场</a>-->
+        <router-link to="/">社区专场</router-link>
       </li>
     </ul>
     <ul class="sidenav" id="mobile-demo">
@@ -69,9 +116,10 @@
         <router-link to="/apply">{{$t("Nav.apply")}}</router-link>
       </li>
       <li>
-        <router-link to="/agenda">{{$t("Nav.agenda")}}</router-link>
+        <!--<router-link to="/agenda">{{$t("Nav.agenda")}}</router-link>-->
+        <a class="dropdown-trigger" data-target="dropdown4">{{$t("Nav.agenda")}}<i class="material-icons right">arrow_drop_down</i></a>
       </li>
-      <li>
+      <li @click="closeNav">
         <router-link to="/news">{{$t("Nav.news")}}</router-link>
       </li>
       <li class="t3" @click="closeNav">

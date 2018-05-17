@@ -279,10 +279,10 @@
         </p>
       </div>
 
-      <p style="font-weight: 700;font-size: x-large;margin-top: 20%"><b>————</b></p>
+      <p style="font-weight: 700;font-size: x-large;margin-top: 20%;margin-bottom: 0;padding-bottom: 3%"><b>————</b></p>
     </div>
   </div>
-    <div style="width: 80%;margin: auto">
+    <!--<div style="width: 80%;margin: auto">
       <span style="font-size: small;color: gray">{{$t("AboutUs.footer1")}}</span>
       <span style="font-size: small;color: gray;margin-left: 3%">{{$t("AboutUs.contact")}}</span>
       <span class="foot" style="margin-left: 10px">Attending us</span>
@@ -291,15 +291,27 @@
       <hr style="clear: both"/>
       <div style="vertical-align: bottom;overflow: hidden">
         <p style="font-size: small;color: gray;float: left;margin-bottom: 0"><span>Copyright &copy; 2018 SOSCON</span><span> {{$t("AboutUs.footer")}}</span></p>
-        <!--<i class="iconfont icon" style="margin-left: 10px">&#xe8d0;</i>
+        &lt;!&ndash;<i class="iconfont icon" style="margin-left: 10px">&#xe8d0;</i>
         <i class="iconfont icon" style="margin-left: 10px">&#xe660;</i>
-        <i class="iconfont icon">&#xe8db;</i>-->
+        <i class="iconfont icon">&#xe8db;</i>&ndash;&gt;
         <a href="https://t.me/soscon"><img class="icon icon2" src="../../static/img/Flickr-B.png" alt="Flickr"/></a>
         <a><img class="icon icon2" src="../../static/img/Youtube-B.png" alt="Youtube"/></a>
         <a href="https://t.me/soscon"><img class="icon" src="../../static/img/Telegram-B.png" alt="Telegram"/></a>
       </div>
+    </div>-->
+    <div style="width: 100%;height: 135px;background-color:#282828;">
+      <div style="width:80%;height:100%;left:0;right:0;margin:0 auto;padding-top: 3vw">
+        <!--<span style="height:100%;display:inline-block;vertical-align:middle;margin-left: 8%"></span>-->
+        <a :href="['https://openingsource.org']"><img style="vertical-align:middle;margin-left: 1%;height:35px;" src="../../static/img/openingsource-W(1).png"/></a>
+        <a :href="['https://t.me/soscon']"><img style="vertical-align:middle;margin-left: 1%;width: 35px;" src="../../static/img/Telegram-W.png"/></a>
+        <img style="vertical-align:middle;margin-left: 1%;width: 35px;" src="../../static/img/Youtube-W.png"/>
+        <img style="vertical-align:middle;margin-left: 1%;width: 35px;" src="../../static/img/Flickr-W.png"/>
+        <img style="vertical-align:middle;margin-left: 1%;width: 35px;" src="../../static/img/Youtube-W.png"/>
+        <img style="vertical-align:middle;margin-left: 1%;width: 35px;" src="../../static/img/Flickr-W.png"/>
+        <span style="color: #5f5f5f;float: right">畅想未来，拥抱开源。  Copyright© SOSCON 学生开源年会 2018</span>
+        <div style="clear: both"></div>
+      </div>
     </div>
-
 
   </div>
 
