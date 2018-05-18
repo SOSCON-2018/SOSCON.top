@@ -346,8 +346,10 @@
             }
           },
           open2() {
-            $('.modal').modal();
-            $('#modal2').modal('open');
+            swal({
+              text:'志愿者报名已结束',
+              type:'info',
+            })
           },
           open3() {
             $('.modal').modal();

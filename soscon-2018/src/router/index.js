@@ -7,7 +7,7 @@ import apply from '@/components/apply'
 import community from '@/components/community'
 import agenda from '@/components/agenda'
 import news from '@/components/news'
-import climbing from '@/components/climbing'
+import Article from '@/components/Article'
 Vue.use(Router)
 
 export default new Router({
@@ -69,13 +69,9 @@ export default new Router({
       }
     },
     {
-      path:'/news/climbing',
-      name:'/news/climbing',
-      component:climbing,
-      meta:{
-        Num:1
-      }
-    },
+      path:'/article/:id',
+      component:Article
+    }
   ]
 })
 
