@@ -677,3 +677,20 @@ figure + figure {
   position: absolute;
   bottom: 1vh;
 }
+
+.iconstyle {
+  vertical-align: middle;
+  margin-left: 1%;
+  width: 35px;
+}
+
+.iconstyleA {
+  vertical-align: middle;
+  margin-left: 1%;
+  height: 35px;
+}
+
+.bottomwords {
+  color: #5f5f5f;
+  float: right
+}
