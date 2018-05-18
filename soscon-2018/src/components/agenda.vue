@@ -5,7 +5,7 @@
         <li class="tab"><a class="active" href="#test1">{{$t("Agenda.main")}}</a></li>
         <li class="tab"><a href="#test2">{{$t("Agenda.other1")}}</a></li>
         <li class="tab"><a href="#test3">{{$t("Agenda.other2")}}</a></li>
-        <li class="tab"><a href="#test4">{{$t("Agenda.other3")}}</a></li>
+        <!--<li class="tab"><a href="#test4">{{$t("Agenda.other3")}}</a></li>-->
         <li class="tab"><a href="#test0">{{$t("Agenda.other4")}}</a></li>
       </ul>
       <div id="test1" class="col s12" style="height: 520px;overflow: auto;width: 100%;">

@@ -174,12 +174,51 @@
         </form>
 
         <div class="modal-footer">
+          <div style="float: left;color: lightgray" @click="openFindPassword">忘记密码</div>
           <button class="btn waves-effect waves-light" @click="open">{{$t("Nav.register")}}
           </button>
           <button class="btn waves-effect waves-light" @click="subLogin">{{$t("Nav.login")}}
           </button>
         </div>
 
+      </div>
+    </div>
+
+    <div id="modalFindPassword" class="modal">
+      <div class="modal-content">
+        <p class="allH4">修改密码</p>
+        <form id="changePassword">
+          <div class="row">
+            <div class="input-field col s12">
+              <i class="material-icons prefix">email</i>
+              <input id="email2" type="email" class="validate" name="email" v-model="checkEmail">
+              <label for="email2">{{$t("Nav.email")}}</label>
+            </div>
+            <div class="input-field col s12">
+              <i class="material-icons prefix">vpn_key</i>
+              <input id="password3" type="password" class="validate" name="pwd1">
+              <label for="password3">{{$t("Nav.password")}}</label>
+            </div>
+            <div class="input-field col s12">
+              <i class="material-icons prefix">vpn_key</i>
+              <input id="password4" type="password" class="validate" name="pwd2">
+              <label for="password4">{{$t("Nav.password2")}}</label>
+            </div>
+            <div class="input-field col s7">
+              <i class="material-icons prefix">lock</i>
+              <input id="changeCheck"  type="text" class="validate" name="changeCheck">
+              <label for="changeCheck">验证码</label>
+            </div>
+            <div class="input-field col s5" >
+              <a v-if="!haveSend" class="btn waves-effect waves-light" @click="sendCheck">获取验证码</a>
+              <button v-else class="btn waves-effect waves-light" disabled="disabled">已发送</button>
+            </div>
+            </div>
+        </form>
+        <div class="modal-footer">
+          <button class="btn waves-effect waves-light" @click="subChangePassword">提交
+          </button>
+        </div>
       </div>
     </div>
 
@@ -194,6 +233,13 @@
   export default {
     name: "nav",
     props: ['name'],
+    data(){
+      return{
+        checkEmail:'',
+        haveSend:false
+      }
+    },
+
     methods: {
 
       open1() {
@@ -206,7 +252,10 @@
       closeNav() {
         $('.sidenav').sidenav('close');
       },
-
+      openFindPassword(){
+        $('.modal').modal();
+        $('#modalFindPassword').modal('open');
+      },
       subLogin() {
         var that = this
         $.ajax({
@@ -323,6 +372,55 @@
                 window.location.reload()
               }
             })
+          }
+        })
+      },
+      sendCheck(){
+        var that = this
+        $.ajax({
+          method: 'post',
+          url: '/account/sendChangePassword',
+          data: {'email':that.checkEmail},
+          success:function (res) {
+            if(res.result === false){
+              swal({
+                text: '邮箱不存在',
+                type: 'error',
+              })
+            }
+            else{
+              that.haveSend = true;
+              $.ajax({
+                url: '/account/sendChangeEmail/' + that.checkEmail,
+              })
+            }
+          },
+        })
+      },
+      subChangePassword(){
+        var that = this
+        $.ajax({
+          method: 'post',
+          url: '/account/ChangePassword',
+          data: $('#changePassword').serialize(),
+          success:function (res) {
+            if(res.result===false){
+              if (res.type === 1) {
+                swal({text: "邮箱错误", type: 'error'})
+              }
+              else if(res.type === 2) {
+                swal({text: '两次输入密码不同', type: 'error'})
+              }
+              else{
+                swal({text: '验证码错误', type: 'error'})
+              }
+            }
+            else {
+              swal({text: '修改成功', type: 'success'})
+              setTimeout(function () {
+                window.location.reload()
+              },2000)
+            }
           }
         })
       },
