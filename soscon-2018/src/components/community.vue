@@ -133,7 +133,7 @@
                   <img src="../../static/img/xdosc.svg" style="height:150px">
                 </div>
                 <div class="card-action" style="background-color:#282828">
-                  <a href="https://www.xiyoulinux.org/#" style="color: white">西电开源社区</a>
+                  <a href="https://linux.xidian.edu.cn/" style="color: white">西电开源社区</a>
                 </div>
               </div>
             </div>
@@ -227,12 +227,11 @@
 
           <div class="col s12 m4 l2" style="margin-top:7%">
             <div class="card" style="width: 170px;height:170px;">
-              <div class="card-image" style="height: 150px;" >
-                <!--<img src="../../static/img/pku1.jpg" style="height:150px">-->
-                <img src="../../static/img/info.jpg" style="height:150px">
+              <div class="card-image" style="height: 150px;" >                
+                <img src="../../static/img/geekpie.jpg" style="height:150px">
               </div>
               <div class="card-action" style="background-color:#282828">
-                <a href="#" style="color: white;margin-left: -5%;margin-right: -15%;">上科开源社区</a>
+                <a href="#" style="color: white;margin-left: -5%;margin-right: -15%;">Geekpie</a>
               </div>
             </div>
           </div>
@@ -253,7 +252,7 @@
             <div class="card" style="width: 170px;height:170px;">
               <div class="card-image" style="height: 150px;" >
                 <!--<img src="../../static/img/pku1.jpg" style="height:150px">-->
-                <img src="../../static/img/info.jpg" style="height:150px">
+                <img src="../../static/img/shanghailug.jpg" style="height: 140px;width: 140px;position: relative;left:13px;top:10px;">
               </div>
               <div class="card-action" style="background-color:#282828">
                 <a href="#" style="color: white;margin-left: -5%;margin-right: -15%;">上海大学开源协会</a>
