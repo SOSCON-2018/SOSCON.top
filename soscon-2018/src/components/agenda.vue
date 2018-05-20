@@ -1,7 +1,7 @@
 <template>
   <div class="Background">
     <div class="workers">
-      <ul class="tabs tabs-fixed-width tab-demo z-depth-1" style="width:60%;position: relative;right: 20%;border-radius:20px;margin-top: 13%">
+      <ul class="tabs tabs-fixed-width tab-demo z-depth-1" style="width:100%;border-radius:20px;margin-top: 13%">
         <li class="tab"><a class="active" href="#test1">{{$t("Agenda.main")}}</a></li>
         <li class="tab"><a href="#test2">{{$t("Agenda.other1")}}</a></li>
         <li class="tab"><a href="#test3">{{$t("Agenda.other2")}}</a></li>
