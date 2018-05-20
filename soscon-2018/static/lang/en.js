@@ -186,9 +186,10 @@ module.exports={
   Agenda:{
    /* title1:'conference agenda',*/
     process1:'Open source debate',
-    process2:'BUGHUNT (and start lightning speech registration)',
-    process3:'Lightning speech (Location: Sub-meeting venue)',
-    process4:'Open source debate',
+    process2:'lightning speech registration',
+    process3:'BUGHUNT',
+    process4:'Lightning speech',
+    process5:'Open source debate',
     /*process5:'Lecture 1',
     process6:'Lecture 2',
     process7:'Lecture 3',

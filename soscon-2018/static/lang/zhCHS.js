@@ -188,9 +188,10 @@ module.exports={
   Agenda:{
     /*title1:'会议议程',*/
     process1:'开源辩论会',
-    process2:'BUGHUNT(并开始闪电演讲报名)',
-    process3:'闪电演讲(地点:分会场)',
-    process4:'开源辩论会',
+    process2:'闪电演讲报名',
+    process3:'BUGHUNT',
+    process4:'闪电演讲',
+    process5:'开源辩论会',
     /*process5:'演讲1',
     process6:'演讲2',
     process7:'演讲3',

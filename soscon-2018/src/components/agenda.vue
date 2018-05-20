@@ -14,16 +14,20 @@
           <span class="process">{{$t("Agenda.process1")}}</span>
         </div>
         <div class="AgendaProcess colorA">
-          <span class="time">14:30-14:50</span>
+          <span class="time">14:30-14:35</span>
           <span class="process">{{$t("Agenda.process2")}}</span>
         </div>
         <div class="AgendaProcess colorB">
-          <span class="time">14:30-14:50</span>
+          <span class="time">14:30-15:00</span>
           <span class="process">{{$t("Agenda.process3")}}</span>
         </div>
         <div class="AgendaProcess colorC">
-          <span class="time">14:50-15:20</span>
+          <span class="time">14:35-15:00</span>
           <span class="process">{{$t("Agenda.process4")}}</span>
+        </div>
+        <div class="AgendaProcess colorF">
+          <span class="time">15:05-15:30</span>
+          <span class="process">{{$t("Agenda.process5")}}</span>
         </div>
         <div class="AgendaProcess colorD">
           <span class="time">15:30-16:50</span>

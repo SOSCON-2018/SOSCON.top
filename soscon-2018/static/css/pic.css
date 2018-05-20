@@ -587,7 +587,9 @@ figure + figure {
 .colorE {
   background-color: lightsalmon
 }
-
+.colorF{
+  background-color: #4fc8f4;
+}
 .agendaBox {
   height: 520px;
   overflow: auto;

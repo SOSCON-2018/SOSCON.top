@@ -188,9 +188,10 @@ module.exports={
   Agenda:{
     /*title1:'會議議程',*/
     process1:'開源辯論會',
-    process2:'BUGHUNT(並開始閃電演講報名)',
-    process3:'閃電演講(地點:分會場)',
-    process4:'開源辯論會',
+    process2:'閃電演講報名',
+    process3:'BUGHUNT',
+    process4:'閃電演講',
+    process5:'開源辯論會',
     /*process5:'演講1',
     process6:'演講2',
     process7:'演講3',
