@@ -73,7 +73,7 @@ module.exports={
     volunteer3:'We need the support of the community\'s friends.',
     volunteer4:'Participating in the conference as a volunteer will definitely bring you a meaningful event experience.',
     volunteer5:'Sign up to become a volunteer',
-    ticket1:'Get Tickets',
+    ticket1:'Get Student Ticket ',
     ticket2:'The ticketing system of SOSCON has been open now.',
     ticket3:'Here, you can feel the charm of technology.',
    ticket4: ' To make friends with similar mindset people. ',
@@ -81,7 +81,7 @@ module.exports={
     // ' Then click to get a ticket \n' +
     ' Join us as the first pioneers to witness a great event of the year',
 
-    ticket6: ' Get tickets now ',
+    ticket6: ' Get Student Ticket  now ',
    modal1: ' Ticket distribution ',
    modal2: ' Personal information must be filled out accurately, supplies be distributed t according to personal information to in the meeting',
    modal3:' Email us if you have any questions (email: soscon@openingsource.org) ',
