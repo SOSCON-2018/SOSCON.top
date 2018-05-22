@@ -60,10 +60,10 @@
             <div class="col s12 m6 l3" style="margin-top: 3%">
               <div class="card" style="width: 225px;height: 256px;">
                 <div class="card-image" style="height: 220px;" >
-                  <img src="../../static/img/xdlug.jpg" >
+                  <img src="../../static/img/xinanxiehui.png" style="width: 180px;position: relative;left:18px;top:8px">
                 </div>
                 <div class="card-action" style="background-color:#282828">
-                  <a href="http://www.pkuosa.org/" style="color: white">西大开源协会</a>
+                  <a href="https://swuosa.org/" style="color: white">西大开源协会</a>
                 </div>
               </div>
             </div>
