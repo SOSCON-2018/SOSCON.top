@@ -227,7 +227,7 @@
 
           <div class="col s12 m4 l2" style="margin-top:7%">
             <div class="card" style="width: 170px;height:170px;">
-              <div class="card-image" style="height: 150px;" >                
+              <div class="card-image" style="height: 150px;" >
                 <img src="../../static/img/geekpie.jpg" style="height:150px">
               </div>
               <div class="card-action" style="background-color:#282828">
@@ -240,7 +240,7 @@
             <div class="card" style="width: 170px;height:170px;">
               <div class="card-image" style="height: 150px;" >
                 <!--<img src="../../static/img/pku1.jpg" style="height:150px">-->
-                <img src="../../static/img/info.jpg" style="height:150px">
+                <img src="../../static/img/beiyou.svg" style="height:150px">
               </div>
               <div class="card-action" style="background-color:#282828">
                 <a href="#" style="color: white;margin-left: -5%;margin-right: -15%;">北邮开源协会</a>
