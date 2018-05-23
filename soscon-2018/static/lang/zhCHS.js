@@ -212,6 +212,7 @@ module.exports= {
   },
   Agenda10: {
     process1: '入场',
+    process0:'开幕式',
     process2: '主持人讲话，贝贝开场演讲',
     process3: '熊院长演讲',
     process4: 'Keynote演讲-倪梦楠',

@@ -212,6 +212,7 @@ module.exports={
   },
   Agenda10:{
   process1:'入場',
+    process0:'開幕式',
     process2:'主持人講話，貝貝開場演講',
     process3:'熊院長演講',
     process4:'Keynote演講-倪夢楠',
