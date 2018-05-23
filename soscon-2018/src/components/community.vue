@@ -243,7 +243,7 @@
                 <img src="../../static/img/beiyou.svg" style="height:150px">
               </div>
               <div class="card-action" style="background-color:#282828">
-                <a href="#" style="color: white;margin-left: -5%;margin-right: -15%;">北邮开源协会</a>
+                <a href="#" style="color: white;margin-left: -35%;margin-right: 2%;position: relative;left:22px;">北邮互联网与开源社区</a>
               </div>
             </div>
           </div>
@@ -251,7 +251,7 @@
           <div class="col s12 m4 l2" style="margin-top:7%">
             <div class="card" style="width: 170px;height:170px;">
               <div class="card-image" style="height: 150px;" >
-                <!--<img src="../../static/img/pku1.jpg" style="height:150px">-->
+                
                 <img src="../../static/img/shanghailug.jpg" style="height: 140px;width: 140px;position: relative;left:13px;top:10px;">
               </div>
               <div class="card-action" style="background-color:#282828">
