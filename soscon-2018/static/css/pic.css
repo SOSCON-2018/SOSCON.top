@@ -587,9 +587,11 @@ figure + figure {
 .colorE {
   background-color: lightsalmon
 }
-.colorF{
+
+.colorF {
   background-color: #4fc8f4;
 }
+
 .agendaBox {
   height: 520px;
   overflow: auto;
@@ -698,14 +700,20 @@ figure + figure {
   color: #5f5f5f;
   float: right
 }
-.post-image img{
+
+.post-image img {
   margin: auto;
   display: block;
 }
 
-.newsBackground{
+.newsBackground {
   background-image: url('../img/pic5.jpg');
   background-size: cover;
   height: auto !important;
   background-attachment: fixed
+}
+
+.processes {
+  width: 100%;
+  margin-top: 40px;
 }

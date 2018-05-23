@@ -8,6 +8,7 @@ import community from '@/components/community'
 import agenda from '@/components/agenda'
 import news from '@/components/news'
 import Article from '@/components/Article'
+import agenda10 from '@/components/agenda10'
 Vue.use(Router)
 
 export default new Router({
@@ -71,7 +72,15 @@ export default new Router({
     {
       path:'/article/:id',
       component:Article
-    }
+    },
+    {
+      path:'/agenda10',
+      name:'/agenda10',
+      component:agenda10,
+      meta:{
+        Num:1
+      }
+    },
   ]
 })
 

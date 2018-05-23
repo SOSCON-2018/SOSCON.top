@@ -19,7 +19,7 @@
       </li>
       <li>
         <!--<a @click="">分会场A</a>-->
-        <router-link to="/">6月10日议程</router-link>
+        <router-link to="/agenda10">6月10日议程</router-link>
       </li>
       <!--<li class="divider"></li>-->
     </ul>
@@ -80,7 +80,7 @@
       </li>
       <li @click="closeNav">
         <!--<a @click="">分会场A</a>-->
-        <router-link to="/">{{$t("Nav.agenda2")}}</router-link>
+        <router-link to="/agenda10">{{$t("Nav.agenda2")}}</router-link>
       </li>
     </ul>
     <ul class="sidenav" id="mobile-demo">
