@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div style="background-image: url('../../static/img/Background-3.jpg');height: auto!important;background-size: cover;background-attachment: fixed">
+    <div style="background-image: url('../../static/img/Background-3.jpg');height: auto;background-size: cover;background-attachment: fixed">
       <!--<img src="../../static/img/Background-3.jpg" :style="{height:h1}" style="width: 100%;position: fixed;" ></img>-->
       <div style="width: 80%;margin: 0 auto;">
         <div>
@@ -91,7 +91,7 @@
           </div>
 
           </div>
-          <!--</p>-->
+          </p>
         </div>
 
         <div>
@@ -228,6 +228,18 @@
           <div class="col s12 m4 l2" style="margin-top:7%">
             <div class="card" style="width: 170px;height:170px;">
               <div class="card-image" style="height: 150px;" >
+                <!--<img src="../../static/img/pku1.jpg" style="height:150px">-->
+                <img src="../../static/img/chongqingjiaotong.svg" style="height:150px">
+              </div>
+              <div class="card-action" style="background-color:#282828">
+                <a href="#"style="color: white;margin-left: -35%;margin-right: 2%;position: relative;left:25px;font-size: 13px"">重庆交通大学人工智能协会</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m4 l2" style="margin-top:7%">
+            <div class="card" style="width: 170px;height:170px;">
+              <div class="card-image" style="height: 150px;" >
                 <img src="../../static/img/geekpie.jpg" style="height:150px">
               </div>
               <div class="card-action" style="background-color:#282828">
@@ -251,7 +263,7 @@
           <div class="col s12 m4 l2" style="margin-top:7%">
             <div class="card" style="width: 170px;height:170px;">
               <div class="card-image" style="height: 150px;" >
-                
+
                 <img src="../../static/img/shanghailug.jpg" style="height: 140px;width: 140px;position: relative;left:13px;top:10px;">
               </div>
               <div class="card-action" style="background-color:#282828">
@@ -274,7 +286,7 @@
 
 
           </div>
-          <!--</p>-->
+          </p>
         </div>
 
         <div>
@@ -322,7 +334,7 @@
             </div>
 
           </div>
-          <!--</p>-->
+          </p>
         </div>
 
         <p style="font-weight: 700;font-size: x-large;margin-top: 20%;margin-bottom: 0;padding-bottom: 3%"><b>————</b></p>
