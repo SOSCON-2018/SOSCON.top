@@ -496,6 +496,7 @@ figure + figure {
   background-color: white;
   font-weight: 700 !important;
   filter: opacity(.8);
+  overflow: auto;
 }
 
 .process {

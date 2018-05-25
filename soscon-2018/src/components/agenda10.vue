@@ -29,6 +29,7 @@
           </div>
           <div style="display: inline-block;width: 50%">
             <h4>{{$t("Agenda10.speach8")}}</h4>
+            <p>{{$t("Agenda10.speach30")}}</p>
             <p>{{$t("Agenda10.speach9")}}</p>
           </div>
         </div>
@@ -38,9 +39,11 @@
           <div style="display: inline-block;width: 50%">
             <h4>{{$t("Agenda10.speach10")}}</h4>
             <p>{{$t("Agenda10.speach11")}}</p>
+            <p>{{$t("Agenda10.speach31")}}</p>
           </div>
           <div style="display: inline-block;width: 50%">
             <h4>{{$t("Agenda10.speach12")}}</h4>
+            <p>{{$t("Agenda10.speach32")}}</p>
             <p>{{$t("Agenda10.speach13")}}</p>
           </div>
         </div>
@@ -49,6 +52,7 @@
         <div class="modal-content">
           <div style="display: inline-block;width: 50%">
             <h4>{{$t("Agenda10.speach14")}}</h4>
+            <p>{{$t("Agenda10.speach33")}}</p>
             <p>{{$t("Agenda10.speach15")}}</p>
           </div>
           <div style="display: inline-block;width: 50%">
@@ -59,15 +63,18 @@
       </div>
       <div id="modal12" class="modal">
         <div class="modal-content">
+          <div style="display: inline-block;width: 50%">
           <h4>{{$t("Agenda10.speach18")}}</h4>
           <p>{{$t("Agenda10.speach19")}}</p>
           <p>{{$t("Agenda10.speach20")}}</p>
+          </div>
         </div>
       </div>
       <div id="modal14" class="modal">
         <div class="modal-content">
           <div style="display: inline-block;width: 50%">
             <h4>{{$t("Agenda10.speach21")}}</h4>
+            <p>{{$t("Agenda10.speach34")}}</p>
             <p>{{$t("Agenda10.speach22")}}</p>
           </div>
           <div style="display: inline-block;width: 50%">
@@ -129,7 +136,7 @@
         <a class="waves-effect waves-light modal-trigger processes" @click="open6">
           <div class="AgendaProcess colorD">
             <span class="time">10:10-11:10</span>
-            <span class="process">{{$t("Agenda10.process9")}}</span>
+            <p class="process">{{$t("Agenda10.process9")}}<br/>{{$t("Agenda10.process21")}}</p>
           </div>
         </a>
         <a class="waves-effect waves-light modal-trigger processes">
@@ -141,7 +148,7 @@
         <a class="waves-effect waves-light modal-trigger processes" @click="open8">
           <div class="AgendaProcess blue">
             <span class="time">11:20-12:20</span>
-            <span class="process">{{$t("Agenda10.process6")}}</span>
+            <span class="process">{{$t("Agenda10.process6")}}<br/>{{$t("Agenda10.process22")}}</span>
           </div>
         </a>
         <a class="waves-effect waves-light modal-trigger processes">
@@ -153,7 +160,7 @@
         <a class="waves-effect waves-light modal-trigger processes" @click="open10">
           <div class="AgendaProcess colorB">
             <span class="time">13:20-14:20</span>
-            <span class="process">{{$t("Agenda10.process8")}}</span>
+            <span class="process">{{$t("Agenda10.process8")}}<br/>{{$t("Agenda10.process23")}}</span>
           </div>
         </a>
         <a class="waves-effect waves-light modal-trigger processes">
@@ -177,7 +184,7 @@
         <a class="waves-effect waves-light modal-trigger processes" @click="open14">
           <div class="AgendaProcess colorD">
             <span class="time">15:30-16:30</span>
-            <span class="process">{{$t("Agenda10.process14")}}</span>
+            <span class="process">{{$t("Agenda10.process14")}}<br/>{{$t("Agenda10.process24")}}</span>
           </div>
         </a>
         <a class="waves-effect waves-light modal-trigger processes" @click="open15">
@@ -314,19 +321,19 @@
       <div id="test0" class="col s12" style="height: 520px;overflow: auto;width: 100%;">
         <div class="colorF" style="filter: opacity(.8);font-weight: 700;margin-top: 0;padding-left: 2%">
           <h5 style="padding-top: 2%;margin-top: 0;">{{$t("Agenda10.act1")}}</h5>
-          <p>{{$t("Agenda10.act2")}}<br/>
+          <p><!--{{$t("Agenda10.act2")}}<br/>
             {<br/>
             {{$t("Agenda10.act3")}}<br/>
             {{$t("Agenda10.act4")}}<br/>
             }<br/>
-            <br/>
+            <br/>-->
             {{$t("Agenda10.act5")}}<br/>
             {<br/>
             {{$t("Agenda10.act6")}}<br/>
             {{$t("Agenda10.act7")}}<br/>
             }<br/>
             <br/>
-            {{$t("Agenda10.act8")}}<br/>
+            <!--{{$t("Agenda10.act8")}}<br/>
             {<br/>
             {{$t("Agenda10.act9")}}<br/>
             {{$t("Agenda10.act10")}}<br/>
@@ -336,7 +343,7 @@
             <br/>
             {{$t("Agenda10.act14")}}<br/>
             {{$t("Agenda10.act15")}}<br/>
-            }<br/>
+            }<br/>-->
         </p></div>
       </div>
     </div>
