@@ -491,7 +491,7 @@ figure + figure {
 
 .AgendaProcess {
   display: flex;
-  height: 80px;
+  height: 100px;
   color: black;
   background-color: white;
   font-weight: 700 !important;
