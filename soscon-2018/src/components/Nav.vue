@@ -438,7 +438,8 @@
         localStorage.lang='en'
         this.$i18n.locale='en'
         window.location.reload()
-      }
+      },
+
 
     },
 
@@ -446,7 +447,6 @@
   window.onload = function () {
     $(".dropdown-trigger").dropdown();
     $('.modal').modal();
-    $('.tabs').tabs();
   }
 </script>
 
