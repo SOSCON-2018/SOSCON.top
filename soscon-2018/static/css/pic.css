@@ -295,7 +295,15 @@
   font-size: small;
   color: gray;
 }
-
+.AgendaProcess {
+  display: flex;
+  height: 100px;
+  color: black;
+  background-color: white;
+  font-weight: 700 !important;
+  filter: opacity(.8);
+  overflow: auto;
+}
 @media only screen and (max-width: 1050px) {
   .applyContainer {
     height: 550px;
@@ -445,7 +453,15 @@
     background-size: contain;
     background-repeat: no-repeat;
   }
-
+  .AgendaProcess {
+    display: flex;
+    height: 180px;
+    color: black;
+    background-color: white;
+    font-weight: 700 !important;
+    filter: opacity(.8);
+    overflow: auto;
+  }
 }
 
 .workers {
@@ -489,15 +505,7 @@ figure + figure {
   font-weight: 700;
 }
 
-.AgendaProcess {
-  display: flex;
-  height: 100px;
-  color: black;
-  background-color: white;
-  font-weight: 700 !important;
-  filter: opacity(.8);
-  overflow: auto;
-}
+
 
 .process {
   align-self: center;
