@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="71043d2c-feb3-4cc6-803e-26d56659b1f3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soscon-2018/src/components/agenda.vue" beforeDir="false" afterPath="$PROJECT_DIR$/soscon-2018/src/components/agenda.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soscon-2018/src/components/agenda10.vue" beforeDir="false" afterPath="$PROJECT_DIR$/soscon-2018/src/components/agenda10.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soscon-2018/static/css/pic.css" beforeDir="false" afterPath="$PROJECT_DIR$/soscon-2018/static/css/pic.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soscon-2018/static/lang/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/soscon-2018/static/lang/en.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soscon-2018/static/lang/zhCHS.js" beforeDir="false" afterPath="$PROJECT_DIR$/soscon-2018/static/lang/zhCHS.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soscon-2018/static/lang/zhCHT.js" beforeDir="false" afterPath="$PROJECT_DIR$/soscon-2018/static/lang/zhCHT.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -54,8 +48,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/soscon-2018/src/router/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+            <state relative-caret-position="720">
+              <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -175,7 +169,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/soscon-2018/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="590" />
     <option name="width" value="1080" />
     <option name="height" value="1040" />
@@ -298,16 +292,15 @@
       <workItem from="1527504955945" duration="1956000" />
       <workItem from="1527515401773" duration="2884000" />
       <workItem from="1527571339199" duration="909000" />
-      <workItem from="1527583047119" duration="10703000" />
+      <workItem from="1527583047119" duration="11306000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78511000" />
+    <option name="totallyTimeSpent" value="79114000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17578125" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -641,8 +634,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/soscon-2018/src/router/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+        <state relative-caret-position="720">
+          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
