@@ -301,7 +301,7 @@
   color: black;
   background-color: white;
   font-weight: 700 !important;
-  filter: opacity(.8);
+  filter: opacity(.9);
   overflow: auto;
 }
 @media only screen and (max-width: 1050px) {
@@ -455,11 +455,11 @@
   }
   .AgendaProcess {
     display: flex;
-    height: 180px;
+    height: 130px;
     color: black;
     background-color: white;
     font-weight: 700 !important;
-    filter: opacity(.8);
+    filter: opacity(.9);
     overflow: auto;
   }
 }
@@ -578,23 +578,23 @@ figure + figure {
 }
 
 .colorA {
-  background-color: #5c6bc0;
+  background-color: #51dde8;
 }
 
 .colorB {
-  background-color: #00bfa5;
+  background-color: #5971ff;
 }
 
 .colorC {
-  background-color: #6d4c41;
+  background-color: #66ccff;
 }
 
 .colorD {
-  background-color: #EF5350;
+  background-color: #59ffdd;
 }
 
 .colorE {
-  background-color: lightsalmon
+  background-color: #518ee8;
 }
 
 .colorF {
@@ -725,4 +725,7 @@ figure + figure {
 .processes {
   width: 100%;
   margin-top: 40px;
+}
+.headpic{
+  width: 40%;
 }
