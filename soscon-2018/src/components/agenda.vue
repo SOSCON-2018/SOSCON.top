@@ -3,37 +3,37 @@
     <div class="workers">
       <ul class="tabs tabs-fixed-width tab-demo z-depth-1" style="width:100%;border-radius:20px;margin-top: 13%">
         <li class="tab"><a class="active" href="#test1">{{$t("Agenda.main")}}</a></li>
-        <li class="tab"><a href="#test2">{{$t("Agenda.other1")}}</a></li>
+        <!--<li class="tab"><a href="#test2">{{$t("Agenda.other1")}}</a></li>
         <li class="tab"><a href="#test3">{{$t("Agenda.other2")}}</a></li>
-        <!--<li class="tab"><a href="#test4">{{$t("Agenda.other3")}}</a></li>-->
-        <li class="tab"><a href="#test0">{{$t("Agenda.other4")}}</a></li>
+        &lt;!&ndash;<li class="tab"><a href="#test4">{{$t("Agenda.other3")}}</a></li>&ndash;&gt;
+        <li class="tab"><a href="#test0">{{$t("Agenda.other4")}}</a></li>-->
       </ul>
       <div id="test1" class="col s12" style="height: 520px;overflow: auto;width: 100%;">
-        <div class="AgendaProcess blue">
+        <div class="AgendaProcess colorA">
           <span class="time">14:00-14:30</span>
           <span class="process">{{$t("Agenda.process1")}}</span>
         </div>
-        <div class="AgendaProcess colorA">
+        <div class="AgendaProcess colorB">
           <span class="time">14:30-14:35</span>
           <span class="process">{{$t("Agenda.process2")}}</span>
         </div>
-        <div class="AgendaProcess colorB">
+        <div class="AgendaProcess colorC">
           <span class="time">14:30-15:00</span>
           <span class="process">{{$t("Agenda.process3")}}</span>
         </div>
-        <div class="AgendaProcess colorC">
+        <div class="AgendaProcess colorD">
           <span class="time">14:35-15:00</span>
           <span class="process">{{$t("Agenda.process4")}}</span>
         </div>
-        <div class="AgendaProcess colorF">
+        <div class="AgendaProcess colorE">
           <span class="time">15:05-15:30</span>
           <span class="process">{{$t("Agenda.process5")}}</span>
         </div>
-        <div class="AgendaProcess colorD">
+        <div class="AgendaProcess colorA">
           <span class="time">15:30-16:50</span>
           <span class="process">{{$t("Agenda.process9")}}</span>
         </div>
-        <div class="AgendaProcess colorE">
+        <div class="AgendaProcess colorB">
           <span class="time">15:30-16:50</span>
           <span class="process">{{$t("Agenda.process10")}}</span>
         </div>
