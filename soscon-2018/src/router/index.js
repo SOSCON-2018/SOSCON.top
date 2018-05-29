@@ -7,8 +7,9 @@ import apply from '@/components/apply'
 import community from '@/components/community'
 import agenda from '@/components/agenda'
 import news from '@/components/news'
-import Article from '@/components/Article'
-import agenda10 from '@/components/agenda10'
+import thanks from '@/components/thanks'
+import individual_sponser from '@/components/individual_sponser'
+
 Vue.use(Router)
 
 export default new Router({
@@ -46,9 +47,25 @@ export default new Router({
       }
     },
     {
+      path: '/individual_sponser',
+      name: '/individual_sponser',
+      component:individual_sponser,
+      meta:{
+        Num:1
+      }
+    },
+    {
       path: '/community',
       name: '/community',
       component:community,
+      meta:{
+        Num:1
+      }
+    },
+    {
+      path: '/thanks',
+      name: '/thanks',
+      component:thanks,
       meta:{
         Num:1
       }
@@ -65,18 +82,6 @@ export default new Router({
       path:'/news',
       name:'/news',
       component:news,
-      meta:{
-        Num:1
-      }
-    },
-    {
-      path:'/article/:id',
-      component:Article
-    },
-    {
-      path:'/agenda10',
-      name:'/agenda10',
-      component:agenda10,
       meta:{
         Num:1
       }
