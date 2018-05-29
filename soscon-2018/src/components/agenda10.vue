@@ -90,8 +90,8 @@
           <!--<div style="display: inline-block;width: 50%">-->
           <img src="../../static/img/headPortrait.jpg" class="headpic" align="right" hspace="5" vspace="5">
           <h4>{{$t("Agenda10.speach16")}}</h4>
-          <p>{{$t("Agenda10.speach9")}}</p>
-          <p>{{$t("Agenda10.speach10")}}</p>
+          <p>{{$t("Agenda10.speakers9")}}</p>
+          <p>{{$t("Agenda10.speakers10")}}</p>
           <p>{{$t("Agenda10.speach17")}}</p>
           <p>{{$t("Agenda10.extra1")}}</p>
           <!--</div>
