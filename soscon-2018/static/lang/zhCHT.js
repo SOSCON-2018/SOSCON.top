@@ -226,7 +226,7 @@ module.exports={
     process8: '中科大-何紀言：Cunik: Container & Unikernel',
     process23:'安同社區-未定：分享社區經驗，具體未定',
     process11:'休息',
-    process12:'中科大王子博:光柵裸眼3d',
+    process12:'中科大-王子博:光柵裸眼3d',
     process13:'下午茶',
     process14: '湖州師範學院-諸嶽峯：開源工作經驗',
     process24:'中科大-陳魯同+王皓：BIOEDITOR',
