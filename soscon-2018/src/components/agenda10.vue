@@ -151,7 +151,7 @@
         </div>
       </div>
       <div id="test1" class="col s12" style="height: 520px;overflow: auto;width: 100%;">
-        <a class="waves-effect waves-light modal-trigger processes">
+        <a class="waves-effect waves-light modal-trigger processstyle">
           <div class="AgendaProcess colorA">
             <span class="time">7:50-8:30</span>
             <span class="process">{{$t("Agenda10.process1")}}</span>
