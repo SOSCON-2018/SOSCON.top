@@ -9,6 +9,7 @@ import agenda from '@/components/agenda'
 import agenda10 from '@/components/agenda10'
 import news from '@/components/news'
 import individual_sponser from '@/components/individual_sponser'
+import article from '@/components/Article'
 
 Vue.use(Router)
 
@@ -86,6 +87,10 @@ export default new Router({
         Num:1
       }
     },
+    {
+      path:'/article/:id',
+      component:article
+    }
   ]
 })
 

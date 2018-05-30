@@ -23,7 +23,7 @@
       <div id="modal5" class="modal">
         <div class="modal-content">
           <!--<div style="display: inline-block;width: 50%">-->
-          <img src="../../static/img/4：张宇翔.jpg" class="headpic" align="right" hspace="5" vspace="5">
+          <img src="../../static/img/speaker4.jpg" class="headpic" align="right" hspace="5" vspace="5">
           <h4>{{$t("Agenda10.speach5")}}</h4>
           <p>{{$t("Agenda10.speach6")}}</p>
           <p>{{$t("Agenda10.speakers1")}}</p>
@@ -37,7 +37,7 @@
       <div id="modal6" class="modal">
         <div class="modal-content">
           <!--<div style="display: inline-block;width: 50%">-->
-          <img src="../../static/img/1：姜柏任.png" class="headpic" align="right" hspace="5" vspace="5">
+          <img src="../../static/img/speaker1.png" class="headpic" align="right" hspace="5" vspace="5">
           <h4>{{$t("Agenda10.speach8")}}</h4>
           <p>{{$t("Agenda10.speach30")}}</p>
           <p>{{$t("Agenda10.speakers2")}}</p>
@@ -50,7 +50,7 @@
       <div id="modal7" class="modal">
         <div class="modal-content">
           <!--<div style="display: inline-block;width: 50%">-->
-          <img src="../../static/img/5：高雨彤.png" class="headpic" align="right" hspace="5" vspace="5">
+          <img src="../../static/img/speaker5.png" class="headpic" align="right" hspace="5" vspace="5">
           <h4>{{$t("Agenda10.speach12")}}</h4>
           <p>{{$t("Agenda10.speach32")}}</p>
           <p>{{$t("Agenda10.speach13")}}</p>
@@ -62,7 +62,7 @@
       <div id="modal8" class="modal">
         <div class="modal-content">
           <!--<div style="display: inline-block;width: 50%">-->
-          <img src="../../static/img/7：聂沫予.jpg" class="headpic" align="right" hspace="5" vspace="5">
+          <img src="../../static/img/speaker7.jpg" class="headpic" align="right" hspace="5" vspace="5">
           <h4>{{$t("Agenda10.speach10")}}</h4>
           <p>{{$t("Agenda10.speach11")}}</p>
           <p>{{$t("Agenda10.speakers3")}}</p>
@@ -75,7 +75,7 @@
       <div id="modal9" class="modal">
         <div class="modal-content">
           <!--<div style="display: inline-block;width: 50%">-->
-          <img src="../../static/img/2：何纪言.jpg" class="headpic" align="right" hspace="5" vspace="5">
+          <img src="../../static/img/speaker2.jpg" class="headpic" align="right" hspace="5" vspace="5">
           <h4>{{$t("Agenda10.speach14")}}</h4>
           <p>{{$t("Agenda10.speach33")}}</p>
           <p>{{$t("Agenda10.speakers4")}}</p>
@@ -101,7 +101,7 @@
       <div id="modal12" class="modal">
         <div class="modal-content">
           <!-- <div style="display: inline-block;width: 50%">-->
-          <img src="../../static/img/3：王子博.jpg" class="headpic" align="right" hspace="5" vspace="5">
+          <img src="../../static/img/speaker3.jpg" class="headpic" align="right" hspace="5" vspace="5">
           <h4>{{$t("Agenda10.speach18")}}</h4>
           <p>{{$t("Agenda10.speach19")}}</p>
           <p>{{$t("Agenda10.speakers5")}}</p>
@@ -485,8 +485,11 @@
         $('.modal').modal();
         $('#modal17').modal('open');
       },
-
+    },
+    mounted:function(){
+      $('.tabs').tabs();
     }
+
   }
 </script>
 
