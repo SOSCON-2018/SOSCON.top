@@ -23,7 +23,7 @@
       <div id="modal5" class="modal">
         <div class="modal-content">
           <!--<div style="display: inline-block;width: 50%">-->
-          <img src="../../static/img/4：张宇翔.jpg" class="headpic" align="right" hspace="5" vspace="5">
+          <img src="../../static/img/4.speaker4.jpg" class="headpic" align="right" hspace="5" vspace="5">
           <h4>{{$t("Agenda10.speach5")}}</h4>
           <p>{{$t("Agenda10.speach6")}}</p>
           <p>{{$t("Agenda10.speakers1")}}</p>
@@ -37,7 +37,7 @@
       <div id="modal6" class="modal">
         <div class="modal-content">
           <!--<div style="display: inline-block;width: 50%">-->
-          <img src="../../static/img/1：姜柏任.png" class="headpic" align="right" hspace="5" vspace="5">
+          <img src="../../static/img/1.speaker1.png" class="headpic" align="right" hspace="5" vspace="5">
           <h4>{{$t("Agenda10.speach8")}}</h4>
           <p>{{$t("Agenda10.speach30")}}</p>
           <p>{{$t("Agenda10.speakers2")}}</p>
@@ -50,7 +50,7 @@
       <div id="modal7" class="modal">
         <div class="modal-content">
           <!--<div style="display: inline-block;width: 50%">-->
-          <img src="../../static/img/headPortrait.jpg" class="headpic" align="right" hspace="5" vspace="5">
+          <img src="../../static/img/5.speaker5.png" class="headpic" align="right" hspace="5" vspace="5">
           <h4>{{$t("Agenda10.speach12")}}</h4>
           <p>{{$t("Agenda10.speach32")}}</p>
           <p>{{$t("Agenda10.speakers11")}}</p>
@@ -63,7 +63,7 @@
       <div id="modal8" class="modal">
         <div class="modal-content">
           <!--<div style="display: inline-block;width: 50%">-->
-          <img src="../../static/img/7：聂沫予.jpg" class="headpic" align="right" hspace="5" vspace="5">
+          <img src="../../static/img/7.speaker7.jpg" class="headpic" align="right" hspace="5" vspace="5">
           <h4>{{$t("Agenda10.speach10")}}</h4>
           <p>{{$t("Agenda10.speach11")}}</p>
           <p>{{$t("Agenda10.speakers3")}}</p>
@@ -76,7 +76,7 @@
       <div id="modal9" class="modal">
         <div class="modal-content">
           <!--<div style="display: inline-block;width: 50%">-->
-          <img src="../../static/img/2：何纪言.jpg" class="headpic" align="right" hspace="5" vspace="5">
+          <img src="../../static/img/2.speaker2.jpg" class="headpic" align="right" hspace="5" vspace="5">
           <h4>{{$t("Agenda10.speach14")}}</h4>
           <p>{{$t("Agenda10.speach33")}}</p>
           <p>{{$t("Agenda10.speakers4")}}</p>
@@ -102,7 +102,7 @@
       <div id="modal12" class="modal">
         <div class="modal-content">
           <!-- <div style="display: inline-block;width: 50%">-->
-          <img src="../../static/img/3：王子博.jpg" class="headpic" align="right" hspace="5" vspace="5">
+          <img src="../../static/img/3.speaker3.jpg" class="headpic" align="right" hspace="5" vspace="5">
           <h4>{{$t("Agenda10.speach18")}}</h4>
           <p>{{$t("Agenda10.speach19")}}</p>
           <p>{{$t("Agenda10.speakers5")}}</p>
@@ -115,7 +115,7 @@
       <div id="modal13" class="modal">
         <div class="modal-content">
           <!--<div style="display: inline-block;width: 50%">-->
-          <img src="../../static/img/headPortrait.jpg" class="headpic" align="right" hspace="5" vspace="5">
+          <img src="../../static/img/6.speaker6.jpg" class="headpic" align="right" hspace="5" vspace="5">
           <h4>{{$t("Agenda10.speach21")}}</h4>
           <p>{{$t("Agenda10.speach34")}}</p>
           <p>{{$t("Agenda10.speakers6")}}</p>
@@ -149,6 +149,28 @@
         <div class="modal-content">
           <h4>{{$t("Agenda10.speach28")}}</h4>
           <p>{{$t("Agenda10.speach29")}}</p>
+        </div>
+      </div>
+      <div id="modal18" class="modal">
+        <div class="modal-content">
+          <h4>{{$t("Agenda10.speach35")}}</h4>
+          <p>{{$t("Agenda10.speach36")}}</p>
+          <br/>
+          <span>{{$t("Agenda10.speach37")}}</span><br/>
+          <span>{{$t("Agenda10.speach38")}}</span><br/>
+          <span>{{$t("Agenda10.speach39")}}</span><br/>
+          <span>{{$t("Agenda10.speach40")}}</span><br/>
+          <span>{{$t("Agenda10.speach41")}}</span>
+          <br/>
+          <br/>
+          <span>{{$t("Agenda10.speach42")}}</span><br/>
+          <span>{{$t("Agenda10.speach43")}}</span><br/>
+          <span>{{$t("Agenda10.speach44")}}</span><br/>
+          <span>{{$t("Agenda10.speach45")}}</span><br/>
+          <span>{{$t("Agenda10.speach46")}}</span><br/>
+          <span>{{$t("Agenda10.speach47")}}</span><br/>
+          <span>{{$t("Agenda10.speach48")}}</span><br/>
+
         </div>
       </div>
       <div id="test1" class="col s12" style="height: 520px;overflow: auto;width: 100%;">
@@ -292,7 +314,7 @@
         </a>
       </div>
       <div id="test2" class="col s12" style="height: 520px;overflow: auto;width: 100%;">
-        <a class="waves-effect waves-light modal-trigger" style="width: 100%">
+        <a class="waves-effect waves-light modal-trigger" style="width: 100%" @click="open18">
           <div class="AgendaProcess colorA">
             <span class="time">13:00-17:30</span>
             <span class="process">{{$t("Agenda10.process19")}}</span>
@@ -395,10 +417,9 @@
             }<br/>
             <br/>-->
             {{$t("Agenda10.act5")}}<br/>
-            {<br/>
+            <br/>
             {{$t("Agenda10.act6")}}<br/>
-            {{$t("Agenda10.act7")}}<br/>
-            }<br/>
+            <br/>
             <br/>
             <!--{{$t("Agenda10.act8")}}<br/>
             {<br/>
@@ -485,6 +506,10 @@
       open17() {
         $('.modal').modal();
         $('#modal17').modal('open');
+      },
+      open18() {
+        $('.modal').modal();
+        $('#modal18').modal('open');
       },
     },
     mounted:function(){
