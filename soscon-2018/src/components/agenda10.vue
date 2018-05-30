@@ -138,12 +138,12 @@
           <img style="width: 30%;vertical-align: top;margin-left: 10%" src="../../static/img/headPortrait.jpg">-->
         </div>
       </div>
-      <div id="modal15" class="modal">
+      <!--<div id="modal15" class="modal">
         <div class="modal-content">
           <h4>{{$t("Agenda10.speach26")}}</h4>
           <p>{{$t("Agenda10.speach27")}}</p>
         </div>
-      </div>
+      </div>-->
       <div id="modal17" class="modal">
         <div class="modal-content">
           <h4>{{$t("Agenda10.speach28")}}</h4>
