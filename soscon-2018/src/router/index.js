@@ -6,9 +6,10 @@ import aboutUs from '@/components/aboutUs'
 import apply from '@/components/apply'
 import community from '@/components/community'
 import agenda from '@/components/agenda'
+import agenda10 from '@/components/agenda10'
 import news from '@/components/news'
-import thanks from '@/components/thanks'
 import individual_sponser from '@/components/individual_sponser'
+import article from '@/components/Article'
 
 Vue.use(Router)
 
@@ -63,17 +64,17 @@ export default new Router({
       }
     },
     {
-      path: '/thanks',
-      name: '/thanks',
-      component:thanks,
+      path:'/agenda',
+      name:'/agenda',
+      component:agenda,
       meta:{
         Num:1
       }
     },
     {
-      path:'/agenda',
-      name:'/agenda',
-      component:agenda,
+      path:'/agenda10',
+      name:'/agenda10',
+      component:agenda10,
       meta:{
         Num:1
       }
@@ -86,6 +87,10 @@ export default new Router({
         Num:1
       }
     },
+    {
+      path:'/article/:id',
+      component:article
+    }
   ]
 })
 
