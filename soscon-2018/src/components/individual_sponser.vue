@@ -12,13 +12,13 @@
           <div class="row" style="margin-top:2%;">
             <div class="col s12" style="background-color:#67beb0;filter: opacity(0.8);">
               <p style="color: white;font-size:40px;margin-left:70px;margin-right:70px;margin-top:80px">
-              我们非常欢迎个人支持
+              {{$t("Individual.support1")}}
               </p>
               <p style="color: white;font-size:22px;margin-left:70px;margin-right:70px;margin-top:80px">
-                学生开源年会希望通过您的分享，将这份理想主义情怀传承下去。期望透过您的开源精神，给与会者播下乐于付出的种子，相信有一天这些参会者长成参天大树，共同为推动社会的进步而无私努力。
+                {{$t("Individual.support2")}}
               </p>
               <p style="color: white;font-size:22px;margin-left:70px;margin-right:20px">
-                如果您想支持我们，可以选择以下方式，我们非常感谢。
+                {{$t("Individual.support3")}}
               </p>
             </div>
           </div>
