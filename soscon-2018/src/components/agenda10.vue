@@ -53,6 +53,7 @@
           <img src="../../static/img/speaker5.png" class="headpic" align="right" hspace="5" vspace="5">
           <h4>{{$t("Agenda10.speach12")}}</h4>
           <p>{{$t("Agenda10.speach32")}}</p>
+          <p>{{$t("Agenda10.speakers11")}}</p>
           <p>{{$t("Agenda10.speach13")}}</p>
           <p>{{$t("Agenda10.extra1")}}</p>
           <!--</div>
@@ -114,7 +115,7 @@
       <div id="modal13" class="modal">
         <div class="modal-content">
           <!--<div style="display: inline-block;width: 50%">-->
-          <img src="../../static/img/headPortrait.jpg" class="headpic" align="right" hspace="5" vspace="5">
+          <img src="../../static/img/speaker6.jpg" class="headpic" align="right" hspace="5" vspace="5">
           <h4>{{$t("Agenda10.speach21")}}</h4>
           <p>{{$t("Agenda10.speach34")}}</p>
           <p>{{$t("Agenda10.speakers6")}}</p>
@@ -148,6 +149,28 @@
         <div class="modal-content">
           <h4>{{$t("Agenda10.speach28")}}</h4>
           <p>{{$t("Agenda10.speach29")}}</p>
+        </div>
+      </div>
+      <div id="modal18" class="modal">
+        <div class="modal-content">
+          <h4>{{$t("Agenda10.speach35")}}</h4>
+          <p>{{$t("Agenda10.speach36")}}</p>
+          <br/>
+          <span>{{$t("Agenda10.speach37")}}</span><br/>
+          <span>{{$t("Agenda10.speach38")}}</span><br/>
+          <span>{{$t("Agenda10.speach39")}}</span><br/>
+          <span>{{$t("Agenda10.speach40")}}</span><br/>
+          <span>{{$t("Agenda10.speach41")}}</span>
+          <br/>
+          <br/>
+          <span>{{$t("Agenda10.speach42")}}</span><br/>
+          <span>{{$t("Agenda10.speach43")}}</span><br/>
+          <span>{{$t("Agenda10.speach44")}}</span><br/>
+          <span>{{$t("Agenda10.speach45")}}</span><br/>
+          <span>{{$t("Agenda10.speach46")}}</span><br/>
+          <span>{{$t("Agenda10.speach47")}}</span><br/>
+          <span>{{$t("Agenda10.speach48")}}</span><br/>
+
         </div>
       </div>
       <div id="test1" class="col s12" style="height: 520px;overflow: auto;width: 100%;">
@@ -291,13 +314,13 @@
         </a>
       </div>
       <div id="test2" class="col s12" style="height: 520px;overflow: auto;width: 100%;">
-        <a class="waves-effect waves-light modal-trigger" style="width: 100%">
+        <a class="waves-effect waves-light modal-trigger" style="width: 100%" @click="open18">
           <div class="AgendaProcess colorA">
-            <span class="time">9:40-9:50</span>
-            <span class="process">{{$t("Agenda10.process5")}}</span>
+            <span class="time">13:00-17:30</span>
+            <span class="process">{{$t("Agenda10.process19")}}</span>
           </div>
         </a>
-        <a class="waves-effect waves-light modal-trigger processes">
+        <!--<a class="waves-effect waves-light modal-trigger processes">
           <div class="AgendaProcess colorB">
             <span class="time">9:50-11:00</span>
             <span class="process">{{$t("Agenda10.process18")}}</span>
@@ -326,7 +349,7 @@
             <span class="time">13:00-17:30</span>
             <span class="process">{{$t("Agenda10.process19")}}</span>
           </div>
-        </a>
+        </a>-->
       </div>
       <div id="test3" class="col s12" style="height: 520px;overflow: auto;width: 100%;">
         <a class="waves-effect waves-light modal-trigger" style="width: 100%">
@@ -394,10 +417,9 @@
             }<br/>
             <br/>-->
             {{$t("Agenda10.act5")}}<br/>
-            {<br/>
+            <br/>
             {{$t("Agenda10.act6")}}<br/>
-            {{$t("Agenda10.act7")}}<br/>
-            }<br/>
+            <br/>
             <br/>
             <!--{{$t("Agenda10.act8")}}<br/>
             {<br/>
@@ -484,6 +506,10 @@
       open17() {
         $('.modal').modal();
         $('#modal17').modal('open');
+      },
+      open18() {
+        $('.modal').modal();
+        $('#modal18').modal('open');
       },
     },
     mounted:function(){

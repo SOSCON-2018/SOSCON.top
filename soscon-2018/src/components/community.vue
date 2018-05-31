@@ -213,17 +213,17 @@
               </div>
             </div>
 
-            <div class="col s12 m4 l2" style="margin-top:7%">
+           <!-- <div class="col s12 m4 l2" style="margin-top:7%">
               <div class="card" style="width: 170px;height:170px;">
                 <div class="card-image" style="height: 150px;" >
-                  <!--<img src="../../static/img/pku1.jpg" style="height:150px">-->
+                  &lt;!&ndash;<img src="../../static/img/pku1.jpg" style="height:150px">&ndash;&gt;
                   <img src="../../static/img/info.jpg" style="height:150px">
                 </div>
                 <div class="card-action" style="background-color:#282828">
                   <a href="#" style="color: white;margin-left: -5%;margin-right: -15%;">重庆大学开源协会</a>
                 </div>
               </div>
-            </div>
+            </div>-->
 
           <div class="col s12 m4 l2" style="margin-top:7%">
             <div class="card" style="width: 170px;height:170px;">
@@ -232,7 +232,7 @@
                 <img src="../../static/img/chongqingjiaotong.svg" style="height:150px">
               </div>
               <div class="card-action" style="background-color:#282828">
-                <a href="#"style="color: white;margin-left: -35%;margin-right: 2%;position: relative;left:25px;font-size: 13px"">重庆交通大学人工智能协会</a>
+                <a href="#"style="color: white;margin-left: -35%;margin-right: 2%;position: relative;left:25px;font-size: 13px">重庆交通大学人工智能协会</a>
               </div>
             </div>
           </div>
