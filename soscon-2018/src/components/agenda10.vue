@@ -314,7 +314,7 @@
         </a>
       </div>
       <div id="test2" class="col s12" style="height: 520px;overflow: auto;width: 100%;">
-        <a class="waves-effect waves-light modal-trigger" style="width: 100%" @click="open18">
+        <a class="waves-effect waves-light modal-trigger processstyle" @click="open18">
           <div class="AgendaProcess colorA">
             <span class="time">13:00-17:30</span>
             <span class="process">{{$t("Agenda10.process19")}}</span>
@@ -352,7 +352,7 @@
         </a>-->
       </div>
       <div id="test3" class="col s12" style="height: 520px;overflow: auto;width: 100%;">
-        <a class="waves-effect waves-light modal-trigger" style="width: 100%">
+        <a class="waves-effect waves-light modal-trigger processstyle">
           <div class="AgendaProcess colorA">
             <span class="time">10:00-10:10</span>
             <span class="process">{{$t("Agenda10.process5")}}</span>
