@@ -15,11 +15,11 @@
     <ul id="dropdown3" class="dropdown-content tit1">
       <li>
         <!--<a @click="">主会场</a>-->
-        <router-link to="/agenda">6月9日议程</router-link>
+        <router-link to="/agenda">{{$t("Nav.agenda1")}}</router-link>
       </li>
       <li>
         <!--<a @click="">分会场A</a>-->
-        <router-link to="/agenda10">6月10日议程</router-link>
+        <router-link to="/agenda10">{{$t("Nav.agenda2")}}</router-link>
       </li>
       <!--<li class="divider"></li>-->
     </ul>
