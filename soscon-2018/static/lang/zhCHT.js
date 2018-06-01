@@ -31,7 +31,7 @@ module.exports={
     time1:'2018年6月9.10日（Sat & Sun)',
 
     place:'地點：',
-    place1:'重慶大學A區主教學樓三樓國際會議中心',
+    place1:'重慶大學A區主教學樓三樓多功能廳',
 
     bottom1:'暢想未來，擁抱開源',
     bottom2:'聯繫我們: soscon@openingsource.org',
@@ -306,6 +306,7 @@ module.exports={
     speach46:'4、第一個智能合約案例',
     speach47:'5、用智能合約實現域登記',
     speach48:'6、編程實踐',
+    speach49:'暫無',
     speakers1:'嘉賓簡介：張宇翔，清華大學計算機系碩士在讀，TUNA成員。平常喜歡折騰硬件，玩各種板子，也做一些網絡相關的項目。',
     speakers2:'嘉賓簡介：姜柏任 (@RSChiang)，國立臺灣大學法律學系五年級，臺灣大學開源社發起人暨首屆社長。平常喜歡在公館巷弄的咖啡館裏寫程式，去年剛學會做燉飯跟烤南瓜餅乾',
     speakers3:'嘉賓簡介：聶沫予（常用id @LinkAdrifting，aka Link），漢子，科技、遊戲、電影、科幻、搖滾愛好者（總之各種文化、藝術都愛！），前翱翔計劃學員；目前正爭取在技術層面上成爲hacker，北京郵電大學軟件工程專業大一；BYRIOSC社區發言人。',

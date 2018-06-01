@@ -64,7 +64,7 @@ module.exports= {
     time1: '2018年6月9.10日（Sat & Sun)',
 
     place: '地点：',
-    place1: '重庆大学A区主教学楼三楼国际会议中心',
+    place1: '重庆大学A区主教学楼三楼多功能厅',
 
     bottom1: '畅想未来，拥抱开源',
     bottom2: '联系我们: soscon@openingsource.org',
@@ -307,6 +307,7 @@ module.exports= {
     speach46:'4、第一个智能合约案例',
     speach47:'5、用智能合约实现域登记',
     speach48:'6、编程实践',
+    speach49:'暂无',
     speakers1:'嘉宾简介：张宇翔，清华大学计算机系硕士在读，TUNA成员。平常喜欢折腾硬件，玩各种板子，也做一些网络相关的项目。',
     speakers2:'嘉宾简介：姜柏任 (@RSChiang)，国立台湾大学法律学系五年级，台湾大学开源社发起人暨首届社长。平常喜欢在公馆巷弄的咖啡馆里写程式，去年刚学会做炖饭跟烤南瓜饼干',
     speakers3:'嘉宾简介：聂沫予（常用id @LinkAdrifting，aka Link），汉子，科技、游戏、电影、科幻、摇滚爱好者（总之各种文化、艺术都爱！），前翱翔计划学员；目前正争取在技术层面上成为hacker，北京邮电大学软件工程专业大一；BYRIOSC社区发言人。',
