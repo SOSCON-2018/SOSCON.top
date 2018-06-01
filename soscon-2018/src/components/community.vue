@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div style="background-image: url('../../static/img/Background-3.jpg');height: auto;background-size: cover;background-attachment: fixed">
+    <div style="background-image: url('../../static/img/Background-3.jpg');height: auto!important;background-size: cover;background-attachment: fixed">
       <!--<img src="../../static/img/Background-3.jpg" :style="{height:h1}" style="width: 100%;position: fixed;" ></img>-->
       <div style="width: 80%;margin: 0 auto;">
         <div>
@@ -63,7 +63,7 @@
                   <img src="../../static/img/xinanxiehui.png" style="width: 180px;position: relative;left:18px;top:8px">
                 </div>
                 <div class="card-action" style="background-color:#282828">
-                  <a href="https://swuosa.org/" style="color: white">西大开源协会</a>
+                  <a href="https://swuosa.org/" style="color: white">西南大学开源协会</a>
                 </div>
               </div>
             </div>
@@ -103,7 +103,6 @@
 
           <p>
           <div class="row" style="margin-left:-1%">
-
             <div class="col s12 m4 l2"style="margin-top:7%" >
               <div class="card" style="width: 170px;height: 170px;">
                 <div class="card-image" style="height: 150px;" >
@@ -201,7 +200,7 @@
             </div>
 
 
-            <div class="col s12 m4 l2" style="margin-top:7%">
+          <div class="col s12 m4 l2" style="margin-top:7%">
               <div class="card" style="width: 170px;height:170px;">
                 <div class="card-image" style="height: 150px;" >
                   <!--<img src="../../static/img/pku1.jpg" style="height:150px">-->
@@ -213,18 +212,6 @@
               </div>
             </div>
 
-           <!-- <div class="col s12 m4 l2" style="margin-top:7%">
-              <div class="card" style="width: 170px;height:170px;">
-                <div class="card-image" style="height: 150px;" >
-                  &lt;!&ndash;<img src="../../static/img/pku1.jpg" style="height:150px">&ndash;&gt;
-                  <img src="../../static/img/info.jpg" style="height:150px">
-                </div>
-                <div class="card-action" style="background-color:#282828">
-                  <a href="#" style="color: white;margin-left: -5%;margin-right: -15%;">重庆大学开源协会</a>
-                </div>
-              </div>
-            </div>-->
-
           <div class="col s12 m4 l2" style="margin-top:7%">
             <div class="card" style="width: 170px;height:170px;">
               <div class="card-image" style="height: 150px;" >
@@ -232,7 +219,7 @@
                 <img src="../../static/img/chongqingjiaotong.svg" style="height:150px">
               </div>
               <div class="card-action" style="background-color:#282828">
-                <a href="#"style="color: white;margin-left: -35%;margin-right: 2%;position: relative;left:25px;font-size: 13px">重庆交通大学人工智能协会</a>
+                <a href="#"style="color: white;margin-left: -35%;margin-right: 2%;position: relative;left:25px;font-size: 13px"">重庆交通大学人工智能协会</a>
               </div>
             </div>
           </div>
@@ -322,17 +309,6 @@
             </div>
 
 
-            <div class="col s12 m4 l2"style="margin-top: 3%" >
-              <div class="card" style="width: 170px;height: 170px;">
-                <div class="card-image" style="height: 150px;" >
-                  <img src="../../static/img/logo_bigger.jpg" style="position: relative;top:30%">
-                </div>
-                <div class="card-action" style="background-color:#282828">
-                  <a href="http://www.infoq.com/cn/" style="color: white">InfoQ</a>
-                </div>
-              </div>
-            </div>
-
           </div>
           </p>
         </div>
@@ -362,7 +338,7 @@
         <!--<span style="height:100%;display:inline-block;vertical-align:middle;margin-left: 8%"></span>-->
         <a :href="['https://openingsource.org']"><img class="iconstyleA" src="../../static/img/openingsource-W(1).png"/></a>
         <a :href="['https://t.me/soscon']"><img class="iconstyle" src="../../static/img/Telegram-W.png"/></a>
-        <a :href="['https://www.youtube.com/channel/UCpqv0HaFB0rAK-9G_V9yOOA']"><img class="iconstyle" src="../../static/img/Youtube-W.png"/></a>
+        <img class="iconstyle" src="../../static/img/Youtube-W.png"/>
         <img class="iconstyle" src="../../static/img/Flickr-W.png"/>
         <!--<img style="vertical-align:middle;margin-left: 1%;width: 35px;" src="../../static/img/Youtube-W.png"/>
         <img style="vertical-align:middle;margin-left: 1%;width: 35px;" src="../../static/img/Flickr-W.png"/>-->
