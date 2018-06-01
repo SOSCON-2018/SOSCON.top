@@ -103,10 +103,10 @@
       <li class="t3" @click="closeNav">
         <router-link to="/community">{{$t("Nav.community")}}</router-link>
       </li>
-      <li>
-        <router-link to="" class="t3">{{$t("Nav.thanks")}}</router-link>
+      <li @click="closeNav">
+        <router-link to="/thanks" class="t3">{{$t("Nav.thanks")}}</router-link>
       </li>
-      <li class="t3">
+      <li class="t3" @click="closeNav">
         <router-link to="/individual_sponser">{{$t("Nav.in_sponser")}}</router-link>
       </li>
       <li @click="closeNav">
