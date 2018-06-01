@@ -82,7 +82,7 @@
           <div class="col s12 m6 l3" style="margin-top: 3%">
             <div class="card" style="width: 225px;height: 256px;">
               <div class="card-image" style="height: 220px;" >
-                <img src="../../static/img/info.jpg" >
+                <img src="../../static/img/taiwandaxue.png"style="position: relative;top:70px" >
               </div>
               <div class="card-action" style="background-color:#282828">
                 <a href="#" style="color: white">臺灣大學開源社</a>
