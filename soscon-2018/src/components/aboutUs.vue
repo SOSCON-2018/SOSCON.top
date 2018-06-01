@@ -181,7 +181,7 @@
         <!--<span style="height:100%;display:inline-block;vertical-align:middle;margin-left: 8%"></span>-->
         <a :href="['https://openingsource.org']"><img class="iconstyleA" src="../../static/img/openingsource-W(1).png"/></a>
         <a :href="['https://t.me/soscon']"><img class="iconstyle" src="../../static/img/Telegram-W.png"/></a>
-        <img class="iconstyle" src="../../static/img/Youtube-W.png"/>
+        <a :href="['https://www.youtube.com/channel/UCpqv0HaFB0rAK-9G_V9yOOA']"><img class="iconstyle" src="../../static/img/Youtube-W.png"/></a>
         <img class="iconstyle" src="../../static/img/Flickr-W.png"/>
         <!--<img style="vertical-align:middle;margin-left: 1%;width: 35px;" src="../../static/img/Youtube-W.png"/>
         <img style="vertical-align:middle;margin-left: 1%;width: 35px;" src="../../static/img/Flickr-W.png"/>-->

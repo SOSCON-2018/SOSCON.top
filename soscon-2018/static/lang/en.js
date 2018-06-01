@@ -31,7 +31,7 @@ module.exports={
     time1:'June 9 and 10, 2018(Sat & Sun)',
 
     place:'Meeting Location:',
-    place1:'International conference center, 3rd floor, main teaching building, area A, Chongqing University',
+    place1:'Function Room, 3rd floor, main teaching building, area A, Chongqing University',
 
     bottom1:'Imagine the future and embrace open source',
     bottom2:'Contact Us: soscon@openingsource.org',
@@ -303,6 +303,7 @@ module.exports={
     speach46:'4.The first smart contract case',
     speach47:'5.Registering domain registration with smart contracts',
     speach48:'6.Programming practice',
+    speach49:'Not yet',
     speakers1:'Honored Guest: ZHANG Yuxiang, Master of Computer Department of Tsinghua University in Reading, TUNA members. Usually addicted into tossing hardware, playing various boards, and doing some web-related projects.',
     speakers2:'Honored Guest: JIANG Bairen (@RSChiang), 5th Grade in the Department of Law, National Taiwan University, the founder and the first president of the Open Source Society of Taiwan University. Writing programs in a cafe in the alley is his usual activity, and he just learned to cook stew and bake pumpkin cookies last year.',
     speakers3:'Honored Guest: Nie Moyu (ID @LinkAdrifting, aka Link), tomboy, crazy about science and technology, games, movies, science fiction, and rock  (in brief, fond of multiple cultures and arts), the former soaring plan students; is now striving for a technical level Hacker; a freshman majoring in software engineering at Beijing University of Posts and Telecommunications; the spokesman of BYRIOSC community.',

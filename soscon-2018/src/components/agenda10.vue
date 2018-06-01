@@ -354,6 +354,11 @@
       <div id="test3" class="col s12" style="height: 520px;overflow: auto;width: 100%;">
         <a class="waves-effect waves-light modal-trigger processstyle">
           <div class="AgendaProcess colorA">
+            <span class="process">{{$t("Agenda10.speach49")}}</span>
+          </div>
+        </a>
+        <!--<a class="waves-effect waves-light modal-trigger processstyle">
+          <div class="AgendaProcess colorA">
             <span class="time">10:00-10:10</span>
             <span class="process">{{$t("Agenda10.process5")}}</span>
           </div>
@@ -405,7 +410,7 @@
             <span class="time">14:40-15:30</span>
             <span class="process">{{$t("Agenda10.process13")}}</span>
           </div>
-        </a>
+        </a>-->
       </div>
       <div id="test0" class="col s12" style="height: 520px;overflow: auto;width: 100%;">
         <div class="colorA" style="filter: opacity(.8);font-weight: 700;margin-top: 0;padding-left: 2%">
@@ -440,7 +445,7 @@
         <!--<span style="height:100%;display:inline-block;vertical-align:middle;margin-left: 8%"></span>-->
         <a :href="['https://openingsource.org']"><img class="iconstyleA" src="../../static/img/openingsource-W(1).png"/></a>
         <a :href="['https://t.me/soscon']"><img class="iconstyle" src="../../static/img/Telegram-W.png"/></a>
-        <img class="iconstyle" src="../../static/img/Youtube-W.png"/>
+        <a :href="['https://www.youtube.com/channel/UCpqv0HaFB0rAK-9G_V9yOOA']"><img class="iconstyle" src="../../static/img/Youtube-W.png"/></a>
         <img class="iconstyle" src="../../static/img/Flickr-W.png"/>
         <!--<img style="vertical-align:middle;margin-left: 1%;width: 35px;" src="../../static/img/Youtube-W.png"/>
         <img style="vertical-align:middle;margin-left: 1%;width: 35px;" src="../../static/img/Flickr-W.png"/>-->
