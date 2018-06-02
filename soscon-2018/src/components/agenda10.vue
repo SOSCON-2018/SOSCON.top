@@ -273,18 +273,18 @@
         </a>
         <a class="waves-effect waves-light modal-trigger processes" @click="open10">
           <div class="AgendaProcess colorA">
-            <span class="time">13:40-14:10</span>
+            <span class="time">13:40-14:20</span>
             <span class="process">{{$t("Agenda10.process23")}}</span>
           </div>
         </a>
-        <a class="waves-effect waves-light modal-trigger processes">
+        <!--<a class="waves-effect waves-light modal-trigger processes">
           <div class="AgendaProcess colorB">
             <span class="time">14:10-14:20</span>
             <span class="process">{{$t("Agenda10.process5")}}</span>
           </div>
-        </a>
+        </a>-->
         <a class="waves-effect waves-light modal-trigger processes" @click="open12">
-          <div class="AgendaProcess colorC">
+          <div class="AgendaProcess colorB">
             <span class="time">14:20-14:50</span>
             <span class="process">{{$t("Agenda10.process12")}}</span>
           </div>
