@@ -93,17 +93,47 @@
               </div>
             </div>
 
-          <div class="col s12 m3 l4"style="margin-top:3%" >
+          <!--<div class="col s12 m3 l4"style="margin-top:3%" >
             <div class="card" style="width:300px;height:180px;">
               <div class="card-image" style="height:250px;width:280px">
                 <img src="../../static/img/Linuxcn.jpg" style="position:relative;left:10px">
               </div>
             </div>
-          </div>
+          </div>-->
 
           </div>
           </p>
         </div>
+
+        <div>
+          <div style="display: inline-block;text-align: center;margin-top: 80px">
+            <!--<p style="background-color: black;color: white;width: 260px;height: 65px;font-size: x-large" >SOSCON<span style="color:#66ccff;">18</span></p>-->
+            <h5 style="background-color:mediumpurple;color: black;padding: 13px 16px;">合作媒体</h5>
+          </div>
+
+          <p>
+          <div class="row" style="margin-left:-1%">
+
+            <!--<div class="col s12 m3 l4"style="margin-top:3%" >
+              <div class="card" style="width:300px;height:180px;">
+                <div class="card-image" style="height:250px;width:280px">
+                  <img src="../../static/img/oschina.jpg" style="position:relative;left:10px">
+                </div>
+              </div>
+            </div>-->
+
+            <div class="col s12 m3 l4"style="margin-top:3%" >
+              <div class="card" style="width:300px;height:180px;">
+                <div class="card-image" style="height:250px;width:280px">
+                  <img src="../../static/img/Linuxcn.jpg" style="position:relative;left:10px">
+                </div>
+              </div>
+            </div>
+
+          </div>
+          </p>
+        </div>
+
 
         <p style="font-weight: 700;font-size: x-large;margin-top: 20%"><b>————</b></p>
       </div>

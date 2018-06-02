@@ -276,9 +276,9 @@
           </p>
         </div>
 
-        <div>
+<!--        <div>
           <div style="display: inline-block;text-align: center;margin-top: 80px">
-            <!--<p style="background-color: black;color: white;width: 260px;height: 65px;font-size: x-large" >SOSCON<span style="color:#66ccff;">18</span></p>-->
+            &lt;!&ndash;<p style="background-color: black;color: white;width: 260px;height: 65px;font-size: x-large" >SOSCON<span style="color:#66ccff;">18</span></p>&ndash;&gt;
             <h5 style="background-color: black;color: white;padding: 13px 16px;">{{$t("Community.media")}}</h5>
           </div>
           <p style="font-weight: 700;font-size: x-large;margin-top: 0%;margin-bottom: -2%"><b>————</b></p>
@@ -311,7 +311,7 @@
 
           </div>
           </p>
-        </div>
+        </div>-->
 
         <p style="font-weight: 700;font-size: x-large;margin-top: 20%;margin-bottom: 0;padding-bottom: 3%"><b>————</b></p>
       </div>
@@ -336,15 +336,10 @@
     <div style="width: 100%;height: 135px;background-color:#282828;">
       <div style="width:80%;height:100%;left:0;right:0;margin:0 auto;padding-top: 3vw">
         <!--<span style="height:100%;display:inline-block;vertical-align:middle;margin-left: 8%"></span>-->
-        <a :href="['https://openingsource.org']"><img class="iconstyleA" src="../../static/img/openingsource.svg"/></a>
-        <a :href="['https://t.me/soscon']"><img class="iconstyle" src="../../static/img/Telegram.svg"/></a>
-        <a :href="['https://www.youtube.com/channel/UCpqv0HaFB0rAK-9G_V9yOOA']"><img class="iconstyle" src="../../static/img/Youtube.svg"/></a>
-        <a><img class="iconstyle" src="../../static/img/Facebook.svg"/></a>
-        <a :href="['https://plus.google.com/u/0/111192234176729671386']"><img class="iconstyle" src="../../static/img/Google+.svg"/></a>
-        <a :href="['https://twitter.com/soscon2018']"><img class="iconstyle" src="../../static/img/Twitter.svg"/></a>
-        <a :href="['http://weibo.com/u/6557396839']"><img class="iconstyle" src="../../static/img/Weibo.svg"/></a>
-        <a><img class="iconstyle" src="../../static/img/WeChat.svg"/></a>
-        <a><img class="iconstyle" src="../../static/img/QQ.svg"/></a>
+        <a :href="['https://openingsource.org']"><img class="iconstyleA" src="../../static/img/openingsource-W(1).png"/></a>
+        <a :href="['https://t.me/soscon']"><img class="iconstyle" src="../../static/img/Telegram-W.png"/></a>
+        <img class="iconstyle" src="../../static/img/Youtube-W.png"/>
+        <img class="iconstyle" src="../../static/img/Flickr-W.png"/>
         <!--<img style="vertical-align:middle;margin-left: 1%;width: 35px;" src="../../static/img/Youtube-W.png"/>
         <img style="vertical-align:middle;margin-left: 1%;width: 35px;" src="../../static/img/Flickr-W.png"/>-->
         <span class="bottomwords">{{$t("About.bottom1")}}。  Copyright© SOSCON {{$t("About.foot")}} 2018</span>
