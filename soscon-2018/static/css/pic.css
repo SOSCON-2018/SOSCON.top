@@ -295,6 +295,7 @@
   font-size: small;
   color: gray;
 }
+
 .AgendaProcess {
   display: flex;
   height: 100px;
@@ -303,6 +304,10 @@
   font-weight: 700 !important;
   filter: opacity(.9);
   overflow: auto;
+}
+.support {
+  height: 400px;
+  margin-right: 10%
 }
 @media only screen and (max-width: 1050px) {
   .applyContainer {
@@ -315,14 +320,20 @@
   .applyContainer {
     height: 650px;
   }
-
+  .support {
+    height: 400px;
+    margin-right:0;
+  }
 }
 
 @media only screen and (max-width: 600px) {
   .applyContainer {
     height: 420px;
   }
-
+  .support {
+    height: 400px;
+    margin-right:0;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -453,6 +464,7 @@
     background-size: contain;
     background-repeat: no-repeat;
   }
+
   .AgendaProcess {
     display: flex;
     height: 130px;
@@ -461,6 +473,10 @@
     font-weight: 700 !important;
     filter: opacity(.9);
     overflow: auto;
+  }
+  .support {
+    height: 400px;
+    margin-right:0;
   }
 }
 
@@ -504,8 +520,6 @@ figure + figure {
   font-size: x-large;
   font-weight: 700;
 }
-
-
 
 .process {
   align-self: center;
@@ -725,12 +739,16 @@ figure + figure {
 .processes {
   width: 100%;
   margin-top: 40px;
-  z-index: 0!important;
+  z-index: 0 !important;
 }
-.headpic{
+
+.headpic {
   width: 40%;
 }
-.processstyle{
+
+.processstyle {
   width: 100%;
-  z-index: 0!important;
+  z-index: 0 !important;
 }
+
+

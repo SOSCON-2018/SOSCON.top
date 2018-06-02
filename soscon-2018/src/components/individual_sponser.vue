@@ -11,32 +11,36 @@
           <div class="col s4"></div>
           <div class="row" style="margin-top:2%;">
             <div class="col s12" style="background-color:#67beb0;filter: opacity(0.8);">
-              <p style="color: white;font-size:40px;margin-left:70px;margin-right:70px;margin-top:80px">
+              <p style="color: white;font-size:40px;margin-left:70px;margin-right:70px;margin-top:80px;line-height: 100%">
               {{$t("Individual.support1")}}
               </p>
               <p style="color: white;font-size:22px;margin-left:70px;margin-right:70px;margin-top:80px">
                 {{$t("Individual.support2")}}
               </p>
-              <p style="color: white;font-size:22px;margin-left:70px;margin-right:20px">
+              <p style="color: white;font-size:22px;margin-left:70px;margin-right:70px">
                 {{$t("Individual.support3")}}
               </p>
             </div>
           </div>
 
-          <p>
+          <!--<p>
           <div class="row" style="margin-left:72px;margin-top:50px">
 
           <div class="col s12 m6 l3" style="margin-top:5%">
-                  <!--<img src="../../static/img/pku1.jpg" style="height:150px">-->
+                  &lt;!&ndash;<img src="../../static/img/pku1.jpg" style="height:150px">&ndash;&gt;
             <img src="../../static/img/zhifubao.jpg" style="height:400px">
           </div>
           <div class="col s12 m6 l3" style="margin-top:5%">
-            <!--<img src="../../static/img/pku1.jpg" style="height:150px">-->
+            &lt;!&ndash;<img src="../../static/img/pku1.jpg" style="height:150px">&ndash;&gt;
             <img src="../../static/img/weixinzhifu.png" style="height:400px">
           </div>
 
           </div>
-          </p>
+          </p>-->
+          <div style="display: flex;flex-wrap: wrap;justify-content:center">
+            <img src="../../static/img/zhifubao.jpg" class="support">
+            <img src="../../static/img/weixinzhifu.png" style="height:400px;">
+          </div>
         </div>
 
         <p style="color:transparent;font-size: x-large;margin-top:15%;margin-bottom: 0;padding-bottom: 3%"><b>————</b></p>
