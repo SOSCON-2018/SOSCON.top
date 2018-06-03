@@ -1,137 +1,8 @@
 <template>
-  <!--<div class="about1">
-  <img src="../../static/img/pic6.jpg" :style="{height:h_aboutUs}" style="width: 100%;position: fixed" ></img>
-    <div class="about">
-      <div>
-        <h4>{{$t("AboutUs.about")}}</h4>
-        <p>————</p>
-        <p>{{$t("AboutUs.about1")}}</p>
-      </div>
-      <div>
-        <h4>{{$t("AboutUs.contact")}}</h4>
-        <p>————</p>
-        <p>{{$t("AboutUs.contact1")}}<br/>Email: lbb@openingsource.org</p>
-        <p>{{$t("AboutUs.contact5")}}<br/>Email: volhtt@gmail.com</p>
-        <p>{{$t("AboutUs.contact2")}}<br/>Email: 1348067084@qq.com</p>
-        <p>{{$t("AboutUs.contact3")}}<br/>Email: jhc@openingsource.org</p>
-        <p>{{$t("AboutUs.contact4")}}<br/>Email: qichen0906@gmail.com</p>
-      </div>
-      <div>
-        <h4>{{$t("AboutUs.attend")}}</h4>
-        <p>————</p>
-        <p>Offical Website SOSCON.top<br/>Offical Email soscon@openingsource.org<br/>Telegram Group https://t.me/soscon</p>
-      </div>
-      <hr/>
-      <p style="font-size: smaller;color: gray">{{$t("AboutUs.foot")}}</p>
-    </div>
-  </div>-->
-  <div style="background-image: url('../../static/img/Background-3.jpg');height: auto!important;background-size: cover;background-attachment: fixed">
+  <div
+    style="background-image: url('../../static/img/Background-3.jpg');height: auto!important;background-size: cover;background-attachment: fixed">
     <div class="workers">
-      <div style="display: inline-block;text-align: center;margin-top: 7%">
-        <h4 style="background-color: black;color: white;padding: 20px 20px;margin: 0;">{{$t("AboutUs.about")}}</h4>
-      </div>
-      <p class="group" style="margin-top: 40px">————</p>
-      <p class="group">{{$t("AboutUs.about1")}}</p><!--总召-->
-      <figure class="block">
-        <img src="../../static/img/headPortrait.jpg" class="img"/>
-        <figcaption class="person">刘煜民</figcaption>
-      </figure>
-      <p class="group">{{$t("AboutUs.about5")}}</p>
-      <div>
-        <figure class="block">
-          <img src="../../static/img/headPortrait.jpg" class="img"/>
-          <figcaption class="person">刘昊天</figcaption>
-        </figure>
-        <figure class="block">
-          <img src="../../static/img/headPortrait.jpg" class="img"/>
-          <figcaption class="person">周新林</figcaption>
-        </figure>
-        <figure class="block">
-          <img src="../../static/img/headPortrait.jpg" class="img"/>
-          <figcaption class="person">董学竹</figcaption>
-        </figure>
-        <figure class="block">
-          <img src="../../static/img/headPortrait.jpg" class="img"/>
-          <figcaption class="person">赵启铭</figcaption>
-        </figure>
-        <figure class="block">
-          <img src="../../static/img/headPortrait.jpg" class="img"/>
-          <figcaption class="person">陈盛玮</figcaption>
-        </figure>
-      </div>
-      <!--<p class="group">行政组</p>
-      <div>
-        <figure class="block" style="margin: 0;margin-right: -30px!important;">
-          <img src="../../static/img/headPortrait.jpg" style="width: 50%;height: 50%"/>
-          <figcaption class="person" style="width:50%;text-align: center">abcd</figcaption>
-        </figure>
-        <figure class="block" style="margin: 0;margin-right: -30px!important;">
-          <img src="../../static/img/headPortrait.jpg" style="width: 50%;height: 50%"/>
-          <figcaption class="person" style="width:50%;text-align: center">efgh</figcaption>
-        </figure>
-      </div>-->
-      <p class="group">{{$t("AboutUs.about2")}}</p>
-      <div>
-        <figure class="block">
-          <img src="../../static/img/headPortrait.jpg" class="img"/>
-          <figcaption class="person">蒋昊辰</figcaption>
-        </figure>
-        <figure class="block">
-          <img src="../../static/img/headPortrait.jpg" class="img"/>
-          <figcaption class="person">阿廿</figcaption>
-        </figure>
-        <figure class="block">
-          <img src="../../static/img/headPortrait.jpg" class="img"/>
-          <figcaption class="person">项子易</figcaption>
-        </figure>
-        <figure class="block">
-          <img src="../../static/img/headPortrait.jpg" class="img"/>
-          <figcaption class="person">屈艺欣</figcaption>
-        </figure>
-      </div>
-      <p class="group">{{$t("AboutUs.about3")}}</p>
-      <div>
-        <figure class="block">
-          <img src="../../static/img/headPortrait.jpg" class="img"/>
-          <figcaption class="person">叶伟豪</figcaption>
-        </figure>
-        <figure class="block">
-          <img src="../../static/img/headPortrait.jpg" class="img"/>
-          <figcaption class="person">吴迪峰</figcaption>
-        </figure>
-      </div>
-      <p class="group">{{$t("AboutUs.about4")}}</p>
-      <div>
-        <figure class="block">
-          <img src="../../static/img/headPortrait.jpg" class="img"/>
-          <figcaption class="person">邵明琦</figcaption>
-        </figure>
-        <figure class="block">
-          <img src="../../static/img/headPortrait.jpg" class="img"/>
-          <figcaption class="person">安雨洁</figcaption>
-        </figure>
-        <figure class="block">
-          <img src="../../static/img/headPortrait.jpg" class="img"/>
-          <figcaption class="person">田淙宇</figcaption>
-        </figure>
-        <figure class="block">
-          <img src="../../static/img/headPortrait.jpg" class="img"/>
-          <figcaption class="person">贾峥</figcaption>
-        </figure>
-        <figure class="block">
-          <img src="../../static/img/headPortrait.jpg" class="img"/>
-          <figcaption class="person">曹煜泽</figcaption>
-        </figure>
-        <figure class="block">
-          <img src="../../static/img/headPortrait.jpg" class="img"/>
-          <figcaption class="person">李小琦</figcaption>
-        </figure>
-        <figure class="block">
-          <img src="../../static/img/headPortrait.jpg" class="img"/>
-          <figcaption class="person">彭启标</figcaption>
-        </figure>
-      </div>
-      <div style="display: inline-block;text-align: center;margin-top: 7%">
+      <!--<div style="display: inline-block;text-align: center;margin-top: 7%">
         <h4 style="background-color: black;color: white;padding: 20px 20px;margin: 0;">{{$t("AboutUs.contactWay")}}</h4>
       </div>
       <div>
@@ -152,44 +23,366 @@
       <div>
         <p class="contact"><span>{{$t("AboutUs.email5")}}</span><span>:邵明琦</span><br/><span>qichen0906@gmail.com</span></p>
       </div>
-      <div></div>
-    </div>
-    <!--<div style="background-color: white;margin-bottom: -3% ">
-      <div style="width:80%; left: 0;right: 0;margin: 0 auto 10px auto;overflow: hidden;">
-        <p>   </p>
-        <span style="font-size: small;color: gray">{{$t("AboutUs.footer1")}}</span>
-        <span style="font-size: small;color: gray;margin-left: 3%">{{$t("AboutUs.contact")}}</span>
-        <br>
-        <div>
-          <span class="foot" style="margin-left: 10px">Attending us</span>
-          <span class="foot" style="margin-left: 10px">Follow us</span>
-          <span class="foot">About us</span>
+      <div></div>-->
+      <ul class="tabs tabs-fixed-width tab-demo z-depth-1" style="width:100%;border-radius:20px;margin-top: 13%;overflow: auto">
+        <li class="tab"><a class="active" href="#test1">{{$t("AboutUs.about1")}}</a></li>
+        <li class="tab"><a href="#test2">{{$t("AboutUs.about5")}}</a></li>
+        <li class="tab"><a href="#test3">{{$t("AboutUs.about2")}}</a></li>
+        <li class="tab"><a href="#test4">{{$t("AboutUs.about3")}}</a></li>
+        <li class="tab"><a href="#test5">{{$t("AboutUs.about4")}}</a></li>
+        <li class="tab"><a href="#test7">{{$t("AboutUs.about7")}}</a></li>
+        <li class="tab"><a href="#test8">{{$t("AboutUs.about8")}}</a></li>
+        <li class="tab"><a href="#test6">{{$t("AboutUs.about6")}}</a></li>
+      </ul>
+      <div id="modal1" class="modal">
+        <div class="modal-content">
+          <img src="../../static/img/main1.png" class="headpic" align="right" hspace="5" vspace="5">
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 700">{{$t("AboutUs.about1")}}</p>
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">刘煜民</p>
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">Email: lbb@openingsource.org</p>
         </div>
-        <hr style="clear: both"/>
-        <div style="vertical-align: bottom;overflow: hidden">
-          <p style="font-size: small;color: gray;float: left;margin-bottom: 0">Copyright &copy; 2018 SOSCON {{$t("AboutUs.footer")}}</p>
-          <div>
-            <a><img class="icon icon2" src="../../static/img/Flickr-B.png" alt="Flickr"/></a>
-            <a><img class="icon icon2" src="../../static/img/Youtube-B.png" alt="Youtube"/></a>
-            <a href="https://t.me/soscon"><img class="icon" src="../../static/img/Telegram-B.png" alt="Telegram"/></a>
+      </div>
+      <div id="modal2" class="modal">
+        <div class="modal-content">
+          <img src="../../static/img/personnn.png" class="headpic" align="right" hspace="5" vspace="5">
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 700">{{$t("AboutUs.about5")}}</p>
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">刘昊天</p>
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">Email: volhtt@gmail.com</p>
+        </div>
+      </div>
+      <div id="modal3" class="modal">
+        <div class="modal-content">
+          <img src="../../static/img/zhou1.png" class="headpic" align="right" hspace="5" vspace="5">
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 700">{{$t("AboutUs.about5")}}</p>
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">周新林</p>
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">Email:</p>
+        </div>
+      </div>
+      <div id="modal5" class="modal">
+        <div class="modal-content">
+          <img src="../../static/img/headPortrait.jpg" class="headpic" align="right" hspace="5" vspace="5">
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 700">{{$t("AboutUs.about5")}}</p>
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">董学竹</p>
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">Email:</p>
+        </div>
+      </div>
+      <div id="modal4" class="modal">
+        <div class="modal-content">
+          <img src="../../static/img/qrcode.png"/>
+          <span style="vertical-align: top;font-size: xx-large;font-weight: 700">soscon2018</span>
+        </div>
+      </div>
+      <div id="modal6" class="modal">
+        <div class="modal-content">
+          <img src="../../static/img/headPortrait.jpg" class="headpic" align="right" hspace="5" vspace="5">
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 700">{{$t("AboutUs.about5")}}</p>
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">陈盛玮</p>
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">Email:</p>
+        </div>
+      </div>
+      <div id="modal7" class="modal">
+        <div class="modal-content">
+          <img src="../../static/img/headPortrait.jpg" class="headpic" align="right" hspace="5" vspace="5">
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 700">{{$t("AboutUs.about5")}}</p>
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">赵启铭</p>
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">Email:</p>
+        </div>
+      </div>
+      <div id="modal8" class="modal">
+        <div class="modal-content">
+          <img src="../../static/img/headPortrait.jpg" class="headpic" align="right" hspace="5" vspace="5">
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 700">{{$t("AboutUs.about2")}}</p>
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">蒋昊辰</p>
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">Email: jhc@openingsource.org</p>
+        </div>
+      </div>
+      <div id="modal9" class="modal">
+        <div class="modal-content">
+          <img src="../../static/img/headPortrait.jpg" class="headpic" align="right" hspace="5" vspace="5">
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 700">{{$t("AboutUs.about2")}}</p>
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">阿廿</p>
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">Email:</p>
+        </div>
+      </div>
+      <div id="modal10" class="modal">
+        <div class="modal-content">
+          <img src="../../static/img/headPortrait.jpg" class="headpic" align="right" hspace="5" vspace="5">
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 700">{{$t("AboutUs.about2")}}</p>
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">项子易</p>
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">Email:</p>
+        </div>
+      </div>
+      <div id="modal11" class="modal">
+        <div class="modal-content">
+          <img src="../../static/img/headPortrait.jpg" class="headpic" align="right" hspace="5" vspace="5">
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 700">{{$t("AboutUs.about2")}}</p>
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">屈艺欣</p>
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">Email:</p>
+        </div>
+      </div>
+      <div id="modal12" class="modal">
+        <div class="modal-content">
+          <img src="../../static/img/headPortrait.jpg" class="headpic" align="right" hspace="5" vspace="5">
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 700">{{$t("AboutUs.about3")}}</p>
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">叶伟豪</p>
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">Email: 1348067084@qq.com</p>
+        </div>
+      </div>
+      <div id="modal13" class="modal">
+        <div class="modal-content">
+          <img src="../../static/img/headPortrait.jpg" class="headpic" align="right" hspace="5" vspace="5">
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 700">{{$t("AboutUs.about3")}}</p>
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">吴迪峰</p>
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">Email:</p>
+        </div>
+      </div>
+      <div id="modal14" class="modal">
+        <div class="modal-content">
+          <img src="../../static/img/headPortrait.jpg" class="headpic" align="right" hspace="5" vspace="5">
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 700">{{$t("AboutUs.about4")}}</p>
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">邵明琦</p>
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">Email: qichen0906@gmail.com</p>
+        </div>
+      </div>
+      <div id="modal15" class="modal">
+        <div class="modal-content">
+          <img src="../../static/img/headPortrait.jpg" class="headpic" align="right" hspace="5" vspace="5">
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 700">{{$t("AboutUs.about4")}}</p>
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">安雨洁</p>
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">Email:</p>
+        </div>
+      </div>
+      <div id="modal16" class="modal">
+        <div class="modal-content">
+          <img src="../../static/img/headPortrait.jpg" class="headpic" align="right" hspace="5" vspace="5">
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 700">{{$t("AboutUs.about4")}}</p>
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">田淙宇</p>
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">Email:</p>
+        </div>
+      </div>
+      <div id="modal17" class="modal">
+        <div class="modal-content">
+          <img src="../../static/img/headPortrait.jpg" class="headpic" align="right" hspace="5" vspace="5">
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 700">{{$t("AboutUs.about4")}}</p>
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">贾峥</p>
+          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">Email:</p>
+        </div>
+      </div>
+      <div id="test1" class="col s12" style="height: 520px;overflow: auto;width: 100%;">
+        <div class="col s12 m4 l2" style="margin-top: 7%!important" @click="open1">
+          <div class="card aboutusposi">
+            <div class="card-image" style="height: auto;">
+              <!--<img src="../../static/img/pku1.jpg" style="height:150px">-->
+              <img src="../../static/img/main.png" style="height:auto;width: 100%;position:relative;">
+            </div>
+            <div class="card-action" style="background-color:#282828">
+              <a style="color: white;margin-left: -3%;margin-right: -15%;">{{$t("AboutUs.about1")}} 刘煜民</a>
+            </div>
           </div>
         </div>
       </div>
-    </div>-->
+      <div id="test2" class="col s12" style="height: 520px;overflow: auto;width: 100%;">
+        <div class="row" style="margin-left:-1%">
+          <div class="col s12 m6 l3" style="margin-top: 3%" @click="open2">
+            <div class="card" style="width: 225px;height: 256px;">
+              <div class="card-image" style="height: 220px;">
+                <img src="../../static/img/person1.png">
+              </div>
+              <div class="card-action" style="background-color:#282828;">
+                <a style="color: white;margin: auto">{{$t("AboutUs.about5")}} 刘昊天</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6 l3" style="margin-top: 3%" @click="open3">
+            <div class="card" style="width: 225px;height: 256px;">
+              <div class="card-image" style="height: 220px;">
+                <img src="../../static/img/zhou.png">
+              </div>
+              <div class="card-action" style="background-color:#282828">
+                <a style="color: white">{{$t("AboutUs.about5")}} 周新林</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6 l3" style="margin-top: 3%" @click="open5">
+            <div class="card" style="width: 225px;height: 256px;">
+              <div class="card-image" style="height: 220px;">
+                <img src="../../static/img/headPortrait.jpg">
+              </div>
+              <div class="card-action" style="background-color:#282828">
+                <a style="color: white">{{$t("AboutUs.about5")}} 董学竹</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6 l3" style="margin-top: 3%" @click="open6">
+            <div class="card" style="width: 225px;height: 256px;">
+              <div class="card-image" style="height: 220px;">
+                <img src="../../static/img/headPortrait.jpg">
+              </div>
+              <div class="card-action" style="background-color:#282828">
+                <a style="color: white">{{$t("AboutUs.about5")}} 陈盛玮</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6 l3" style="margin-top: 3%" @click="open7">
+            <div class="card" style="width: 225px;height: 256px;">
+              <div class="card-image" style="height: 220px;">
+                <img src="../../static/img/headPortrait.jpg">
+              </div>
+              <div class="card-action" style="background-color:#282828">
+                <a style="color: white">{{$t("AboutUs.about5")}} 赵启铭</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="test3" class="col s12" style="height: 520px;overflow: auto;width: 100%;">
+        <div class="row" style="margin-left:-1%">
+
+          <div class="col s12 m6 l3" style="margin-top: 3%" @click="open8">
+            <div class="card" style="width: 225px;height: 256px;">
+              <div class="card-image" style="height: 220px;">
+                <img src="../../static/img/headPortrait.jpg">
+              </div>
+              <div class="card-action" style="background-color:#282828;">
+                <a style="color: white;margin: auto">{{$t("AboutUs.about2")}} 蒋昊辰</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6 l3" style="margin-top: 3%" @click="open9">
+            <div class="card" style="width: 225px;height: 256px;">
+              <div class="card-image" style="height: 220px;">
+                <img src="../../static/img/headPortrait.jpg">
+              </div>
+              <div class="card-action" style="background-color:#282828">
+                <a style="color: white">{{$t("AboutUs.about2")}} 阿廿</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6 l3" style="margin-top: 3%" @click="open10">
+            <div class="card" style="width: 225px;height: 256px;">
+              <div class="card-image" style="height: 220px;">
+                <img src="../../static/img/headPortrait.jpg">
+              </div>
+              <div class="card-action" style="background-color:#282828">
+                <a style="color: white">{{$t("AboutUs.about2")}} 项子易</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6 l3" style="margin-top: 3%" @click="open11">
+            <div class="card" style="width: 225px;height: 256px;">
+              <div class="card-image" style="height: 220px;">
+                <img src="../../static/img/headPortrait.jpg">
+              </div>
+              <div class="card-action" style="background-color:#282828">
+                <a style="color: white">{{$t("AboutUs.about2")}} 屈艺欣</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div id="test4" class="col s12" style="height: 520px;overflow: auto;width: 100%;">
+        <div class="row" style="margin-left:-1%">
+
+          <div class="col s12 m6 l3" style="margin-top: 3%" @click="open12">
+            <div class="card" style="width: 225px;height: 256px;">
+              <div class="card-image" style="height: 220px;">
+                <img src="../../static/img/headPortrait.jpg">
+              </div>
+              <div class="card-action" style="background-color:#282828;">
+                <a style="color: white;margin: auto">{{$t("AboutUs.about3")}} 叶伟豪</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6 l3" style="margin-top: 3%" @click="open13">
+            <div class="card" style="width: 225px;height: 256px;">
+              <div class="card-image" style="height: 220px;">
+                <img src="../../static/img/headPortrait.jpg">
+              </div>
+              <div class="card-action" style="background-color:#282828">
+                <a style="color: white">{{$t("AboutUs.about3")}} 吴迪峰</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="test5" class="col s12" style="height: 520px;overflow: auto;width: 100%;">
+        <div class="row" style="margin-left:-1%">
+
+          <div class="col s12 m6 l3" style="margin-top: 3%" @click="open14">
+            <div class="card" style="width: 225px;height: 256px;">
+              <div class="card-image" style="height: 220px;">
+                <img src="../../static/img/headPortrait.jpg">
+              </div>
+              <div class="card-action" style="background-color:#282828;">
+                <a style="color: white;margin: auto">{{$t("AboutUs.about4")}} 邵明琦</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6 l3" style="margin-top: 3%" @click="open15">
+            <div class="card" style="width: 225px;height: 256px;">
+              <div class="card-image" style="height: 220px;">
+                <img src="../../static/img/zhou.png">
+              </div>
+              <div class="card-action" style="background-color:#282828">
+                <a style="color: white">{{$t("AboutUs.about4")}} 安雨洁</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6 l3" style="margin-top: 3%" @click="open16">
+            <div class="card" style="width: 225px;height: 256px;">
+              <div class="card-image" style="height: 220px;">
+                <img src="../../static/img/headPortrait.jpg">
+              </div>
+              <div class="card-action" style="background-color:#282828">
+                <a style="color: white">{{$t("AboutUs.about4")}} 田淙宇</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6 l3" style="margin-top: 3%" @click="open17">
+            <div class="card" style="width: 225px;height: 256px;">
+              <div class="card-image" style="height: 220px;">
+                <img src="../../static/img/headPortrait.jpg">
+              </div>
+              <div class="card-action" style="background-color:#282828">
+                <a style="color: white">{{$t("AboutUs.about4")}} 贾峥</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div id="test6" class="col s12" style="height: 520px;overflow: auto;width: 100%;">
+      <p style="font-size: xx-large;font-weight: 700">Coming soon</p>
+      </div>
+
+
+    </div>
     <div style="width: 100%;height: 135px;background-color:#282828;margin-top: 3%">
       <div style="width:80%;height:100%;left:0;right:0;margin:0 auto;padding-top: 3vw">
-        <!--<span style="height:100%;display:inline-block;vertical-align:middle;margin-left: 8%"></span>-->
         <a :href="['https://openingsource.org']"><img class="iconstyleA" src="../../static/img/openingsource.svg"/></a>
         <a :href="['https://t.me/soscon']"><img class="iconstyle" src="../../static/img/Telegram.svg"/></a>
-        <a :href="['https://www.youtube.com/channel/UCpqv0HaFB0rAK-9G_V9yOOA']"><img class="iconstyle" src="../../static/img/Youtube.svg"/></a>
-        <a><img class="iconstyle" src="../../static/img/Facebook.svg"/></a>
-        <a :href="['https://plus.google.com/u/0/111192234176729671386']"><img class="iconstyle" src="../../static/img/Google+.svg"/></a>
+        <a :href="['https://www.youtube.com/channel/UCpqv0HaFB0rAK-9G_V9yOOA']"><img class="iconstyle"
+                                                                                     src="../../static/img/Youtube.svg"/></a>
+        <a :href="['https://www.facebook.com/SOSCON.top/']"><img class="iconstyle" src="../../static/img/Facebook.svg"/></a>
+        <a :href="['https://plus.google.com/u/0/111192234176729671386']"><img class="iconstyle"
+                                                                              src="../../static/img/Google+.svg"/></a>
         <a :href="['https://twitter.com/soscon2018']"><img class="iconstyle" src="../../static/img/Twitter.svg"/></a>
         <a :href="['http://weibo.com/u/6557396839']"><img class="iconstyle" src="../../static/img/Weibo.svg"/></a>
-        <a><img class="iconstyle" src="../../static/img/WeChat.svg"/></a>
-        <a><img class="iconstyle" src="../../static/img/QQ.svg"/></a>
-        <!--<img style="vertical-align:middle;margin-left: 1%;width: 35px;" src="../../static/img/Youtube-W.png"/>
-        <img style="vertical-align:middle;margin-left: 1%;width: 35px;" src="../../static/img/Flickr-W.png"/>-->
+        <a style="cursor: pointer" @click="open4"><img class="iconstyle" src="../../static/img/WeChat.svg"/></a>
+        <a :href="['http://qm.qq.com/cgi-bin/qm/qr?k=yF0lluoacOOlRVTX_jFmpivy1ToU15u7']"><img class="iconstyle"
+                                                                                              src="../../static/img/QQ.svg"/></a>
         <span class="bottomwords">{{$t("About.bottom1")}}。  Copyright© SOSCON {{$t("About.foot")}} 2018</span>
         <div style="clear: both"></div>
       </div>
@@ -198,19 +391,92 @@
 </template>
 
 <script>
-    let h_screen = document.documentElement.clientHeight
-    export default {
-        name: "aboutUs",
-        computed: {
-          h_aboutUs() {
-            return h_screen + 'px'
-          },
-        }
+  let h_screen = document.documentElement.clientHeight
+  export default {
+    name: "aboutUs",
+    computed: {
+      h_aboutUs() {
+        return h_screen + 'px'
+      },
+    },
+    mounted: function () {
+      $('.tabs').tabs();
+    },
+    methods: {
+      open1() {
+        $('.modal').modal();
+        $('#modal1').modal('open');
+      },
+      open2() {
+        $('.modal').modal();
+        $('#modal2').modal('open');
+      },
+      open4() {
+        $('.modal').modal();
+        $('#modal4').modal('open');
+      },
+      open3() {
+        $('.modal').modal();
+        $('#modal3').modal('open');
+      },
+      open5() {
+        $('.modal').modal();
+        $('#modal5').modal('open');
+      },
+      open6() {
+        $('.modal').modal();
+        $('#modal6').modal('open');
+      },
+      open7() {
+        $('.modal').modal();
+        $('#modal7').modal('open');
+      },
+      open8() {
+        $('.modal').modal();
+        $('#modal8').modal('open');
+      },
+      open9() {
+        $('.modal').modal();
+        $('#modal9').modal('open');
+      },
+      open10() {
+        $('.modal').modal();
+        $('#modal10').modal('open');
+      },
+      open11() {
+        $('.modal').modal();
+        $('#modal11').modal('open');
+      },
+      open12() {
+        $('.modal').modal();
+        $('#modal12').modal('open');
+      },
+      open13() {
+        $('.modal').modal();
+        $('#modal13').modal('open');
+      },
+      open14() {
+        $('.modal').modal();
+        $('#modal14').modal('open');
+      },
+      open15() {
+        $('.modal').modal();
+        $('#modal15').modal('open');
+      },
+      open16() {
+        $('.modal').modal();
+        $('#modal16').modal('open');
+      },
+      open17() {
+        $('.modal').modal();
+        $('#modal17').modal('open');
+      },
     }
+  }
 </script>
 
 <style scoped>
-    h4{
-      font-size: 1.5rem;
-    }
+  h4 {
+    font-size: 1.5rem;
+  }
 </style>

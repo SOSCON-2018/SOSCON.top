@@ -4,6 +4,33 @@
       <!--<img src="../../static/img/Background-3.jpg" :style="{height:h1}" style="width: 100%;position: fixed;" ></img>-->
       <div style="width: 80%;margin: 0 auto;">
         <div>
+          <div id="modal4" class="modal">
+            <div class="modal-content">
+              <img src="../../static/img/qrcode.png"/>
+              <span style="vertical-align: top;font-size: xx-large;font-weight: 700">soscon2018</span>
+            </div>
+          </div>
+          <div>
+            <div style="display: inline-block;text-align: center;margin-top: 80px">
+              <!--<p style="background-color: black;color: white;width: 260px;height: 65px;font-size: x-large" >SOSCON<span style="color:#66ccff;">18</span></p>-->
+              <h5 style="background-color: black;color: white;padding: 13px 16px;">{{$t("Community.community2")}}</h5>
+            </div>
+            <p style="font-weight: 700;font-size: x-large;margin-top: 0%;margin-bottom: -2%"><b>————</b></p>
+            <div class="row" style="margin-left:-1%">
+              <div class="col s12 m6 l3"style="margin-top: 3%">
+                <div class="card" style="width: 225px;height: 256px;">
+                  <div class="card-image" style="height: 220px;" >
+                    <img src="../../static/img/openingsource.svg" style="position: relative;top:40%;">
+                  </div>
+                  <div class="card-action"style="background-color:#282828;" >
+                    <a href="https://openingsource.org" style="color: white;margin: auto">开源工场</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
           <div style="display: inline-block;text-align: center;margin-top: 80px">
             <!--<p style="background-color: black;color: white;width: 260px;height: 65px;font-size: x-large" >SOSCON<span style="color:#66ccff;">18</span></p>-->
             <h5 style="background-color: black;color: white;padding: 13px 16px;">{{$t("Community.community")}}</h5>
@@ -93,15 +120,12 @@
           </div>
           </p>
         </div>
-
         <div>
           <div style="display: inline-block;text-align: center;margin-top: 80px">
             <!--<p style="background-color: black;color: white;width: 260px;height: 65px;font-size: x-large" >SOSCON<span style="color:#66ccff;">18</span></p>-->
-            <h5 style="background-color: black;color: white;padding: 13px 16px;">{{$t("Community.community1")}}</h5>
+            <h5 style="background-color: black;color: white;padding: 13px 16px;">{{$t("Community.community3")}}</h5>
           </div>
           <p style="font-weight: 700;font-size: x-large;margin-top: 0%;margin-bottom: -5%"><b>————</b></p>
-
-          <p>
           <div class="row" style="margin-left:-1%">
             <div class="col s12 m4 l2"style="margin-top:7%" >
               <div class="card" style="width: 170px;height: 170px;">
@@ -113,6 +137,38 @@
                 </div>
               </div>
             </div>
+            <div class="col s12 m4 l2"style="margin-top:7%" >
+              <div class="card" style="width: 170px;height: 170px;">
+                <div class="card-image" style="height: 150px;" >
+                  <img src="../../static/img/oschina.jpg" style="position: relative;top: 20%">
+                </div>
+                <div class="card-action" style="background-color:#282828">
+                  <a href="https://www.oschina.net/" style="color: white">开源中国</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div style="display: inline-block;text-align: center;margin-top: 80px">
+            <!--<p style="background-color: black;color: white;width: 260px;height: 65px;font-size: x-large" >SOSCON<span style="color:#66ccff;">18</span></p>-->
+            <h5 style="background-color: black;color: white;padding: 13px 16px;">{{$t("Community.community1")}}</h5>
+          </div>
+          <p style="font-weight: 700;font-size: x-large;margin-top: 0%;margin-bottom: -5%"><b>————</b></p>
+
+          <p>
+          <div class="row" style="margin-left:-1%">
+            <!--<div class="col s12 m4 l2"style="margin-top:7%" >
+              <div class="card" style="width: 170px;height: 170px;">
+                <div class="card-image" style="height: 150px;" >
+                  <img src="../../static/img/ls.png">
+                </div>
+                <div class="card-action" style="background-color:#282828">
+                  <a href="https://linuxstory.org/" style="color: white">Linuxstory</a>
+                </div>
+              </div>
+            </div>-->
 
             <div class="col s12 m4 l2" style="margin-top: 7%!important">
               <div class="card" style="width: 170px;height:170px;">
@@ -339,12 +395,12 @@
         <a :href="['https://openingsource.org']"><img class="iconstyleA" src="../../static/img/openingsource.svg"/></a>
         <a :href="['https://t.me/soscon']"><img class="iconstyle" src="../../static/img/Telegram.svg"/></a>
         <a :href="['https://www.youtube.com/channel/UCpqv0HaFB0rAK-9G_V9yOOA']"><img class="iconstyle" src="../../static/img/Youtube.svg"/></a>
-        <a><img class="iconstyle" src="../../static/img/Facebook.svg"/></a>
+        <a :href="['https://www.facebook.com/SOSCON.top/']"><img class="iconstyle" src="../../static/img/Facebook.svg"/></a>
         <a :href="['https://plus.google.com/u/0/111192234176729671386']"><img class="iconstyle" src="../../static/img/Google+.svg"/></a>
         <a :href="['https://twitter.com/soscon2018']"><img class="iconstyle" src="../../static/img/Twitter.svg"/></a>
         <a :href="['http://weibo.com/u/6557396839']"><img class="iconstyle" src="../../static/img/Weibo.svg"/></a>
-        <a><img class="iconstyle" src="../../static/img/WeChat.svg"/></a>
-        <a><img class="iconstyle" src="../../static/img/QQ.svg"/></a>
+        <a style="cursor: pointer" @click="open4"><img class="iconstyle" src="../../static/img/WeChat.svg"/></a>
+        <a :href="['http://qm.qq.com/cgi-bin/qm/qr?k=yF0lluoacOOlRVTX_jFmpivy1ToU15u7']"><img class="iconstyle" src="../../static/img/QQ.svg"/></a>
         <!--<img style="vertical-align:middle;margin-left: 1%;width: 35px;" src="../../static/img/Youtube-W.png"/>
         <img style="vertical-align:middle;margin-left: 1%;width: 35px;" src="../../static/img/Flickr-W.png"/>-->
         <span class="bottomwords">{{$t("About.bottom1")}}。  Copyright© SOSCON {{$t("About.foot")}} 2018</span>
@@ -358,7 +414,13 @@
 
 <script>
   export default {
-    name: "community"
+    name: "community",
+    methods:{
+      open4(){
+        $('.modal').modal();
+        $('#modal4').modal('open');
+      },
+    }
   }
 </script>
 

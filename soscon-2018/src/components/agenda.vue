@@ -35,6 +35,12 @@
           <p>{{$t("Agenda.speach13")}}</p>
         </div>
       </div>
+      <div id="modal4" class="modal">
+        <div class="modal-content">
+          <img src="../../static/img/qrcode.png"/>
+          <span style="vertical-align: top;font-size: xx-large;font-weight: 700">soscon2018</span>
+        </div>
+      </div>
       <div id="test1" class="col s12" style="height: 520px;overflow: auto;width: 100%;">
         <!--<div class="AgendaProcess colorA">
           <span class="time">14:00-14:30</span>
@@ -92,12 +98,12 @@
         <a :href="['https://openingsource.org']"><img class="iconstyleA" src="../../static/img/openingsource.svg"/></a>
         <a :href="['https://t.me/soscon']"><img class="iconstyle" src="../../static/img/Telegram.svg"/></a>
         <a :href="['https://www.youtube.com/channel/UCpqv0HaFB0rAK-9G_V9yOOA']"><img class="iconstyle" src="../../static/img/Youtube.svg"/></a>
-        <a><img class="iconstyle" src="../../static/img/Facebook.svg"/></a>
+        <a :href="['https://www.facebook.com/SOSCON.top/']"><img class="iconstyle" src="../../static/img/Facebook.svg"/></a>
         <a :href="['https://plus.google.com/u/0/111192234176729671386']"><img class="iconstyle" src="../../static/img/Google+.svg"/></a>
         <a :href="['https://twitter.com/soscon2018']"><img class="iconstyle" src="../../static/img/Twitter.svg"/></a>
         <a :href="['http://weibo.com/u/6557396839']"><img class="iconstyle" src="../../static/img/Weibo.svg"/></a>
-        <a><img class="iconstyle" src="../../static/img/WeChat.svg"/></a>
-        <a><img class="iconstyle" src="../../static/img/QQ.svg"/></a>
+        <a style="cursor: pointer" @click="open4"><img class="iconstyle" src="../../static/img/WeChat.svg"/></a>
+        <a :href="['http://qm.qq.com/cgi-bin/qm/qr?k=yF0lluoacOOlRVTX_jFmpivy1ToU15u7']"><img class="iconstyle" src="../../static/img/QQ.svg"/></a>
         <!--<img style="vertical-align:middle;margin-left: 1%;width: 35px;" src="../../static/img/Youtube-W.png"/>
         <img style="vertical-align:middle;margin-left: 1%;width: 35px;" src="../../static/img/Flickr-W.png"/>-->
         <span class="bottomwords">{{$t("About.bottom1")}}。  Copyright© SOSCON {{$t("About.foot")}} 2018</span>
@@ -123,8 +129,13 @@
         $('.modal').modal();
         $('#modal3').modal('open');
       },
+      open4(){
+        $('.modal').modal();
+        $('#modal4').modal('open');
+      }
     }
   }
+
 </script>
 
 <style scoped>

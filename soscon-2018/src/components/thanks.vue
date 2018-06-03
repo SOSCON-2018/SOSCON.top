@@ -1,144 +1,157 @@
 <template>
 
   <div>
-    <div style="background-image: url('../../static/img/Background-3.jpg');height: auto!important;background-size: cover;background-attachment: fixed">
+    <div
+      style="background-image: url('../../static/img/Background-3.jpg');height: auto!important;background-size: cover;background-attachment: fixed">
       <div style="height: auto!important;background-size: cover;">
-      <div style="width: 80%;margin: 0 auto;">
-        <div style="display: inline-block;text-align: center;margin-top: 80px">
-          <h5 style="color:black; font-size:60px;position: relative;left: 2%">感谢</h5>
-        </div>
-        <p style="font-weight: 700;color:black;font-size:20px;margin-top: 0% "><b>—————</b></p>
-
-
-        <div>
-          <div style="display: inline-block;text-align: center">
-            <h5 style="background-color: #ee6e73;color:black;padding: 13px 16px;">特别支持</h5>
+        <div style="width: 80%;margin: 0 auto;">
+          <div id="modal4" class="modal">
+            <div class="modal-content">
+              <img src="../../static/img/qrcode.png"/>
+              <span style="vertical-align: top;font-size: xx-large;font-weight: 700">soscon2018</span>
+            </div>
           </div>
-          <p>
-          <div class="row" style="margin-left:-1%">
+          <div style="display: inline-block;text-align: center;margin-top: 80px">
+            <h5 style="color:black; font-size:60px;position: relative;left: 2%">感谢</h5>
+          </div>
+          <p style="font-weight: 700;color:black;font-size:20px;margin-top: 0% "><b>—————</b></p>
 
-            <div class="col s12 m6"style="margin-top:3%">
-              <!--<div class="card" style="width: 225px;height: 256px;">
-                <div class="card-image" style="height: 220px;" >-->
-                  <img src="../../static/img/Neo.jpg" style="height:200px">
+
+          <div>
+            <div style="display: inline-block;text-align: center">
+              <h5 style="background-color: #ee6e73;color:black;padding: 13px 16px;">特别支持</h5>
+            </div>
+            <p>
+            <div class="row" style="margin-left:-1%">
+
+              <div class="col s12 m6" style="margin-top:3%">
+                <!--<div class="card" style="width: 225px;height: 256px;">
+                  <div class="card-image" style="height: 220px;" >-->
+                <img src="../../static/img/Neo.jpg" style="height:200px">
                 <!--</div>
                 <div class="card-action"style="background-color:#282828;" >
                   <a href="https://neo.org/" style="color: white;margin: auto">NEO</a>
                 </div>
               </div>-->
+              </div>
+
+
+            </div>
+            </p>
+          </div>
+
+          <div>
+            <div style="display: inline-block;text-align: center;margin-top: 80px">
+              <!--<p style="background-color: black;color: white;width: 260px;height: 65px;font-size: x-large" >SOSCON<span style="color:#66ccff;">18</span></p>-->
+              <h5 style="background-color:darkseagreen;color: black;padding: 13px 16px;"> 白银赞助</h5>
             </div>
 
+            <p>
+            <div class="row" style="margin-left:-1%">
 
-          </div>
-          </p>
-        </div>
-
-        <div>
-          <div style="display: inline-block;text-align: center;margin-top: 80px">
-            <!--<p style="background-color: black;color: white;width: 260px;height: 65px;font-size: x-large" >SOSCON<span style="color:#66ccff;">18</span></p>-->
-            <h5 style="background-color:darkseagreen;color: black;padding: 13px 16px;"> 白银赞助</h5>
-          </div>
-
-          <p>
-          <div class="row" style="margin-left:-1%">
-
-          <div class="col s12 m4 l3"style="margin-top:3%;" >
-              <div class="card" style="width:300px;height:180px;">
-                <div class="card-image" style="height:220px;width:280px" >
-                  <img src="../../static/img/youloft.png" style="position: relative;top:40px">
+              <div class="col s12 m4 l3" style="margin-top:3%;">
+                <div class="card" style="width:300px;height:180px;">
+                  <div class="card-image" style="height:220px;width:280px">
+                    <img src="../../static/img/youlu.png" style="width: 110%;position: relative;top:0px">
+                  </div>
                 </div>
               </div>
+
+            </div>
+            </p>
+          </div>
+
+
+          <div>
+            <div style="display: inline-block;text-align: center;margin-top: 80px">
+              <!--<p style="background-color: black;color: white;width: 260px;height: 65px;font-size: x-large" >SOSCON<span style="color:#66ccff;">18</span></p>-->
+              <h5 style="background-color:lightgoldenrodyellow;color: black;padding: 13px 16px;">独家视频支持</h5>
             </div>
 
-          </div>
-          </p>
-        </div>
+            <p>
+            <div class="row" style="margin-left:-1%">
 
-
-        <div>
-          <div style="display: inline-block;text-align: center;margin-top: 80px">
-            <!--<p style="background-color: black;color: white;width: 260px;height: 65px;font-size: x-large" >SOSCON<span style="color:#66ccff;">18</span></p>-->
-            <h5 style="background-color:lightgoldenrodyellow;color: black;padding: 13px 16px;">独家视频支持</h5>
-          </div>
-
-          <p>
-          <div class="row" style="margin-left:-1%">
-
-            <div class="col s12 m4 l3"style="margin-top:3%" >
-              <div class="card" style="width:300px;height:180px;">
-                <div class="card-image" style="height:250px;width:280px">
-                  <img src="../../static/img/dakashuo.png" style="position: relative;top:50px;right:10px">
+              <div class="col s12 m4 l3" style="margin-top:3%">
+                <div class="card" style="width:300px;height:180px;">
+                  <div class="card-image" style="height:250px;width:280px">
+                    <img src="../../static/img/dakashuo.png" style="position: relative;top:50px;right:10px">
+                  </div>
                 </div>
               </div>
+
+            </div>
+            </p>
+          </div>
+
+         <!-- <div>
+            <div style="display: inline-block;text-align: center;margin-top: 80px">
+              &lt;!&ndash;<p style="background-color: black;color: white;width: 260px;height: 65px;font-size: x-large" >SOSCON<span style="color:#66ccff;">18</span></p>&ndash;&gt;
+              <h5 style="background-color:lightgoldenrodyellow;color: black;padding: 13px 16px;">战略合作伙伴</h5>
             </div>
 
-          </div>
-          </p>
-        </div>
+            <p>
+            <div class="row" style="margin-left:-1%">
 
-        <div>
-          <div style="display: inline-block;text-align: center;margin-top: 80px">
-            <!--<p style="background-color: black;color: white;width: 260px;height: 65px;font-size: x-large" >SOSCON<span style="color:#66ccff;">18</span></p>-->
-            <h5 style="background-color:lightgoldenrodyellow;color: black;padding: 13px 16px;">战略合作伙伴</h5>
-          </div>
-
-          <p>
-          <div class="row" style="margin-left:-1%">
-
-            <div class="col s12 m3 l4"style="margin-top:3%" >
-              <div class="card" style="width:300px;height:180px;">
-                <div class="card-image" style="height:250px;width:280px">
-                  <img src="../../static/img/oschina.jpg" style="position:relative;left:10px">
+              <div class="col s12 m3 l4" style="margin-top:3%">
+                <div class="card" style="width:300px;height:180px;">
+                  <div class="card-image" style="height:250px;width:280px">
+                    <img src="../../static/img/oschina.jpg" style="position:relative;left:10px">
+                  </div>
                 </div>
               </div>
-            </div>
 
-          <!--<div class="col s12 m3 l4"style="margin-top:3%" >
-            <div class="card" style="width:300px;height:180px;">
-              <div class="card-image" style="height:250px;width:280px">
-                <img src="../../static/img/Linuxcn.jpg" style="position:relative;left:10px">
-              </div>
+              &lt;!&ndash;<div class="col s12 m3 l4"style="margin-top:3%" >
+                <div class="card" style="width:300px;height:180px;">
+                  <div class="card-image" style="height:250px;width:280px">
+                    <img src="../../static/img/Linuxcn.jpg" style="position:relative;left:10px">
+                  </div>
+                </div>
+              </div>&ndash;&gt;
+
             </div>
+            </p>
           </div>-->
 
-          </div>
-          </p>
-        </div>
+          <div>
+            <div style="display: inline-block;text-align: center;margin-top: 80px">
+              <!--<p style="background-color: black;color: white;width: 260px;height: 65px;font-size: x-large" >SOSCON<span style="color:#66ccff;">18</span></p>-->
+              <h5 style="background-color:mediumpurple;color: black;padding: 13px 16px;">合作媒体</h5>
+            </div>
 
-        <div>
-          <div style="display: inline-block;text-align: center;margin-top: 80px">
-            <!--<p style="background-color: black;color: white;width: 260px;height: 65px;font-size: x-large" >SOSCON<span style="color:#66ccff;">18</span></p>-->
-            <h5 style="background-color:mediumpurple;color: black;padding: 13px 16px;">合作媒体</h5>
-          </div>
+            <p>
+            <div class="row" style="margin-left:-1%">
 
-          <p>
-          <div class="row" style="margin-left:-1%">
-
-            <!--<div class="col s12 m3 l4"style="margin-top:3%" >
+              <!--<div class="col s12 m3 l4"style="margin-top:3%" >
+                <div class="card" style="width:300px;height:180px;">
+                  <div class="card-image" style="height:250px;width:280px">
+                    <img src="../../static/img/oschina.jpg" style="position:relative;left:10px">
+                  </div>
+                </div>
+              </div>-->
+            <div class="col s12 m3 l4" style="margin-top:3%">
               <div class="card" style="width:300px;height:180px;">
                 <div class="card-image" style="height:250px;width:280px">
                   <img src="../../static/img/oschina.jpg" style="position:relative;left:10px">
                 </div>
               </div>
-            </div>-->
-
-            <div class="col s12 m3 l4"style="margin-top:3%" >
-              <div class="card" style="width:300px;height:180px;">
-                <div class="card-image" style="height:250px;width:280px">
-                  <img src="../../static/img/Linuxcn.jpg" style="position:relative;left:10px">
+            </div>
+              <div class="col s12 m3 l4" style="margin-top:3%">
+                <div class="card" style="width:300px;height:180px;">
+                  <div class="card-image" style="height:250px;width:280px">
+                    <img src="../../static/img/Linuxcn.jpg" style="position:relative;left:10px">
+                  </div>
                 </div>
               </div>
+
             </div>
-
+            </p>
           </div>
-          </p>
+
+
+          <p style="font-weight: 700;font-size: x-large;margin-top: 20%"><b>————</b></p>
         </div>
-
-
-        <p style="font-weight: 700;font-size: x-large;margin-top: 20%"><b>————</b></p>
       </div>
     </div>
-   </div>
 
 
     <!--<div style="width: 80%;margin: auto">
@@ -164,13 +177,15 @@
         <!--<span style="height:100%;display:inline-block;vertical-align:middle;margin-left: 8%"></span>-->
         <a :href="['https://openingsource.org']"><img class="iconstyleA" src="../../static/img/openingsource.svg"/></a>
         <a :href="['https://t.me/soscon']"><img class="iconstyle" src="../../static/img/Telegram.svg"/></a>
-        <a :href="['https://www.youtube.com/channel/UCpqv0HaFB0rAK-9G_V9yOOA']"><img class="iconstyle" src="../../static/img/Youtube.svg"/></a>
-        <a><img class="iconstyle" src="../../static/img/Facebook.svg"/></a>
-        <a :href="['https://plus.google.com/u/0/111192234176729671386']"><img class="iconstyle" src="../../static/img/Google+.svg"/></a>
+        <a :href="['https://www.youtube.com/channel/UCpqv0HaFB0rAK-9G_V9yOOA']"><img class="iconstyle"
+                                                                                     src="../../static/img/Youtube.svg"/></a>
+        <a :href="['https://www.facebook.com/SOSCON.top/']"><img class="iconstyle" src="../../static/img/Facebook.svg"/></a>
+        <a :href="['https://plus.google.com/u/0/111192234176729671386']"><img class="iconstyle"
+                                                                              src="../../static/img/Google+.svg"/></a>
         <a :href="['https://twitter.com/soscon2018']"><img class="iconstyle" src="../../static/img/Twitter.svg"/></a>
         <a :href="['http://weibo.com/u/6557396839']"><img class="iconstyle" src="../../static/img/Weibo.svg"/></a>
-        <a><img class="iconstyle" src="../../static/img/WeChat.svg"/></a>
-        <a><img class="iconstyle" src="../../static/img/QQ.svg"/></a>
+        <a style="cursor: pointer" @click="open4"><img class="iconstyle" src="../../static/img/WeChat.svg"/></a>
+        <a :href="['http://qm.qq.com/cgi-bin/qm/qr?k=yF0lluoacOOlRVTX_jFmpivy1ToU15u7']"><img class="iconstyle" src="../../static/img/QQ.svg"/></a>
         <!--<img style="vertical-align:middle;margin-left: 1%;width: 35px;" src="../../static/img/Youtube-W.png"/>
         <img style="vertical-align:middle;margin-left: 1%;width: 35px;" src="../../static/img/Flickr-W.png"/>-->
         <span class="bottomwords">{{$t("About.bottom1")}}。  Copyright© SOSCON {{$t("About.foot")}} 2018</span>
@@ -183,9 +198,15 @@
 </template>
 
 <script>
-    export default {
-        name: "thanks"
+  export default {
+    name: "thanks",
+    methods:{
+      open4(){
+        $('.modal').modal();
+        $('#modal4').modal('open');
+      },
     }
+  }
 </script>
 
 <style scoped>

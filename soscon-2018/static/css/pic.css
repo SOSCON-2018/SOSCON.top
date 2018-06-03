@@ -305,24 +305,71 @@
   filter: opacity(.9);
   overflow: auto;
 }
+
 .support {
   height: 400px;
   margin-right: 10%
 }
+
+.allmain {
+  display: inline;
+}
+
+.allmain1 {
+  width: 10%;
+  height: auto;
+  margin-left: 10%;
+  margin-top: 2%
+}
+
+.allmain2 {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  margin-top: 2%
+}
+
+.allmain3 {
+  text-align: center;
+  vertical-align: top;
+  margin-left: 25%;
+  font-size: xx-large;
+  font-weight: 800
+}
+
+.aboutusposi {
+  width: 20%;
+  height: auto;
+}
+
+.stuffposition {
+  margin-top: 7% !important
+}
+
 @media only screen and (max-width: 1050px) {
   .applyContainer {
     height: 550px;
   }
 
+  .aboutusposi {
+    width: 30%;
+    height: auto;
+  }
 }
 
 @media only screen and (max-width: 700px) {
   .applyContainer {
     height: 650px;
   }
+
+  .aboutusposi {
+    width: 40%;
+    height: auto;
+  }
+
   .support {
     height: 400px;
-    margin-right:0;
+    margin-right: 0;
   }
 }
 
@@ -330,15 +377,33 @@
   .applyContainer {
     height: 420px;
   }
+
+  .aboutusposi {
+    width: 40%;
+    height: auto;
+  }
+
   .support {
     height: 400px;
-    margin-right:0;
+    margin-right: 0;
   }
 }
 
 @media only screen and (max-width: 500px) {
   #modalLogin {
     width: 90%;
+  }
+
+  .aboutusposi {
+    width: 100%;
+    height: auto;
+  }
+
+  .allmain1 {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-top: 2%
   }
 
   .map {
@@ -474,9 +539,10 @@
     filter: opacity(.9);
     overflow: auto;
   }
+
   .support {
     height: 400px;
-    margin-right:0;
+    margin-right: 0;
   }
 }
 
