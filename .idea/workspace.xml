@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71043d2c-feb3-4cc6-803e-26d56659b1f3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soscon-2018/src/components/about.vue" beforeDir="false" afterPath="$PROJECT_DIR$/soscon-2018/src/components/about.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soscon-2018/src/components/aboutUs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/soscon-2018/src/components/aboutUs.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soscon-2018/src/components/agenda.vue" beforeDir="false" afterPath="$PROJECT_DIR$/soscon-2018/src/components/agenda.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soscon-2018/src/components/agenda10.vue" beforeDir="false" afterPath="$PROJECT_DIR$/soscon-2018/src/components/agenda10.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soscon-2018/src/components/community.vue" beforeDir="false" afterPath="$PROJECT_DIR$/soscon-2018/src/components/community.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soscon-2018/src/components/individual_sponser.vue" beforeDir="false" afterPath="$PROJECT_DIR$/soscon-2018/src/components/individual_sponser.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soscon-2018/src/components/news.vue" beforeDir="false" afterPath="$PROJECT_DIR$/soscon-2018/src/components/news.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soscon-2018/src/components/thanks.vue" beforeDir="false" afterPath="$PROJECT_DIR$/soscon-2018/src/components/thanks.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soscon-2018/static/css/pic.css" beforeDir="false" afterPath="$PROJECT_DIR$/soscon-2018/static/css/pic.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soscon-2018/static/lang/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/soscon-2018/static/lang/en.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soscon-2018/static/lang/zhCHS.js" beforeDir="false" afterPath="$PROJECT_DIR$/soscon-2018/static/lang/zhCHS.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soscon-2018/static/lang/zhCHT.js" beforeDir="false" afterPath="$PROJECT_DIR$/soscon-2018/static/lang/zhCHT.js" afterDir="false" />
-    </list>
+    <list default="true" id="71043d2c-feb3-4cc6-803e-26d56659b1f3" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -82,7 +68,7 @@
         <entry file="file://$PROJECT_DIR$/soscon-2018/src/components/aboutUs.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="244">
-              <caret line="26" column="128" selection-start-line="26" selection-start-column="128" selection-end-line="26" selection-end-column="128" />
+              <caret line="26" column="126" selection-start-line="26" selection-start-column="126" selection-end-line="26" selection-end-column="126" />
               <folding>
                 <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
@@ -425,7 +411,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/soscon-2018/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="590" />
     <option name="width" value="1080" />
     <option name="height" value="1040" />
@@ -560,15 +546,15 @@
       <workItem from="1527828174394" duration="2416000" />
       <workItem from="1527920369818" duration="607000" />
       <workItem from="1527933537808" duration="10820000" />
-      <workItem from="1527993803813" duration="12104000" />
+      <workItem from="1527993803813" duration="12677000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129471000" />
+    <option name="totallyTimeSpent" value="130044000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17578125" />
@@ -1042,7 +1028,7 @@
     <entry file="file://$PROJECT_DIR$/soscon-2018/src/components/aboutUs.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
-          <caret line="26" column="128" selection-start-line="26" selection-start-column="128" selection-end-line="26" selection-end-column="128" />
+          <caret line="26" column="126" selection-start-line="26" selection-start-column="126" selection-end-line="26" selection-end-column="126" />
           <folding>
             <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
