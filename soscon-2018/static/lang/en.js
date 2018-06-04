@@ -249,7 +249,7 @@ module.exports={
     process22:'Speech: Open Source Workshop by Gao Yutong of CQU',
     process7: 'Luncheon',
     process8: 'Speech: Cunik: Container & Unikernel by He Jiyan of USTC',
-    process23:'Speech: From the propaganda team to the big community - A review of our community\'s history, technology and culture by Bai mingcong and Li minyong',
+    process23:'Speech: From the propaganda team to the big community - A review of our community\'s history, project and culture by Bai mingcong and Li minyong',
     process12: 'Speech: Grating-Based Naked-Eye 3D Vision Solution—from Proposal to Implementation',
     process13: 'Afternoon tea',
     process14: 'Speech: Introducing the open source project Listen-Now on GitHub by Zhu Yuefeng of HuZhou University',

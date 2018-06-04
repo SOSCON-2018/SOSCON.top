@@ -251,7 +251,7 @@ module.exports= {
     process22:'重庆大学-高雨彤：开源工场社区相关',
     process7: '午餐',
     process8: '中国科学技术大学-何纪言：Cunik: Container & Unikernel',
-    process23:'安同开源社区-白铭骢+黎民雍：从宣传队到大社团——我们社区的历史、技术和文化综述',
+    process23:'安同开源社区-白铭骢+黎民雍：从宣传队到大社团——我们社区的历史、项目和文化综述',
     process12: '中国科学技术大学-王子博：基于光栅的裸眼3D方案——从提出到实现',
     process13: '下午茶',
     process14: '湖州师范学院-诸岳锋：GitHub上的开源项目Listen-Now',

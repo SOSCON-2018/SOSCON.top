@@ -252,7 +252,7 @@ module.exports={
     process22:'重慶大學-高雨彤：開源工場社區相關',
     process7:'午餐',
     process8: '中國科學技術大學-何紀言：Cunik: Container & Unikernel',
-    process23:'安同開源社區-未定：從宣傳隊到大社團——我們社區的歷史、技術和文化綜述',
+    process23:'安同開源社區-未定：從宣傳隊到大社團——我們社區的歷史、項目和文化綜述',
     process12:'中國科學技術大學-王子博：基於光柵的裸眼3D方案——從提出到實現',
     process13:'下午茶',
     process14: '湖州師範學院-諸嶽鋒：GitHub上的開源項目Listen-Now',
