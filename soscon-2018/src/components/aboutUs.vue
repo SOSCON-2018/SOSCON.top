@@ -101,7 +101,7 @@
           <img src="../../static/img/head.jpg" class="headpic" align="right" hspace="5" vspace="5">
           <p style="vertical-align: top;font-size: x-large;font-weight: 700">{{$t("AboutUs.about2")}}</p>
           <p style="vertical-align: top;font-size: x-large;font-weight: 500">阿廿</p>
-          <p style="vertical-align: top;font-size: x-large;font-weight: 500">Email:</p>
+          <p style="vertical-align: top;font-size: x-large;font-weight: 500">Email: 1026817845@qq.com</p>
         </div>
       </div>
       <div id="modal10" class="modal">
