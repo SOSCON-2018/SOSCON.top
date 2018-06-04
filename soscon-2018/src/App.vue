@@ -136,6 +136,7 @@
   }
   ::-webkit-scrollbar{
     display: none;
+
   }
   .child-view {
     position: absolute;
