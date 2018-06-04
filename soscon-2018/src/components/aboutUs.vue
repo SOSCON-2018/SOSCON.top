@@ -44,25 +44,25 @@
       <div id="modal2" class="modal">
         <div class="modal-content">
           <img src="../../static/img/personnn.png" class="headpic" align="right" hspace="5" vspace="5">
-          <p style="vertical-align: top;font-size: xx-large;font-weight: 700">{{$t("AboutUs.about5")}}</p>
-          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">刘昊天</p>
-          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">Email: volhtt@gmail.com</p>
+          <p style="vertical-align: top;font-size: x-large;font-weight: 700">{{$t("AboutUs.about5")}}</p>
+          <p style="vertical-align: top;font-size: x-large;font-weight: 500">刘昊天</p>
+          <p style="vertical-align: top;font-size: x-large;font-weight: 500">Email: volhtt@gmail.com</p>
         </div>
       </div>
       <div id="modal3" class="modal">
         <div class="modal-content">
           <img src="../../static/img/zhou1.png" class="headpic" align="right" hspace="5" vspace="5">
-          <p style="vertical-align: top;font-size: xx-large;font-weight: 700">{{$t("AboutUs.about5")}}</p>
-          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">周新林</p>
-          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">Email: zxl120844854@gmail.com</p>
+          <p style="vertical-align: top;font-size: x-large;font-weight: 700">{{$t("AboutUs.about5")}}</p>
+          <p style="vertical-align: top;font-size: x-large;font-weight: 500">周新林</p>
+          <p style="vertical-align: top;font-size: x-large;font-weight: 500">Email: zxl120844854@gmail.com</p>
         </div>
       </div>
       <div id="modal5" class="modal">
         <div class="modal-content">
           <img src="../../static/img/head.jpg" class="headpic" align="right" hspace="5" vspace="5">
-          <p style="vertical-align: top;font-size: xx-large;font-weight: 700">{{$t("AboutUs.about5")}}</p>
-          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">董学竹</p>
-          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">Email: Brand_dxz@163.com</p>
+          <p style="vertical-align: top;font-size: x-large;font-weight: 700">{{$t("AboutUs.about5")}}</p>
+          <p style="vertical-align: top;font-size: x-large;font-weight: 500">董学竹</p>
+          <p style="vertical-align: top;font-size: x-large;font-weight: 500">Email: Brand_dxz@163.com</p>
         </div>
       </div>
       <div id="modal4" class="modal">
@@ -74,98 +74,98 @@
       <div id="modal6" class="modal">
         <div class="modal-content">
           <img src="../../static/img/head.jpg" class="headpic" align="right" hspace="5" vspace="5">
-          <p style="vertical-align: top;font-size: xx-large;font-weight: 700">{{$t("AboutUs.about5")}}</p>
-          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">陈盛玮</p>
-          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">Email: dcfvzx@126.com
+          <p style="vertical-align: top;font-size: x-large;font-weight: 700">{{$t("AboutUs.about5")}}</p>
+          <p style="vertical-align: top;font-size: x-large;font-weight: 500">陈盛玮</p>
+          <p style="vertical-align: top;font-size: x-large;font-weight: 500">Email: dcfvzx@126.com
           </p>
         </div>
       </div>
       <div id="modal7" class="modal">
         <div class="modal-content">
           <img src="../../static/img/head.jpg" class="headpic" align="right" hspace="5" vspace="5">
-          <p style="vertical-align: top;font-size: xx-large;font-weight: 700">{{$t("AboutUs.about5")}}</p>
-          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">赵启铭</p>
-          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">Email: cmlfexponential@gmail.com</p>
+          <p style="vertical-align: top;font-size: x-large;font-weight: 700">{{$t("AboutUs.about5")}}</p>
+          <p style="vertical-align: top;font-size: x-large;font-weight: 500">赵启铭</p>
+          <p style="vertical-align: top;font-size: x-large;font-weight: 500">Email: cmlfexponential@gmail.com</p>
         </div>
       </div>
       <div id="modal8" class="modal">
         <div class="modal-content">
           <img src="../../static/img/head.jpg" class="headpic" align="right" hspace="5" vspace="5">
-          <p style="vertical-align: top;font-size: xx-large;font-weight: 700">{{$t("AboutUs.about2")}}</p>
-          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">蒋昊辰</p>
-          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">Email: jhc@openingsource.org</p>
+          <p style="vertical-align: top;font-size: x-large;font-weight: 700">{{$t("AboutUs.about2")}}</p>
+          <p style="vertical-align: top;font-size: x-large;font-weight: 500">蒋昊辰</p>
+          <p style="vertical-align: top;font-size: x-large;font-weight: 500">Email: jhc@openingsource.org</p>
         </div>
       </div>
       <div id="modal9" class="modal">
         <div class="modal-content">
           <img src="../../static/img/head.jpg" class="headpic" align="right" hspace="5" vspace="5">
-          <p style="vertical-align: top;font-size: xx-large;font-weight: 700">{{$t("AboutUs.about2")}}</p>
-          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">阿廿</p>
-          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">Email:</p>
+          <p style="vertical-align: top;font-size: x-large;font-weight: 700">{{$t("AboutUs.about2")}}</p>
+          <p style="vertical-align: top;font-size: x-large;font-weight: 500">阿廿</p>
+          <p style="vertical-align: top;font-size: x-large;font-weight: 500">Email:</p>
         </div>
       </div>
       <div id="modal10" class="modal">
         <div class="modal-content">
           <img src="../../static/img/head.jpg" class="headpic" align="right" hspace="5" vspace="5">
-          <p style="vertical-align: top;font-size: xx-large;font-weight: 700">{{$t("AboutUs.about2")}}</p>
-          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">项子易</p>
-          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">Email: 1195417663@qq.com </p>
+          <p style="vertical-align: top;font-size: x-large;font-weight: 700">{{$t("AboutUs.about2")}}</p>
+          <p style="vertical-align: top;font-size: x-large;font-weight: 500">项子易</p>
+          <p style="vertical-align: top;font-size: x-large;font-weight: 500">Email: 1195417663@qq.com </p>
         </div>
       </div>
       <div id="modal11" class="modal">
         <div class="modal-content">
           <img src="../../static/img/head.jpg" class="headpic" align="right" hspace="5" vspace="5">
-          <p style="vertical-align: top;font-size: xx-large;font-weight: 700">{{$t("AboutUs.about2")}}</p>
-          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">屈艺欣</p>
-          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">Email:</p>
+          <p style="vertical-align: top;font-size: x-large;font-weight: 700">{{$t("AboutUs.about2")}}</p>
+          <p style="vertical-align: top;font-size: x-large;font-weight: 500">屈艺欣</p>
+          <p style="vertical-align: top;font-size: x-large;font-weight: 500">Email: 945677877@qq.com</p>
         </div>
       </div>
       <div id="modal12" class="modal">
         <div class="modal-content">
           <img src="../../static/img/head.jpg" class="headpic" align="right" hspace="5" vspace="5">
-          <p style="vertical-align: top;font-size: xx-large;font-weight: 700">{{$t("AboutUs.about3")}}</p>
-          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">叶伟豪</p>
-          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">Email: g17767078958@gmail.com</p>
+          <p style="vertical-align: top;font-size: x-large;font-weight: 700">{{$t("AboutUs.about3")}}</p>
+          <p style="vertical-align: top;font-size: x-large;font-weight: 500">叶伟豪</p>
+          <p style="vertical-align: top;font-size: x-large;font-weight: 500">Email: g17767078958@gmail.com</p>
         </div>
       </div>
-      <div id="modal13" class="modal">
+      <div id="modal13" class="modal" style="width: 80%!important;">
         <div class="modal-content">
           <img src="../../static/img/head.jpg" class="headpic" align="right" hspace="5" vspace="5">
-          <p style="vertical-align: top;font-size: xx-large;font-weight: 700">{{$t("AboutUs.about3")}}</p>
-          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">吴迪峰</p>
-          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">Email: miniwa_meow_tsumiki@gmail.com</p>
+          <p style="vertical-align: top;font-size: x-large;font-weight: 700">{{$t("AboutUs.about3")}}</p>
+          <p style="vertical-align: top;font-size: x-large;font-weight: 500">吴迪峰</p>
+          <p style="vertical-align: top;font-size: x-large;font-weight: 500">Email: miniwa_meow_tsumiki@gmail.com</p>
         </div>
       </div>
       <div id="modal14" class="modal">
         <div class="modal-content">
           <img src="../../static/img/head.jpg" class="headpic" align="right" hspace="5" vspace="5">
-          <p style="vertical-align: top;font-size: xx-large;font-weight: 700">{{$t("AboutUs.about4")}}</p>
-          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">邵明琦</p>
-          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">Email: qichen0906@gmail.com</p>
+          <p style="vertical-align: top;font-size: x-large;font-weight: 700">{{$t("AboutUs.about4")}}</p>
+          <p style="vertical-align: top;font-size: x-large;font-weight: 500">邵明琦</p>
+          <p style="vertical-align: top;font-size: x-large;font-weight: 500">Email: qichen0906@gmail.com</p>
         </div>
       </div>
       <div id="modal15" class="modal">
         <div class="modal-content">
           <img src="../../static/img/head.jpg" class="headpic" align="right" hspace="5" vspace="5">
-          <p style="vertical-align: top;font-size: xx-large;font-weight: 700">{{$t("AboutUs.about4")}}</p>
-          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">安雨洁</p>
-          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">Email: ayj@openingsource.org </p>
+          <p style="vertical-align: top;font-size: x-large;font-weight: 700">{{$t("AboutUs.about4")}}</p>
+          <p style="vertical-align: top;font-size: x-large;font-weight: 500">安雨洁</p>
+          <p style="vertical-align: top;font-size: x-large;font-weight: 500">Email: ayj@openingsource.org </p>
         </div>
       </div>
       <div id="modal16" class="modal">
         <div class="modal-content">
           <img src="../../static/img/head.jpg" class="headpic" align="right" hspace="5" vspace="5">
-          <p style="vertical-align: top;font-size: xx-large;font-weight: 700">{{$t("AboutUs.about4")}}</p>
-          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">田淙宇</p>
-          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">Email: glodxy@gmail.com </p>
+          <p style="vertical-align: top;font-size: x-large;font-weight: 700">{{$t("AboutUs.about4")}}</p>
+          <p style="vertical-align: top;font-size: x-large;font-weight: 500">田淙宇</p>
+          <p style="vertical-align: top;font-size: x-large;font-weight: 500">Email: glodxy@gmail.com </p>
         </div>
       </div>
       <div id="modal17" class="modal">
         <div class="modal-content">
           <img src="../../static/img/head.jpg" class="headpic" align="right" hspace="5" vspace="5">
-          <p style="vertical-align: top;font-size: xx-large;font-weight: 700">{{$t("AboutUs.about4")}}</p>
-          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">贾峥</p>
-          <p style="vertical-align: top;font-size: xx-large;font-weight: 500">Email: bleachhddh@gmail.com</p>
+          <p style="vertical-align: top;font-size: x-large;font-weight: 700">{{$t("AboutUs.about4")}}</p>
+          <p style="vertical-align: top;font-size: x-large;font-weight: 500">贾峥</p>
+          <p style="vertical-align: top;font-size: x-large;font-weight: 500">Email: bleachhddh@gmail.com</p>
         </div>
       </div>
       <div id="test1" class="col s12" style="height: 520px;overflow: auto;width: 100%;">
@@ -470,6 +470,9 @@
         $('.modal').modal();
         $('#modal17').modal('open');
       },
+    },
+    mounted:function(){
+      $('.tabs').tabs();
     }
   }
 </script>
