@@ -118,7 +118,7 @@
       </div>
       <div id="modal17" class="modal">
         <div class="modal-content">
-          <h4>{{$t("Agenda10.speach28")}}</h4>
+          <h4>{{$t("Agenda10.process16")}}</h4>
           <p>{{$t("Agenda10.speach29")}}</p>
         </div>
       </div>

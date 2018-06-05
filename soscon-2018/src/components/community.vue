@@ -112,7 +112,7 @@
                 <img src="../../static/img/taiwandaxue.png"style="position: relative;top:70px" >
               </div>
               <div class="card-action" style="background-color:#282828">
-                <a href="#" style="color: white">臺灣大學開源社</a>
+                <a href="https://ntuosc.org/" style="color: white">臺灣大學開源社</a>
               </div>
             </div>
           </div>
@@ -250,7 +250,7 @@
                   <img src="../../static/img/logo-locezed-green.png"style="width: 150px;height: 150px;align-items: center;position: relative;left: 11px;">
                 </div>
                 <div class="card-action" style="background-color:#282828">
-                  <a href="#" style="color: white;margin-left: -15%;margin-right: -15%;">华南农业大学LUG</a>
+                  <a href="http://scaulug.org/home/" style="color: white;margin-left: -15%;margin-right: -15%;">华南农业大学LUG</a>
                 </div>
               </div>
             </div>
@@ -286,7 +286,7 @@
                 <img src="../../static/img/geekpie.jpg" style="height:150px">
               </div>
               <div class="card-action" style="background-color:#282828">
-                <a href="#" style="color: white;margin-left: -5%;margin-right: -15%;">Geekpie</a>
+                <a href="https://geekpie.org/" style="color: white;margin-left: -5%;margin-right: -15%;">Geekpie</a>
               </div>
             </div>
           </div>
@@ -298,7 +298,7 @@
                 <img src="../../static/img/beiyou.svg" style="height:150px">
               </div>
               <div class="card-action" style="background-color:#282828">
-                <a href="#" style="color: white;margin-left: -35%;margin-right: 2%;position: relative;left:22px;">北邮互联网与开源社区</a>
+                <a href="http://byrio.org/" style="color: white;margin-left: -35%;margin-right: 2%;position: relative;left:22px;">北邮互联网与开源社区</a>
               </div>
             </div>
           </div>
@@ -310,7 +310,7 @@
                 <img src="../../static/img/shanghailug.jpg" style="height: 140px;width: 140px;position: relative;left:13px;top:10px;">
               </div>
               <div class="card-action" style="background-color:#282828">
-                <a href="#" style="color: white;margin-left: -5%;margin-right: -15%;">上海大学开源协会</a>
+                <a href="https://osc.shu.edu.cn/" style="color: white;margin-left: -5%;margin-right: -15%;">上海大学开源协会</a>
               </div>
             </div>
           </div>
