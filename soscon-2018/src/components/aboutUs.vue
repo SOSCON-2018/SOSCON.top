@@ -365,6 +365,12 @@
       <div id="test6" class="col s12" style="height: 520px;overflow: auto;width: 100%;">
       <p style="font-size: xx-large;font-weight: 700">Coming soon</p>
       </div>
+      <div id="test7" class="col s12" style="height: 520px;overflow: auto;width: 100%;">
+        <p style="font-size: xx-large;font-weight: 700">Coming soon</p>
+      </div>
+      <div id="test8" class="col s12" style="height: 520px;overflow: auto;width: 100%;">
+        <p style="font-size: xx-large;font-weight: 700">Coming soon</p>
+      </div>
 
 
     </div>
