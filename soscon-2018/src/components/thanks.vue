@@ -119,7 +119,7 @@
             </div>
 
             <p>
-            <div class="row" style="margin-left:-1%">
+            <div  style="margin-left:-1%;display: flex;flex-wrap: wrap">
 
               <!--<div class="col s12 m3 l4"style="margin-top:3%" >
                 <div class="card" style="width:300px;height:180px;">
@@ -128,20 +128,16 @@
                   </div>
                 </div>
               </div>-->
-            <div class="col s12 m3 l4" style="margin-top:3%">
-              <div class="card" style="width:300px;height:180px;">
+              <div class="card" style="width:300px;height:180px;margin-right: 5vw">
                 <div class="card-image" style="height:250px;width:280px">
                   <img src="../../static/img/oschina.jpg" style="position:relative;left:10px">
                 </div>
               </div>
-            </div>
-              <div class="col s12 m3 l4" style="margin-top:3%">
                 <div class="card" style="width:300px;height:180px;">
                   <div class="card-image" style="height:250px;width:280px">
                     <img src="../../static/img/Linuxcn.jpg" style="position:relative;left:10px">
                   </div>
                 </div>
-              </div>
 
             </div>
             </p>
