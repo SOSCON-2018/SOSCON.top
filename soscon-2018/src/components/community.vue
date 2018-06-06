@@ -346,21 +346,7 @@
             </div>
           </div>
 
-
-            <div class="col s12 m4 l2" style="margin-top:7%">
-              <div class="card" style="width: 170px;height:170px;">
-                <div class="card-image" style="height: 150px;" >
-                  <img src="../../static/img/logo.a7995ad.svg" style="height:150px">
-                </div>
-                <div class="card-action"style="background-color:#282828">
-                  <a href="https://juejin.im/" style="color: white">掘金</a>
-                </div>
-              </div>
-            </div>
-
-
           </div>
-          </p>
         </div>
 
 <!--        <div>

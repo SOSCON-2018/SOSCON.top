@@ -323,7 +323,7 @@ module.exports= {
     speach53:'演讲内容主要包括以下四点',
     speach54:'1. 我们是如何在北美实施开源教育的',
     speach55:'2. 开源教育的好与坏',
-    speacj56:'3. 一些我们常用的工具',
+    speach56:'3. 一些我们常用的工具',
     speach57:'4. YACS， 一个能够帮你“威胁”教授的项目',
     speach58:'嘉宾简介：Yuze Ma鱼哲(中文名：马渝泽 ，GitHub id:bobmayuze) 蓝孩子，猫奴。 美国伦斯理工大学信息科技和网络科学大三学生以及ITWS学生领导能力协会代表。Gamma Nu Eta 成员， Rensselaer Center of Open Source Mentor. 喜欢各种逗比操作，搞笑项目。目前在国内在线教育独角兽编程猫的AI Lab担任数据工程师。',
     speakers1:'嘉宾简介：张宇翔，清华大学计算机系硕士在读，TUNA成员。平常喜欢折腾硬件，玩各种板子，也做一些网络相关的项目。',
