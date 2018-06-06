@@ -138,7 +138,7 @@
       </div>
       <div id="modal14" class="modal">
         <div class="modal-content">
-          <img src="../../static/img/shao1.png" class="headpic" align="right" hspace="5" vspace="5">
+          <img src="../../static/img/head.jpg" class="headpic" align="right" hspace="5" vspace="5">
           <p style="vertical-align: top;font-size: x-large;font-weight: 700">{{$t("AboutUs.about4")}}</p>
           <p style="vertical-align: top;font-size: x-large;font-weight: 500">邵明琦</p>
           <p style="vertical-align: top;font-size: x-large;font-weight: 500">Email: qichen0906@gmail.com</p>
@@ -321,7 +321,7 @@
           <div class="col s12 m6 l3" style="margin-top: 3%" @click="open14">
             <div class="card" style="width: 225px;height: 256px;">
               <div class="card-image" style="height: 220px;">
-                <img src="../../static/img/shao.png">
+                <img src="../../static/img/head.jpg">
               </div>
               <div class="card-action" style="background-color:#282828;">
                 <a style="color: white;margin: auto">{{$t("AboutUs.about4")}} 邵明琦</a>
