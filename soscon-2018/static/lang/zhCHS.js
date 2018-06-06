@@ -47,6 +47,7 @@ module.exports= {
      foot:'畅想未来，拥抱开源。Copyleft@2018学生开源年会 SOSCON.top'*/
   },
   Community: {
+    school:'承办学校',
     community2:'主办社区',
     community: '联合创始社区',
     community1: '合作社区',

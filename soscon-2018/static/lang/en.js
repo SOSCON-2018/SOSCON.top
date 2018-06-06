@@ -180,6 +180,7 @@ module.exports={
       successSub:' Submission success',
   },
   Community:{
+    school:'承办学校',
     community2:'The host community',
     community:'Joint founding community',
     community1:'Cooperative community',
