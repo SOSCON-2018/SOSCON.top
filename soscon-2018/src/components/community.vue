@@ -353,7 +353,7 @@
                 <img src="../../static/img/dianzi.jpg">
               </div>
               <div class="card-action" style="background-color:#282828">
-                <a href="https://cnss.studio/" style="color: white;margin-left: -5%;margin-right: -15%;">电子科技大学cnss</a>
+                <a href="http://cnss.studio/" style="color: white;margin-left: -5%;margin-right: -15%;">电子科技大学cnss</a>
               </div>
             </div>
           </div>
