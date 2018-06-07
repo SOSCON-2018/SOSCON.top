@@ -215,7 +215,6 @@
             <div class="col s12 m4 l2" style="margin-top:7%">
               <div class="card" style="width: 170px;height:170px;">
                 <div class="card-image" style="height: 150px;" >
-                  <!--<img src="../../static/img/pku1.jpg" style="height:150px">-->
                   <img src="../../static/img/xdosc.svg" style="height:150px">
                 </div>
                 <div class="card-action" style="background-color:#282828">
@@ -228,7 +227,6 @@
             <div class="col s12 m4 l2" style="margin-top:7%">
               <div class="card" style="width: 170px;height:170px;">
                 <div class="card-image" style="height: 150px;" >
-                  <!--<img src="../../static/img/pku1.jpg" style="height:150px">-->
                   <img src="../../static/img/isdc.png" style="height:150px">
                 </div>
                 <div class="card-action" style="background-color:#282828">
@@ -240,7 +238,6 @@
             <div class="col s12 m4 l2" style="margin-top: 7%!important">
               <div class="card" style="width: 170px;height:170px;">
                 <div class="card-image" style="height: 150px;" >
-                  <!--<img src="../../static/img/pku1.jpg" style="height:150px">-->
                   <img src="../../static/img/xiyoulinux.png" style="height:150px">
                 </div>
                 <div class="card-action" style="background-color:#282828">
@@ -253,7 +250,6 @@
             <div class="col s12 m4 l2" style="margin-top: 7%!important">
               <div class="card" style="width: 170px;height:170px;">
                 <div class="card-image" style="height: 150px;" >
-                  <!--<img src="../../static/img/pku1.jpg" style="height:150px">-->
                   <img src="../../static/img/xalg.jpg"style="height:150px;width: 150px;position:relative;left: 5%">
                 </div>
                 <div class="card-action" style="background-color:#282828">
@@ -265,7 +261,6 @@
             <div class="col s12 m4 l2" style="margin-top:7%">
               <div class="card" style="width: 170px;height:170px;">
                 <div class="card-image" style="height: 150px;" >
-                  <!--<img src="../../static/img/pku1.jpg" style="height:150px">-->
                   <img src="../../static/img/cqsf.png" style="position: relative;top:35%;left:-12%;width: 220px">
                 </div>
                 <div class="card-action"style="background-color:#282828">
@@ -277,7 +272,6 @@
             <div class="col s12 m4 l2" style="margin-top:7%">
               <div class="card" style="width: 170px;height:170px;">
                 <div class="card-image" style="height: 150px;" >
-                  <!--<img src="../../static/img/pku1.jpg" style="height:150px">-->
                   <img src="../../static/img/logo-locezed-green.png"style="width: 150px;height: 150px;align-items: center;position: relative;left: 11px;">
                 </div>
                 <div class="card-action" style="background-color:#282828">
@@ -290,7 +284,6 @@
           <div class="col s12 m4 l2" style="margin-top:7%">
               <div class="card" style="width: 170px;height:170px;">
                 <div class="card-image" style="height: 150px;" >
-                  <!--<img src="../../static/img/pku1.jpg" style="height:150px">-->
                   <img src="../../static/img/tjdx.png" style="height:150px">
                 </div>
                 <div class="card-action" style="background-color:#282828">
@@ -302,7 +295,6 @@
           <div class="col s12 m4 l2" style="margin-top:7%">
             <div class="card" style="width: 170px;height:170px;">
               <div class="card-image" style="height: 150px;" >
-                <!--<img src="../../static/img/pku1.jpg" style="height:150px">-->
                 <img src="../../static/img/chongqingjiaotong.svg" style="height:150px">
               </div>
               <div class="card-action" style="background-color:#282828">
@@ -325,7 +317,7 @@
           <div class="col s12 m4 l2" style="margin-top:7%">
             <div class="card" style="width: 170px;height:170px;">
               <div class="card-image" style="height: 150px;" >
-                <!--<img src="../../static/img/pku1.jpg" style="height:150px">-->
+
                 <img src="../../static/img/beiyou.svg" style="height:150px">
               </div>
               <div class="card-action" style="background-color:#282828">
@@ -361,63 +353,10 @@
           </div>
         </div>
 
-<!--        <div>
-          <div style="display: inline-block;text-align: center;margin-top: 80px">
-            &lt;!&ndash;<p style="background-color: black;color: white;width: 260px;height: 65px;font-size: x-large" >SOSCON<span style="color:#66ccff;">18</span></p>&ndash;&gt;
-            <h5 style="background-color: black;color: white;padding: 13px 16px;">{{$t("Community.media")}}</h5>
-          </div>
-          <p style="font-weight: 700;font-size: x-large;margin-top: 0%;margin-bottom: -2%"><b>————</b></p>
-
-          <p>
-          <div class="row" style="margin-left:-1%">
-            <div class="col s12 m4 l2"style="margin-top: 3%" >
-              <div class="card" style="width: 170px;height: 170px;">
-                <div class="card-image" style="height: 150px;" >
-                  <img src="../../static/img/Linuxcn.jpg" style="position: relative;top:20%">
-                </div>
-                <div class="card-action" style="background-color:#282828">
-                  <a href="https://linuxstory.org/" style="color: white">Linux中国</a>
-                </div>
-              </div>
-            </div>
-
-
-            <div class="col s12 m4 l2"style="margin-top: 3%" >
-              <div class="card" style="width: 170px;height: 170px;">
-                <div class="card-image" style="height: 150px;" >
-                  <img src="../../static/img/oschina.jpg" style="position: relative;top:20%">
-                </div>
-                <div class="card-action" style="background-color:#282828">
-                  <a href="https://www.oschina.net/" style="color: white">开源中国</a>
-                </div>
-              </div>
-            </div>
-
-
-          </div>
-          </p>
-        </div>-->
 
         <p style="font-weight: 700;font-size: x-large;margin-top: 20%;margin-bottom: 0;padding-bottom: 3%"><b>————</b></p>
       </div>
     </div>
-    <!--<div style="width: 80%;margin: auto">
-      <span style="font-size: small;color: gray">{{$t("AboutUs.footer1")}}</span>
-      <span style="font-size: small;color: gray;margin-left: 3%">{{$t("AboutUs.contact")}}</span>
-      <span class="foot" style="margin-left: 10px">Attending us</span>
-      <span class="foot" style="margin-left: 10px">Follow us</span>
-      <span class="foot">About us</span>
-      <hr style="clear: both"/>
-      <div style="vertical-align: bottom;overflow: hidden">
-        <p style="font-size: small;color: gray;float: left;margin-bottom: 0"><span>Copyright &copy; 2018 SOSCON</span><span> {{$t("AboutUs.footer")}}</span></p>
-        &lt;!&ndash;<i class="iconfont icon" style="margin-left: 10px">&#xe8d0;</i>
-        <i class="iconfont icon" style="margin-left: 10px">&#xe660;</i>
-        <i class="iconfont icon">&#xe8db;</i>&ndash;&gt;
-        <a href="https://t.me/soscon"><img class="icon icon2" src="../../static/img/Flickr-B.png" alt="Flickr"/></a>
-        <a><img class="icon icon2" src="../../static/img/Youtube-B.png" alt="Youtube"/></a>
-        <a href="https://t.me/soscon"><img class="icon" src="../../static/img/Telegram-B.png" alt="Telegram"/></a>
-      </div>
-    </div>-->
     <bottom-bar></bottom-bar>
   </div>
 
