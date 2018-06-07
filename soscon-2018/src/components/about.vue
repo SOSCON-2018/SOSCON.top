@@ -30,10 +30,10 @@
           style="font-weight: normal">{{$t("About.time1")}}</span></p>
         <p style="font-weight: 700;font-size: large;display: inline;margin-right: 20px">{{$t("About.place")}}<span
           style="font-weight: normal">{{$t("About.place1")}}</span></p>
-        <p style="font-weight: 700;font-size: large;display: inline;margin-right: 20px">主办社区：<span
-          style="font-weight: normal">开源工场</span></p>
-        <p style="font-weight: 700;font-size: large;display: inline">承办学校：<span
-          style="font-weight: normal">重庆大学大数据与软件学院</span></p>
+        <p style="font-weight: 700;font-size: large;display: inline;margin-right: 20px">{{$t("About.commun1")}}<span
+          style="font-weight: normal">{{$t("About.commun2")}}</span></p>
+        <p style="font-weight: 700;font-size: large;display: inline">{{$t("About.school1")}}<span
+          style="font-weight: normal">{{$t("About.school2")}}</span></p>
 
       </div>
       <div id="modal4" class="modal">

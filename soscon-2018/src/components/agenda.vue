@@ -93,6 +93,7 @@
         </div>-->
       </div>
     </div>
+    <div style="margin-top: 3%"></div>
     <bottom-bar></bottom-bar>
   </div>
 </template>
