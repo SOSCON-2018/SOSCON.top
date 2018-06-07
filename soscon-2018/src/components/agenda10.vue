@@ -141,7 +141,12 @@
           <span>{{$t("Agenda10.speach46")}}</span><br/>
           <span>{{$t("Agenda10.speach47")}}</span><br/>
           <span>{{$t("Agenda10.speach48")}}</span><br/>
-
+          <br/>
+          <span>{{$t("Agenda10.workshop1")}}</span><br/>
+          <span>{{$t("Agenda10.workshop2")}}</span><br/>
+          <span>{{$t("Agenda10.workshop3")}}</span>
+          <p>{{$t("Agenda10.workshop4")}}</p>
+          <p>{{$t("Agenda10.workshop5")}}</p>
         </div>
       </div>
       <div id="modal19" class="modal">
@@ -155,6 +160,17 @@
           <p>{{$t("Agenda10.speach55")}}</p>
           <p>{{$t("Agenda10.speach56")}}</p>
           <p>{{$t("Agenda10.speach57")}}</p>
+        </div>
+      </div>
+      <div id="modal20" class="modal">
+        <div class="modal-content">
+          <!--<img src="../../static/img/8.speaker8.jpeg" class="headpic" align="right" hspace="5" vspace="5">-->
+          <p>10:10——10:50</p>
+          <span>重庆大学-安雨洁：我与编程和开源</span>
+          <p>11：20——10：50</p>
+          <span>北京邮电大学-代小岱：Deep Learning Frameworks’ Tower of Babel</span>
+          <p>13：10——14：10</p>
+          <p>开源工场-Helen：动手实现微信智能机器人</p>
         </div>
       </div>
       <div id="test1" class="col s12" style="height: 520px;overflow: auto;width: 100%;">
@@ -294,8 +310,9 @@
         </a>
       </div>
       <div id="test3" class="col s12" style="height: 520px;overflow: auto;width: 100%;">
-        <a class="waves-effect waves-light modal-trigger processstyle">
+        <a class="waves-effect waves-light modal-trigger processstyle" @click="open20">
           <div class="AgendaProcess colorA">
+            <span class="time">10:10-14:10</span>
             <span class="process">{{$t("Agenda10.speach49")}}</span>
           </div>
         </a>
@@ -340,6 +357,7 @@
         <a style="cursor: pointer" @click="open4"><img class="iconstyle" src="../../static/img/WeChat.svg"/></a>
         <a :href="['http://qm.qq.com/cgi-bin/qm/qr?k=yF0lluoacOOlRVTX_jFmpivy1ToU15u7']"><img class="iconstyle" src="../../static/img/QQ.svg"/></a>
         <span class="bottomwords">{{$t("About.bottom1")}}。  Copyright© SOSCON {{$t("About.foot")}} 2018</span>
+        <span class="bottomwords">{{$t("About.commun1")}}{{$t("About.commun2")}}&emsp;{{$t("About.school1")}}{{$t("About.school2")}}</span>
         <div style="clear: both"></div>
       </div>
     </div>
@@ -409,6 +427,10 @@
       open19() {
         $('.modal').modal();
         $('#modal19').modal('open');
+      },
+      open20() {
+        $('.modal').modal();
+        $('#modal20').modal('open');
       },
     },
     mounted:function(){

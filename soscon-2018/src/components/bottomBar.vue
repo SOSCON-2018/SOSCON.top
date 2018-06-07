@@ -14,7 +14,7 @@
       <!--<img style="vertical-align:middle;margin-left: 1%;width: 35px;" src="../../static/img/Youtube-W.png"/>
       <img style="vertical-align:middle;margin-left: 1%;width: 35px;" src="../../static/img/Flickr-W.png"/>-->
       <span class="bottomwords">{{$t("About.bottom1")}}。  Copyright© SOSCON {{$t("About.foot")}} 2018</span>
-      <span class="bottomwords">主办社区：开源工场&emsp;承办学校：重庆大学大数据与软件学院</span>
+      <span class="bottomwords">{{$t("About.commun1")}}{{$t("About.commun2")}}&emsp;{{$t("About.school1")}}{{$t("About.school2")}}</span>
       <div style="clear: both"></div>
     </div>
   </div>
