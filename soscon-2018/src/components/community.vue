@@ -346,6 +346,18 @@
             </div>
           </div>
 
+          <div class="col s12 m4 l2" style="margin-top:7%">
+            <div class="card" style="width: 170px;height:170px;">
+              <div class="card-image" style="height: 150px;" >
+
+                <img src="../../static/img/dianzi.jpg">
+              </div>
+              <div class="card-action" style="background-color:#282828">
+                <a href="http://cnss.studio/" style="color: white;margin-left: -5%;margin-right: -15%;">电子科技大学cnss</a>
+              </div>
+            </div>
+          </div>
+
           </div>
         </div>
 

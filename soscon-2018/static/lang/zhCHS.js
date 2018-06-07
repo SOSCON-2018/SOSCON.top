@@ -261,7 +261,7 @@ module.exports= {
     process16: '闪电演讲',
     process17: '闭幕',
     process18: '演讲',
-    process19: 'Workshop--NEO',
+    process19: 'Workshop——NEO',
     process20: '演讲',
     process25:'活动',
     process26:'美国伦斯勒理工大学-马渝泽：北美开源教育相关',

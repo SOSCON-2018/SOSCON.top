@@ -259,7 +259,7 @@ module.exports={
     process16: 'Lightning speeches',
     process17: 'Closing ceremony',
     process18: 'Speech',
-    process19: 'Workshop--NEO',
+    process19: 'Workshop——NEO',
     process20: 'Speech',
     process25:'Activity',
     process26:'Speach: Open source education of North America by Yuze Ma from Rensselaer Polytechnic Institute',
