@@ -262,7 +262,7 @@ module.exports={
     process16:'閃電演講',
     process17:'閉幕',
     process18:'演講',
-    process19:'Workshop--NEO',
+    process19:'Workshop——NEO',
     process20:'演講',
     process25:'活動',
     process26:'美國倫斯勒理工大學-馬渝澤：北美開源教育相關',
