@@ -4,64 +4,6 @@
       <!--<img src="../../static/img/Background-3.jpg" :style="{height:h1}" style="width: 100%;position: fixed;" ></img>-->
       <div style="width: 80%;margin: 0 auto;">
         <div>
-          <div id="modal4" class="modal">
-            <div class="modal-content">
-              <img src="../../static/img/qrcode.png"/>
-              <span style="vertical-align: top;font-size: xx-large;font-weight: 700">soscon2018</span>
-            </div>
-          </div>
-          <div>
-            <div style="display: inline-block;text-align: center;margin-top: 80px">
-              <!--<p style="background-color: black;color: white;width: 260px;height: 65px;font-size: x-large" >SOSCON<span style="color:#66ccff;">18</span></p>-->
-              <h5 style="background-color: black;color: white;padding: 13px 16px;">{{$t("Community.community2")}}</h5>
-            </div>
-            <p style="font-weight: 700;font-size: x-large;margin-top: 0%;margin-bottom: -2%"><b>————</b></p>
-            <div class="row" style="margin-left:-1%">
-              <div class="col s12 m6 l3"style="margin-top: 3%">
-                <div class="card" style="width: 225px;height: 256px;">
-                  <div class="card-image" style="height: 220px;" >
-                    <img src="../../static/img/openingsource.svg" style="position: relative;top:40%;">
-                  </div>
-                  <div class="card-action"style="background-color:#282828;" >
-                    <a href="https://openingsource.org" style="color: white;margin: auto">开源工场</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <div style="display: inline-block;text-align: center;margin-top: 80px">
-              <!--<p style="background-color: black;color: white;width: 260px;height: 65px;font-size: x-large" >SOSCON<span style="color:#66ccff;">18</span></p>-->
-              <h5 style="background-color: black;color: white;padding: 13px 16px;">{{$t("Community.school")}}</h5>
-            </div>
-            <p style="font-weight: 700;font-size: x-large;margin-top: 0%;margin-bottom: -2%"><b>————</b></p>
-            <div class="row" style="margin-left:-1%">
-              <div class="col s12 m6 l3"style="margin-top: 3%">
-                <div class="card" style="width: 225px;height: 256px;">
-                  <div class="card-image" style="height: 220px;" >
-                    <img src="../../static/img/cqu.jpg" style="top: 10px" >
-                  </div>
-                  <div class="card-action"style="background-color:#282828;" >
-                    <a href="http://www.cse.cqu.edu.cn/" style="color: white;margin: auto;font-size: 0.9rem">重庆大学大数据与软件学院</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col s12 m6 l3"style="margin-top: 3%">
-                <div class="card" style="width: 225px;height: 256px;">
-                  <div class="card-image" style="height: 220px;" >
-                    <img src="../../static/img/Continue.jpg" style="position: relative;">
-                  </div>
-                  <div class="card-action"style="background-color:#282828;" >
-                    <a  style="color: white;margin: auto">重庆大学CONTINUE</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-
           <div style="display: inline-block;text-align: center;margin-top: 80px">
             <!--<p style="background-color: black;color: white;width: 260px;height: 65px;font-size: x-large" >SOSCON<span style="color:#66ccff;">18</span></p>-->
             <h5 style="background-color: black;color: white;padding: 13px 16px;">{{$t("Community.community")}}</h5>
@@ -110,7 +52,7 @@
                   <img src="../../static/img/Continue.jpg" >
                 </div>
                 <div class="card-action" style="background-color:#282828">
-                  <a href="#" style="color: white">重庆大学Continue</a>
+                  <a href="#" style="color: white">Continue</a>
                 </div>
               </div>
             </div>
@@ -143,42 +85,13 @@
                 <img src="../../static/img/taiwandaxue.png"style="position: relative;top:70px" >
               </div>
               <div class="card-action" style="background-color:#282828">
-                <a href="https://ntuosc.org/" style="color: white">臺灣大學開源社</a>
+                <a href="#" style="color: white">臺灣大學開源社</a>
               </div>
             </div>
           </div>
 
           </div>
           </p>
-        </div>
-        <div>
-          <div style="display: inline-block;text-align: center;margin-top: 80px">
-            <!--<p style="background-color: black;color: white;width: 260px;height: 65px;font-size: x-large" >SOSCON<span style="color:#66ccff;">18</span></p>-->
-            <h5 style="background-color: black;color: white;padding: 13px 16px;">{{$t("Community.community3")}}</h5>
-          </div>
-          <p style="font-weight: 700;font-size: x-large;margin-top: 0%;margin-bottom: -5%"><b>————</b></p>
-          <div class="row" style="margin-left:-1%">
-            <div class="col s12 m4 l2"style="margin-top:7%" >
-              <div class="card" style="width: 170px;height: 170px;">
-                <div class="card-image" style="height: 150px;" >
-                  <img src="../../static/img/ls.png">
-                </div>
-                <div class="card-action" style="background-color:#282828">
-                  <a href="https://linuxstory.org/" style="color: white">Linuxstory</a>
-                </div>
-              </div>
-            </div>
-            <div class="col s12 m4 l2"style="margin-top:7%" >
-              <div class="card" style="width: 170px;height: 170px;">
-                <div class="card-image" style="height: 150px;" >
-                  <img src="../../static/img/oschina.jpg" style="position: relative;top: 20%">
-                </div>
-                <div class="card-action" style="background-color:#282828">
-                  <a href="https://www.oschina.net/" style="color: white">开源中国</a>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
 
         <div>
@@ -190,7 +103,7 @@
 
           <p>
           <div class="row" style="margin-left:-1%">
-            <!--<div class="col s12 m4 l2"style="margin-top:7%" >
+            <div class="col s12 m4 l2"style="margin-top:7%" >
               <div class="card" style="width: 170px;height: 170px;">
                 <div class="card-image" style="height: 150px;" >
                   <img src="../../static/img/ls.png">
@@ -199,7 +112,7 @@
                   <a href="https://linuxstory.org/" style="color: white">Linuxstory</a>
                 </div>
               </div>
-            </div>-->
+            </div>
 
             <div class="col s12 m4 l2" style="margin-top: 7%!important">
               <div class="card" style="width: 170px;height:170px;">
@@ -281,7 +194,7 @@
                   <img src="../../static/img/logo-locezed-green.png"style="width: 150px;height: 150px;align-items: center;position: relative;left: 11px;">
                 </div>
                 <div class="card-action" style="background-color:#282828">
-                  <a href="http://scaulug.org/home/" style="color: white;margin-left: -15%;margin-right: -15%;">华南农业大学LUG</a>
+                  <a href="#" style="color: white;margin-left: -15%;margin-right: -15%;">华南农业大学LUG</a>
                 </div>
               </div>
             </div>
@@ -317,7 +230,7 @@
                 <img src="../../static/img/geekpie.jpg" style="height:150px">
               </div>
               <div class="card-action" style="background-color:#282828">
-                <a href="https://geekpie.org/" style="color: white;margin-left: -5%;margin-right: -15%;">Geekpie</a>
+                <a href="#" style="color: white;margin-left: -5%;margin-right: -15%;">Geekpie</a>
               </div>
             </div>
           </div>
@@ -329,7 +242,7 @@
                 <img src="../../static/img/beiyou.svg" style="height:150px">
               </div>
               <div class="card-action" style="background-color:#282828">
-                <a href="http://byrio.org/" style="color: white;margin-left: -35%;margin-right: 2%;position: relative;left:22px;">北邮互联网与开源社区</a>
+                <a href="#" style="color: white;margin-left: -35%;margin-right: 2%;position: relative;left:22px;">北邮互联网与开源社区</a>
               </div>
             </div>
           </div>
@@ -341,12 +254,38 @@
                 <img src="../../static/img/shanghailug.jpg" style="height: 140px;width: 140px;position: relative;left:13px;top:10px;">
               </div>
               <div class="card-action" style="background-color:#282828">
-                <a href="https://osc.shu.edu.cn/" style="color: white;margin-left: -5%;margin-right: -15%;">上海大学开源协会</a>
+                <a href="#" style="color: white;margin-left: -5%;margin-right: -15%;">上海大学开源协会</a>
               </div>
             </div>
           </div>
 
+          <div class="col s12 m4 l2" style="margin-top:7%">
+            <div class="card" style="width: 170px;height:170px;">
+              <div class="card-image" style="height: 150px;" >
+
+                <img src="../../static/img/dianzi.jpg" style="">
+              </div>
+              <div class="card-action" style="background-color:#282828">
+                <a href="http://cnss.studio" style="color: white;margin-left: -5%;margin-right: -15%;">电子科技大学CNSS</a>
+              </div>
+            </div>
           </div>
+
+
+            <div class="col s12 m4 l2" style="margin-top:7%">
+              <div class="card" style="width: 170px;height:170px;">
+                <div class="card-image" style="height: 150px;" >
+                  <img src="../../static/img/logo.a7995ad.svg" style="height:150px">
+                </div>
+                <div class="card-action"style="background-color:#282828">
+                  <a href="https://juejin.im/" style="color: white">掘金</a>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+          </p>
         </div>
 
 <!--        <div>
@@ -406,22 +345,27 @@
         <a href="https://t.me/soscon"><img class="icon" src="../../static/img/Telegram-B.png" alt="Telegram"/></a>
       </div>
     </div>-->
-    <bottom-bar></bottom-bar>
+    <div style="width: 100%;height: 135px;background-color:#282828;">
+      <div style="width:80%;height:100%;left:0;right:0;margin:0 auto;padding-top: 3vw">
+        <!--<span style="height:100%;display:inline-block;vertical-align:middle;margin-left: 8%"></span>-->
+        <a :href="['https://openingsource.org']"><img class="iconstyleA" src="../../static/img/openingsource-W(1).png"/></a>
+        <a :href="['https://t.me/soscon']"><img class="iconstyle" src="../../static/img/Telegram-W.png"/></a>
+        <img class="iconstyle" src="../../static/img/Youtube-W.png"/>
+        <img class="iconstyle" src="../../static/img/Flickr-W.png"/>
+        <!--<img style="vertical-align:middle;margin-left: 1%;width: 35px;" src="../../static/img/Youtube-W.png"/>
+        <img style="vertical-align:middle;margin-left: 1%;width: 35px;" src="../../static/img/Flickr-W.png"/>-->
+        <span class="bottomwords">{{$t("About.bottom1")}}。  Copyright© SOSCON {{$t("About.foot")}} 2018</span>
+        <div style="clear: both"></div>
+      </div>
+    </div>
+
   </div>
 
 </template>
 
 <script>
-  import BottomBar from "./bottomBar";
   export default {
-    name: "community",
-    components: {BottomBar},
-    methods:{
-      open4(){
-        $('.modal').modal();
-        $('#modal4').modal('open');
-      },
-    }
+    name: "community"
   }
 </script>
 
