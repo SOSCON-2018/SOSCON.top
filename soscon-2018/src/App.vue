@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Nav :name="username"></Nav>
+    <index-nav :name="username"></index-nav>
     <a v-show="haveTicket" @click="qrcode" class="btn-floating btn-large waves-effect waves-light red position"><i class="iconfont icon" style="font-size: 32px;">&#xea22;</i></a>
     <transition :name=transitionName >
       <router-view class="child-view" ></router-view>
@@ -15,7 +15,7 @@
 </template>
 
 <script>
-  import Nav from "./components/Nav";
+  import indexNav from "./components/Nav";
   //判断语言
   var currnetLang = navigator.language;
   if(!localStorage.lang) {
@@ -32,7 +32,7 @@
 
   export default {
     name: 'App',
-    components: {Nav},
+    components: {indexNav},
     data(){
       return {
         transitionName:'fade',

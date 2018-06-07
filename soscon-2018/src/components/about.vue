@@ -43,14 +43,9 @@
         </div>
       </div>
       <div style="margin-top: 2%;margin-bottom: 50px">
-        <iframe v-bind:width="mapWidth" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-                src="https://www.openstreetmap.org/export/embed.html?bbox=106.45307779312135%2C29.56162451639962%2C106.48067235946656%2C29.574968703557974&amp;layer=mapnik&amp;marker=29.56830242911509%2C106.46686649270123"
-                style="border: 1px solid black"></iframe>
-        <br/>
-        <small><a
-          href="https://www.openstreetmap.org/?mlat=29.5683&amp;mlon=106.4669#map=16/29.5683/106.4669&amp;layers=N">查看更大的地图</a>
-        </small>
+        <iframe v-bind:width="mapWidth" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=106.44882917404176%2C29.55839551809361%2C106.48466348648071%2C29.575080675290284&amp;layer=mapnik&amp;marker=29.566738441255648%2C106.46674633026123" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=29.5667&amp;mlon=106.4667#map=16/29.5667/106.4667&amp;layers=N">View Larger Map</a></small>
       </div>
+
     </div>
     <bottom-bar></bottom-bar>
   </div>

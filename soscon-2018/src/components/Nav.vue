@@ -237,7 +237,7 @@
 <script>
 
   export default {
-    name: "nav",
+    name: "indexNav",
     props: ['name'],
     data(){
       return{
@@ -453,6 +453,7 @@
   window.onload = function () {
     $(".dropdown-trigger").dropdown();
     $('.modal').modal();
+    $('.sidenav').sidenav();
   }
 </script>
 
