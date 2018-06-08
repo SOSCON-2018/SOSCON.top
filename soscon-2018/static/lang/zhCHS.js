@@ -333,7 +333,7 @@ module.exports= {
     speach57:'4. YACS， 一个能够帮你“威胁”教授的项目',
     speach58:'嘉宾简介：Yuze Ma鱼哲(中文名：马渝泽 ，GitHub id:bobmayuze) 蓝孩子，猫奴。 美国伦斯理工大学信息科技和网络科学大三学生以及ITWS学生领导能力协会代表。Gamma Nu Eta 成员， Rensselaer Center of Open Source Mentor. 喜欢各种逗比操作，搞笑项目。目前在国内在线教育独角兽编程猫的AI Lab担任数据工程师。',
     speach59:'李永健',
-    speach60:'LinuxStory',
+    speach60:'重庆邮电大学',
     speach61:'嘉宾简介：李永健(Jason)，来自重庆邮电大学，现任重邮硬件技术与应用协会会长，LinuxStory志愿者。热爱开源硬件和软件，平时喜欢做一些开源硬件的小项目。',
     speach62:'演讲内容：LinuxStory  纯正开源之美，有趣、有料、有意思，LinuxStory 成立于 2011年，以弘扬纯正开源文化，开源技术为己任，坚持社区非商业形式运作，是目前国内最大的几个非盈利开源站点之一。',
     speach63:'刘嘉辉',
