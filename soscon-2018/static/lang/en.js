@@ -338,7 +338,7 @@ module.exports={
     speach66:'Speach content: Google Summer of Code is a global plan and focuses on introducing open source software development to student generation. Students work together for programming of 3 months with open source organization during holidays. I will introduce this remarkable open source activity based on my personal experience.',
     b1:'Speech:Programming and Open source to me by An yejie of CQU',
     b2:'Speach:Deep Learning Frameworks’ Tower of Babel by Dai xiaodai of BUPT',
-    b3:'Speach:realization of WeChat intelligent robot by Helen of Open source workshop',
+    b3:'Speach:realization of WeChat intelligent robot by Helen',
     speakers1:'Honored Guest: ZHANG Yuxiang, Master of Computer Department of Tsinghua University in Reading, TUNA members. Usually addicted into tossing hardware, playing various boards, and doing some web-related projects.',
     speakers2:'Honored Guest: JIANG Bairen (@RSChiang), 5th Grade in the Department of Law, National Taiwan University, the founder and the first president of the Open Source Society of Taiwan University. Writing programs in a cafe in the alley is his usual activity, and he just learned to cook stew and bake pumpkin cookies last year.',
     speakers3:'Honored Guest: Nie Moyu (ID @LinkAdrifting, aka Link), tomboy, crazy about science and technology, games, movies, science fiction, and rock  (in brief, fond of multiple cultures and arts), the former soaring plan students; is now striving for a technical level Hacker; a freshman majoring in software engineering at Beijing University of Posts and Telecommunications; the spokesman of BYRIOSC community.',

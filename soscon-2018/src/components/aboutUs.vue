@@ -462,9 +462,6 @@
         $('#modal17').modal('open');
       },
     },
-    mounted:function(){
-      $('.tabs').tabs();
-    }
   }
 </script>
 

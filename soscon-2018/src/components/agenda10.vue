@@ -162,9 +162,8 @@
           <p>{{$t("Agenda10.speach57")}}</p>
         </div>
       </div>
-      <div id="modal20" class="modal">
+     <!-- <div id="modal20" class="modal">
         <div class="modal-content">
-          <!--<img src="../../static/img/8.speaker8.jpeg" class="headpic" align="right" hspace="5" vspace="5">-->
           <p>11:20——12:00</p>
           <span>{{$t("Agenda10.b2")}}</span>
           <p>12:00——12:20</p>
@@ -172,7 +171,7 @@
           <p>13:10——14:10</p>
           <p>{{$t("Agenda10.b3")}}</p>
         </div>
-      </div>
+      </div>-->
       <div id="modal21" class="modal">
         <div class="modal-content">
           <img src="../../static/img/headPortrait.jpg" class="headpic" align="right" hspace="5" vspace="5">
@@ -201,73 +200,73 @@
           </div>
         </a>
         <a class="waves-effect waves-light modal-trigger processes">
-          <div class="AgendaProcess colorA">
+          <div class="AgendaProcess colorB">
             <span class="time">8:20-8:30</span>
             <span class="process">{{$t("Agenda10.process2")}}</span>
           </div>
         </a>
         <a class="waves-effect waves-light modal-trigger processes">
-          <div class="AgendaProcess colorB">
+          <div class="AgendaProcess colorC">
             <span class="time">8:30-9:10</span>
             <span class="process">{{$t("Agenda10.process4")}}</span>
           </div>
         </a>
         <a class="waves-effect waves-light modal-trigger processes">
-          <div class="AgendaProcess colorC">
+          <div class="AgendaProcess colorD">
             <span class="time">9:10-9:15</span>
             <span class="process">{{$t("Agenda10.process5")}}</span>
           </div>
         </a>
         <a class="waves-effect waves-light modal-trigger processes" @click="open12">
-          <div class="AgendaProcess colorD">
+          <div class="AgendaProcess colorE">
             <span class="time">9:15-9:45</span>
             <span class="process">{{$t("Agenda10.process12")}}</span>
           </div>
         </a>
         <a class="waves-effect waves-light modal-trigger processes" @click="open9">
-          <div class="AgendaProcess colorE">
+          <div class="AgendaProcess colorA">
             <span class="time">9:45-10:05</span>
             <p class="process">{{$t("Agenda10.process8")}}</p>
           </div>
         </a>
         <a class="waves-effect waves-light modal-trigger processes" @click="open14">
-          <div class="AgendaProcess colorA">
+          <div class="AgendaProcess colorB">
             <span class="time">10:05-11:25</span>
             <span class="process">{{$t("Agenda10.process24")}}</span>
           </div>
         </a>
         <a class="waves-effect waves-light modal-trigger processes">
-          <div class="AgendaProcess colorB">
+          <div class="AgendaProcess colorC">
             <span class="time">10:25-10:30</span>
             <span class="process">{{$t("Agenda10.process5")}}</span>
           </div>
         </a>
         <a class="waves-effect waves-light modal-trigger processes" @click="open8">
-          <div class="AgendaProcess colorC">
+          <div class="AgendaProcess colorD">
             <span class="time">10:30-11:00</span>
             <span class="process">{{$t("Agenda10.process6")}}</span>
           </div>
         </a>
         <a class="waves-effect waves-light modal-trigger processes" @click="open21">
-          <div class="AgendaProcess colorC">
+          <div class="AgendaProcess colorE">
             <span class="time">11:00-11:30</span>
             <span class="process">{{$t("Agenda10.process28")}}</span>
           </div>
         </a>
         <a class="waves-effect waves-light modal-trigger processes" @click="open7">
-          <div class="AgendaProcess colorD">
+          <div class="AgendaProcess colorA">
             <span class="time">11:30-12:00</span>
             <span class="process">{{$t("Agenda10.process22")}}</span>
           </div>
         </a>
         <a class="waves-effect waves-light modal-trigger processes">
-          <div class="AgendaProcess colorE">
+          <div class="AgendaProcess colorB">
             <span class="time">12:00-13:10</span>
             <span class="process">{{$t("Agenda10.process7")}}</span>
           </div>
         </a>
         <a class="waves-effect waves-light modal-trigger processes" @click="open19">
-          <div class="AgendaProcess colorA">
+          <div class="AgendaProcess colorC">
             <span class="time">13:10-13:30</span>
             <span class="process">{{$t("Agenda10.process26")}}</span>
           </div>
@@ -279,61 +278,61 @@
           </div>
         </a>-->
         <a class="waves-effect waves-light modal-trigger processes" @click="open10">
-          <div class="AgendaProcess colorB">
+          <div class="AgendaProcess colorD">
             <span class="time">13:30-14:00</span>
             <span class="process">{{$t("Agenda10.process23")}}</span>
           </div>
         </a>
         <a class="waves-effect waves-light modal-trigger processes">
-          <div class="AgendaProcess colorC">
+          <div class="AgendaProcess colorE">
             <span class="time">14:00-14:05</span>
             <span class="process">{{$t("Agenda10.process5")}}</span>
           </div>
         </a>
         <a class="waves-effect waves-light modal-trigger processes" @click="open5">
-          <div class="AgendaProcess colorD">
+          <div class="AgendaProcess colorA">
             <span class="time">14:05-14:35</span>
             <span class="process">{{$t("Agenda10.process9")}}</span>
           </div>
         </a>
         <a class="waves-effect waves-light modal-trigger processes" @click="open6">
-          <div class="AgendaProcess colorE">
+          <div class="AgendaProcess colorB">
             <span class="time">14:35-15:15</span>
             <span class="process">{{$t("Agenda10.process21")}}</span>
           </div>
         </a>
         <a class="waves-effect waves-light modal-trigger processes">
-          <div class="AgendaProcess colorA">
+          <div class="AgendaProcess colorC">
             <span class="time">15:15-15:35</span>
             <span class="process">{{$t("Agenda10.process13")}}</span>
           </div>
         </a>
         <a class="waves-effect waves-light modal-trigger processes" @click="open22">
-          <div class="AgendaProcess colorA">
+          <div class="AgendaProcess colorD">
             <span class="time">15:35-16:00</span>
             <span class="process">{{$t("Agenda10.process29")}}</span>
           </div>
         </a>
         <a class="waves-effect waves-light modal-trigger processes" @click="open13">
-          <div class="AgendaProcess colorB">
+          <div class="AgendaProcess colorE">
             <span class="time">16:00-16:30</span>
             <span class="process">{{$t("Agenda10.process14")}}</span>
           </div>
         </a>
         <a class="waves-effect waves-light modal-trigger processes" @click="open15">
-          <div class="AgendaProcess colorC">
+          <div class="AgendaProcess colorA">
             <span class="time">16:30-16:40</span>
             <span class="process">{{$t("Agenda10.process27")}}</span>
           </div>
         </a>
         <a class="waves-effect waves-light modal-trigger processes" @click="open17">
-          <div class="AgendaProcess colorD">
+          <div class="AgendaProcess colorB">
             <span class="time">16:40-17:40</span>
             <span class="process">{{$t("Agenda10.process16")}}</span>
           </div>
         </a>
         <a class="waves-effect waves-light modal-trigger processes">
-          <div class="AgendaProcess colorE">
+          <div class="AgendaProcess colorC">
             <span class="time">17:40-17:55</span>
             <span class="process">{{$t("Agenda10.process17")}}</span>
           </div>
@@ -348,10 +347,28 @@
         </a>
       </div>
       <div id="test3" class="col s12" style="height: 520px;overflow: auto;width: 100%;">
-        <a class="waves-effect waves-light modal-trigger processstyle" @click="open20">
+        <!--<a class="waves-effect waves-light modal-trigger processstyle" @click="open20">
           <div class="AgendaProcess colorA">
             <span class="time">11:20-14:10</span>
             <span class="process">{{$t("Agenda10.speach49")}}</span>
+          </div>
+        </a>-->
+        <a class="waves-effect waves-light modal-trigger processstyle">
+          <div class="AgendaProcess colorA">
+            <span class="time">11:20-12:00</span>
+            <span class="process">{{$t("Agenda10.b2")}}</span>
+          </div>
+        </a>
+        <a class="waves-effect waves-light modal-trigger processes">
+          <div class="AgendaProcess colorA">
+            <span class="time">12:00-12:20</span>
+            <span class="process">{{$t("Agenda10.b1")}}</span>
+          </div>
+        </a>
+        <a class="waves-effect waves-light modal-trigger processes">
+          <div class="AgendaProcess colorB">
+            <span class="time">13:10-14:10</span>
+            <span class="process">{{$t("Agenda10.b3")}}</span>
           </div>
         </a>
       </div>
