@@ -141,7 +141,12 @@
           <span>{{$t("Agenda10.speach46")}}</span><br/>
           <span>{{$t("Agenda10.speach47")}}</span><br/>
           <span>{{$t("Agenda10.speach48")}}</span><br/>
-
+          <br/>
+          <span>{{$t("Agenda10.workshop1")}}</span><br/>
+          <span>{{$t("Agenda10.workshop2")}}</span><br/>
+          <span>{{$t("Agenda10.workshop3")}}</span>
+          <p>{{$t("Agenda10.workshop4")}}</p>
+          <p>{{$t("Agenda10.workshop5")}}</p>
         </div>
       </div>
       <div id="modal19" class="modal">
@@ -157,6 +162,37 @@
           <p>{{$t("Agenda10.speach57")}}</p>
         </div>
       </div>
+      <div id="modal20" class="modal">
+        <div class="modal-content">
+          <!--<img src="../../static/img/8.speaker8.jpeg" class="headpic" align="right" hspace="5" vspace="5">-->
+          <p>11:20——12:00</p>
+          <span>{{$t("Agenda10.b2")}}</span>
+          <p>12:00——12:20</p>
+          <span>{{$t("Agenda10.b1")}}</span>
+          <p>13:10——14:10</p>
+          <p>{{$t("Agenda10.b3")}}</p>
+        </div>
+      </div>
+      <div id="modal21" class="modal">
+        <div class="modal-content">
+          <!--<img src="../../static/img/speaker4.jpg" class="headpic" align="right" hspace="5" vspace="5">-->
+          <h4>{{$t("Agenda10.speach59")}}</h4>
+          <p>{{$t("Agenda10.speach60")}}</p>
+          <p>{{$t("Agenda10.speach61")}}</p>
+          <p>{{$t("Agenda10.speach62")}}</p>
+          <p>{{$t("Agenda10.extra1")}}</p>
+        </div>
+      </div>
+      <div id="modal22" class="modal">
+        <div class="modal-content">
+          <!--<img src="../../static/img/speaker4.jpg" class="headpic" align="right" hspace="5" vspace="5">-->
+          <h4>{{$t("Agenda10.speach63")}}</h4>
+          <p>{{$t("Agenda10.speach64")}}</p>
+          <p>{{$t("Agenda10.speach65")}}</p>
+          <p>{{$t("Agenda10.speach66")}}</p>
+          <p>{{$t("Agenda10.extra1")}}</p>
+        </div>
+      </div>
       <div id="test1" class="col s12" style="height: 520px;overflow: auto;width: 100%;">
         <a class="waves-effect waves-light modal-trigger processstyle">
           <div class="AgendaProcess colorA">
@@ -165,62 +201,74 @@
           </div>
         </a>
         <a class="waves-effect waves-light modal-trigger processes">
-          <div class="AgendaProcess colorB">
-            <span class="time">8:20-9:40</span>
+          <div class="AgendaProcess colorA">
+            <span class="time">8:20-8:30</span>
             <span class="process">{{$t("Agenda10.process2")}}</span>
           </div>
         </a>
         <a class="waves-effect waves-light modal-trigger processes">
+          <div class="AgendaProcess colorB">
+            <span class="time">8:30-9:10</span>
+            <span class="process">{{$t("Agenda10.process4")}}</span>
+          </div>
+        </a>
+        <a class="waves-effect waves-light modal-trigger processes">
           <div class="AgendaProcess colorC">
-            <span class="time">9:40-9:50</span>
+            <span class="time">9:10-9:15</span>
             <span class="process">{{$t("Agenda10.process5")}}</span>
           </div>
         </a>
         <a class="waves-effect waves-light modal-trigger processes" @click="open12">
           <div class="AgendaProcess colorD">
-            <span class="time">9:50-10:20</span>
+            <span class="time">9:15-9:45</span>
             <span class="process">{{$t("Agenda10.process12")}}</span>
           </div>
         </a>
         <a class="waves-effect waves-light modal-trigger processes" @click="open9">
           <div class="AgendaProcess colorE">
-            <span class="time">10:20-10:40</span>
+            <span class="time">9:45-10:05</span>
             <p class="process">{{$t("Agenda10.process8")}}</p>
           </div>
         </a>
         <a class="waves-effect waves-light modal-trigger processes" @click="open14">
           <div class="AgendaProcess colorA">
-            <span class="time">10:40-11:00</span>
+            <span class="time">10:05-11:25</span>
             <span class="process">{{$t("Agenda10.process24")}}</span>
           </div>
         </a>
         <a class="waves-effect waves-light modal-trigger processes">
           <div class="AgendaProcess colorB">
-            <span class="time">11:00-11:10</span>
+            <span class="time">10:25-10:30</span>
             <span class="process">{{$t("Agenda10.process5")}}</span>
           </div>
         </a>
         <a class="waves-effect waves-light modal-trigger processes" @click="open8">
           <div class="AgendaProcess colorC">
-            <span class="time">11:10-11:40</span>
+            <span class="time">10:30-11:00</span>
             <span class="process">{{$t("Agenda10.process6")}}</span>
+          </div>
+        </a>
+        <a class="waves-effect waves-light modal-trigger processes" @click="open21">
+          <div class="AgendaProcess colorC">
+            <span class="time">11:00-11:30</span>
+            <span class="process">{{$t("Agenda10.process28")}}</span>
           </div>
         </a>
         <a class="waves-effect waves-light modal-trigger processes" @click="open7">
           <div class="AgendaProcess colorD">
-            <span class="time">11:40-12:10</span>
+            <span class="time">11:30-12:00</span>
             <span class="process">{{$t("Agenda10.process22")}}</span>
           </div>
         </a>
         <a class="waves-effect waves-light modal-trigger processes">
           <div class="AgendaProcess colorE">
-            <span class="time">12:10-13:20</span>
+            <span class="time">12:00-13:10</span>
             <span class="process">{{$t("Agenda10.process7")}}</span>
           </div>
         </a>
         <a class="waves-effect waves-light modal-trigger processes" @click="open19">
           <div class="AgendaProcess colorA">
-            <span class="time">13:20-13:40</span>
+            <span class="time">13:10-13:30</span>
             <span class="process">{{$t("Agenda10.process26")}}</span>
           </div>
         </a>
@@ -232,32 +280,38 @@
         </a>-->
         <a class="waves-effect waves-light modal-trigger processes" @click="open10">
           <div class="AgendaProcess colorB">
-            <span class="time">13:40-14:10</span>
+            <span class="time">13:30-14:00</span>
             <span class="process">{{$t("Agenda10.process23")}}</span>
           </div>
         </a>
         <a class="waves-effect waves-light modal-trigger processes">
           <div class="AgendaProcess colorC">
-            <span class="time">14:10-14:20</span>
+            <span class="time">14:00-14:05</span>
             <span class="process">{{$t("Agenda10.process5")}}</span>
           </div>
         </a>
         <a class="waves-effect waves-light modal-trigger processes" @click="open5">
           <div class="AgendaProcess colorD">
-            <span class="time">14:20-14:50</span>
+            <span class="time">14:05-14:35</span>
             <span class="process">{{$t("Agenda10.process9")}}</span>
           </div>
         </a>
         <a class="waves-effect waves-light modal-trigger processes" @click="open6">
           <div class="AgendaProcess colorE">
-            <span class="time">14:50-15:30</span>
+            <span class="time">14:35-15:15</span>
             <span class="process">{{$t("Agenda10.process21")}}</span>
           </div>
         </a>
         <a class="waves-effect waves-light modal-trigger processes">
           <div class="AgendaProcess colorA">
-            <span class="time">15:30-16:00</span>
+            <span class="time">15:15-15:35</span>
             <span class="process">{{$t("Agenda10.process13")}}</span>
+          </div>
+        </a>
+        <a class="waves-effect waves-light modal-trigger processes" @click="open22">
+          <div class="AgendaProcess colorA">
+            <span class="time">15:35-16:00</span>
+            <span class="process">{{$t("Agenda10.process29")}}</span>
           </div>
         </a>
         <a class="waves-effect waves-light modal-trigger processes" @click="open13">
@@ -294,8 +348,9 @@
         </a>
       </div>
       <div id="test3" class="col s12" style="height: 520px;overflow: auto;width: 100%;">
-        <a class="waves-effect waves-light modal-trigger processstyle">
+        <a class="waves-effect waves-light modal-trigger processstyle" @click="open20">
           <div class="AgendaProcess colorA">
+            <span class="time">11:20-14:10</span>
             <span class="process">{{$t("Agenda10.speach49")}}</span>
           </div>
         </a>
@@ -340,6 +395,7 @@
         <a style="cursor: pointer" @click="open4"><img class="iconstyle" src="../../static/img/WeChat.svg"/></a>
         <a :href="['http://qm.qq.com/cgi-bin/qm/qr?k=yF0lluoacOOlRVTX_jFmpivy1ToU15u7']"><img class="iconstyle" src="../../static/img/QQ.svg"/></a>
         <span class="bottomwords">{{$t("About.bottom1")}}。  Copyright© SOSCON {{$t("About.foot")}} 2018</span>
+        <span class="bottomwords">{{$t("About.commun1")}}{{$t("About.commun2")}}&emsp;{{$t("About.school1")}}{{$t("About.school2")}}</span>
         <div style="clear: both"></div>
       </div>
     </div>
@@ -409,6 +465,18 @@
       open19() {
         $('.modal').modal();
         $('#modal19').modal('open');
+      },
+      open20() {
+        $('.modal').modal();
+        $('#modal20').modal('open');
+      },
+      open21() {
+        $('.modal').modal();
+        $('#modal21').modal('open');
+      },
+      open22() {
+        $('.modal').modal();
+        $('#modal22').modal('open');
       },
     },
     mounted:function(){

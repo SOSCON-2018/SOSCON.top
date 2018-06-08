@@ -128,7 +128,6 @@
             <div class="col s12 m4 l2" style="margin-top:7%">
               <div class="card" style="width: 170px;height:170px;">
                 <div class="card-image" style="height: 150px;" >
-                  <!--<img src="../../static/img/pku1.jpg" style="height:150px">-->
                   <img src="../../static/img/xdosc.svg" style="height:150px">
                 </div>
                 <div class="card-action" style="background-color:#282828">
@@ -141,7 +140,6 @@
             <div class="col s12 m4 l2" style="margin-top:7%">
               <div class="card" style="width: 170px;height:170px;">
                 <div class="card-image" style="height: 150px;" >
-                  <!--<img src="../../static/img/pku1.jpg" style="height:150px">-->
                   <img src="../../static/img/isdc.png" style="height:150px">
                 </div>
                 <div class="card-action" style="background-color:#282828">
@@ -153,7 +151,6 @@
             <div class="col s12 m4 l2" style="margin-top: 7%!important">
               <div class="card" style="width: 170px;height:170px;">
                 <div class="card-image" style="height: 150px;" >
-                  <!--<img src="../../static/img/pku1.jpg" style="height:150px">-->
                   <img src="../../static/img/xiyoulinux.png" style="height:150px">
                 </div>
                 <div class="card-action" style="background-color:#282828">
@@ -166,7 +163,6 @@
             <div class="col s12 m4 l2" style="margin-top: 7%!important">
               <div class="card" style="width: 170px;height:170px;">
                 <div class="card-image" style="height: 150px;" >
-                  <!--<img src="../../static/img/pku1.jpg" style="height:150px">-->
                   <img src="../../static/img/xalg.jpg"style="height:150px;width: 150px;position:relative;left: 5%">
                 </div>
                 <div class="card-action" style="background-color:#282828">
@@ -178,7 +174,6 @@
             <div class="col s12 m4 l2" style="margin-top:7%">
               <div class="card" style="width: 170px;height:170px;">
                 <div class="card-image" style="height: 150px;" >
-                  <!--<img src="../../static/img/pku1.jpg" style="height:150px">-->
                   <img src="../../static/img/cqsf.png" style="position: relative;top:35%;left:-12%;width: 220px">
                 </div>
                 <div class="card-action"style="background-color:#282828">
@@ -190,7 +185,6 @@
             <div class="col s12 m4 l2" style="margin-top:7%">
               <div class="card" style="width: 170px;height:170px;">
                 <div class="card-image" style="height: 150px;" >
-                  <!--<img src="../../static/img/pku1.jpg" style="height:150px">-->
                   <img src="../../static/img/logo-locezed-green.png"style="width: 150px;height: 150px;align-items: center;position: relative;left: 11px;">
                 </div>
                 <div class="card-action" style="background-color:#282828">
@@ -203,7 +197,6 @@
           <div class="col s12 m4 l2" style="margin-top:7%">
               <div class="card" style="width: 170px;height:170px;">
                 <div class="card-image" style="height: 150px;" >
-                  <!--<img src="../../static/img/pku1.jpg" style="height:150px">-->
                   <img src="../../static/img/tjdx.png" style="height:150px">
                 </div>
                 <div class="card-action" style="background-color:#282828">
@@ -215,7 +208,6 @@
           <div class="col s12 m4 l2" style="margin-top:7%">
             <div class="card" style="width: 170px;height:170px;">
               <div class="card-image" style="height: 150px;" >
-                <!--<img src="../../static/img/pku1.jpg" style="height:150px">-->
                 <img src="../../static/img/chongqingjiaotong.svg" style="height:150px">
               </div>
               <div class="card-action" style="background-color:#282828">
@@ -238,7 +230,7 @@
           <div class="col s12 m4 l2" style="margin-top:7%">
             <div class="card" style="width: 170px;height:170px;">
               <div class="card-image" style="height: 150px;" >
-                <!--<img src="../../static/img/pku1.jpg" style="height:150px">-->
+
                 <img src="../../static/img/beiyou.svg" style="height:150px">
               </div>
               <div class="card-action" style="background-color:#282828">
@@ -271,6 +263,7 @@
             </div>
           </div>
 
+<<<<<<< HEAD
 
             <div class="col s12 m4 l2" style="margin-top:7%">
               <div class="card" style="width: 170px;height:170px;">
@@ -294,40 +287,28 @@
             <h5 style="background-color: black;color: white;padding: 13px 16px;">{{$t("Community.media")}}</h5>
           </div>
           <p style="font-weight: 700;font-size: x-large;margin-top: 0%;margin-bottom: -2%"><b>————</b></p>
+=======
+          <div class="col s12 m4 l2" style="margin-top:7%">
+            <div class="card" style="width: 170px;height:170px;">
+              <div class="card-image" style="height: 150px;" >
+>>>>>>> af264124ba40eda2f872a09abd55ce5767e1ec24
 
-          <p>
-          <div class="row" style="margin-left:-1%">
-            <div class="col s12 m4 l2"style="margin-top: 3%" >
-              <div class="card" style="width: 170px;height: 170px;">
-                <div class="card-image" style="height: 150px;" >
-                  <img src="../../static/img/Linuxcn.jpg" style="position: relative;top:20%">
-                </div>
-                <div class="card-action" style="background-color:#282828">
-                  <a href="https://linuxstory.org/" style="color: white">Linux中国</a>
-                </div>
+                <img src="../../static/img/dianzi.jpg">
+              </div>
+              <div class="card-action" style="background-color:#282828">
+                <a href="http://cnss.studio/" style="color: white;margin-left: -5%;margin-right: -15%;">电子科技大学cnss</a>
               </div>
             </div>
-
-
-            <div class="col s12 m4 l2"style="margin-top: 3%" >
-              <div class="card" style="width: 170px;height: 170px;">
-                <div class="card-image" style="height: 150px;" >
-                  <img src="../../static/img/oschina.jpg" style="position: relative;top:20%">
-                </div>
-                <div class="card-action" style="background-color:#282828">
-                  <a href="https://www.oschina.net/" style="color: white">开源中国</a>
-                </div>
-              </div>
-            </div>
-
+          </div>
 
           </div>
-          </p>
-        </div>-->
+        </div>
+
 
         <p style="font-weight: 700;font-size: x-large;margin-top: 20%;margin-bottom: 0;padding-bottom: 3%"><b>————</b></p>
       </div>
     </div>
+<<<<<<< HEAD
     <!--<div style="width: 80%;margin: auto">
       <span style="font-size: small;color: gray">{{$t("AboutUs.footer1")}}</span>
       <span style="font-size: small;color: gray;margin-left: 3%">{{$t("AboutUs.contact")}}</span>
@@ -359,6 +340,9 @@
       </div>
     </div>
 
+=======
+    <bottom-bar></bottom-bar>
+>>>>>>> af264124ba40eda2f872a09abd55ce5767e1ec24
   </div>
 
 </template>
