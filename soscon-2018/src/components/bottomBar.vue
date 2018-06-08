@@ -1,4 +1,5 @@
 <template>
+  <div>
   <div style="width: 100%;min-height: 135px;height:auto;background-color:#282828">
     <div style="width:80%;height:100%;left:0;right:0;margin:0 auto;padding-top: 3vw">
       <!--<span style="height:100%;display:inline-block;vertical-align:middle;margin-left: 8%"></span>-->
@@ -18,11 +19,24 @@
       <div style="clear: both"></div>
     </div>
   </div>
+    <div id="modal4" class="modal">
+      <div class="modal-content">
+        <img src="../../static/img/qrcode.png"/>
+        <span style="vertical-align: top;font-size: xx-large;font-weight: 700">soscon2018</span>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
     export default {
-        name: "bottomBar"
+        name: "bottomBar",
+      methods:{
+        open4(){
+          $('.modal').modal();
+          $('#modal4').modal('open');
+        },
+      }
     }
 </script>
 
