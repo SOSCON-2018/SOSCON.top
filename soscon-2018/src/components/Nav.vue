@@ -115,6 +115,9 @@
       <li @click="closeNav">
         <router-link to="/aboutUs">{{$t("Nav.aboutUs")}}</router-link>
       </li>
+      <li @click="closeNav">
+        <a :href="['https://soscon.top/static/soscon.apk']">{{$t("Nav.download")}}</a>
+      </li>
       <li><a class="dropdown-trigger" data-target="dropdown2">{{$t("Nav.lang")}}<i class="material-icons right">arrow_drop_down</i></a>
       </li>
       <li class=" t3" v-if="name === 'none'"><a class="modal-trigger waves-effect waves-light btn" @click="open1">{{$t("Nav.login")}}/{{$t("Nav.register")}}</a></li>
