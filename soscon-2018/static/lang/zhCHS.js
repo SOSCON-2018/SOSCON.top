@@ -6,6 +6,7 @@ module.exports= {
     news: '动态',
     thanks: '感谢',
     aboutUs: '关于我们',
+    download:'下载安卓App',
     community: '社区',
     lang: '语言',
     register: '注册',
