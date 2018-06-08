@@ -165,10 +165,10 @@
       <div id="modal20" class="modal">
         <div class="modal-content">
           <!--<img src="../../static/img/8.speaker8.jpeg" class="headpic" align="right" hspace="5" vspace="5">-->
-          <p>10:10——10:50</p>
-          <span>{{$t("Agenda10.b1")}}</span>
           <p>11:20——12:00</p>
           <span>{{$t("Agenda10.b2")}}</span>
+          <p>12:00——12:20</p>
+          <span>{{$t("Agenda10.b1")}}</span>
           <p>13:10——14:10</p>
           <p>{{$t("Agenda10.b3")}}</p>
         </div>
@@ -350,7 +350,7 @@
       <div id="test3" class="col s12" style="height: 520px;overflow: auto;width: 100%;">
         <a class="waves-effect waves-light modal-trigger processstyle" @click="open20">
           <div class="AgendaProcess colorA">
-            <span class="time">10:10-14:10</span>
+            <span class="time">11:20-14:10</span>
             <span class="process">{{$t("Agenda10.speach49")}}</span>
           </div>
         </a>
