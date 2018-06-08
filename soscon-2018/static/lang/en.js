@@ -250,7 +250,7 @@ module.exports={
     process5: 'Rest',
     process9: 'Speech: Power TUNA by Zhang Xiangyu THU',
     process21:'Speech: Excellent, My tickets: Things that Voting System Has Taught Me. By Jiang Bairen of NTU',
-    process6: 'Speech: My thought about Hacker and Community in New Age by Nie Moyu of BUPT',
+    process6: 'Speech: For Creative: Open Source Community and Spirit Expansion and Continuation',
     process22:'Speech: Open Source Workshop by Gao Yutong of CQU',
     process7: 'Luncheon',
     process8: 'Speech: Cunik: Container & Unikernel by He Jiyan of USTC',

@@ -253,7 +253,7 @@ module.exports={
     process9: '清華大學-張宇翔:Power TUNA',
     process21:'臺灣大學-姜柏任：厲害了，我的票：那些投票系統教會我的事',
     process10:'休息',
-    process6: '北京郵電大學-聶沫予：新時代的黑客與社區——我的思考',
+    process6: '北京郵電大學-聶沫予：爲了創意者：開源社區與精神的拓展和延續',
     process22:'重慶大學-高雨彤：史上最強推廣——夜闌臥聽風吹雨，開源工場入夢來。',
     process7:'午餐',
     process8: '中國科學技術大學-何紀言：Cunik: Container & Unikernel',

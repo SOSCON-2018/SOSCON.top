@@ -252,7 +252,7 @@ module.exports= {
     process5: '休息',
     process9: '清华大学-张宇翔：Power TUNA',
     process21:'台湾大学-姜柏任：厉害了，我的票：那些投票系统教会我的事',
-    process6: '北京邮电大学-聂沫予：新时代的黑客与社区——我的思考',
+    process6: '北京邮电大学-聂沫予：为了创意者：开源社区与精神的拓展和延续',
     process22:'重庆大学-高雨彤：史上最强推广——夜阑卧听风吹雨，开源工场入梦来。',
     process7: '午餐',
     process8: '中国科学技术大学-何纪言：Cunik: Container & Unikernel',
