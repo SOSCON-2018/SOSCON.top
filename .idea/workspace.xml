@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71043d2c-feb3-4cc6-803e-26d56659b1f3" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/soscon-2018/src/components/agenda10.vue" beforeDir="false" afterPath="$PROJECT_DIR$/soscon-2018/src/components/agenda10.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soscon-2018/src/components/community.vue" beforeDir="false" afterPath="$PROJECT_DIR$/soscon-2018/src/components/community.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soscon-2018/static/lang/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/soscon-2018/static/lang/en.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soscon-2018/static/lang/zhCHS.js" beforeDir="false" afterPath="$PROJECT_DIR$/soscon-2018/static/lang/zhCHS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soscon-2018/static/lang/zhCHT.js" beforeDir="false" afterPath="$PROJECT_DIR$/soscon-2018/static/lang/zhCHT.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,8 +24,8 @@
       <file leaf-file-name="zhCHS.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/soscon-2018/static/lang/zhCHS.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10230">
-              <caret line="341" column="18" selection-start-line="341" selection-start-column="18" selection-end-line="341" selection-end-column="18" />
+            <state relative-caret-position="2490">
+              <caret line="340" column="14" lean-forward="true" selection-start-line="340" selection-start-column="14" selection-end-line="340" selection-end-column="120" />
             </state>
           </provider>
         </entry>
@@ -28,7 +33,7 @@
       <file leaf-file-name="agenda.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/soscon-2018/src/components/agenda.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2790">
+            <state relative-caret-position="-150">
               <caret line="93" column="12" selection-start-line="93" selection-start-column="12" selection-end-line="93" selection-end-column="12" />
               <folding>
                 <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
@@ -42,8 +47,8 @@
       <file leaf-file-name="aboutUs.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/soscon-2018/src/components/aboutUs.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="131" column="35" lean-forward="true" selection-start-line="131" selection-start-column="35" selection-end-line="131" selection-end-column="35" />
+            <state relative-caret-position="3930">
+              <caret line="131" column="35" selection-start-line="131" selection-start-column="35" selection-end-line="131" selection-end-column="35" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#div#0;n#div#13;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#1;n#div#0;n#div#13;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
@@ -141,12 +146,23 @@
       <file leaf-file-name="community.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/soscon-2018/src/components/community.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6480">
-              <caret line="216" column="64" selection-start-line="216" selection-start-column="64" selection-end-line="216" selection-end-column="64" />
+            <state relative-caret-position="270">
+              <caret line="166" column="71" lean-forward="true" selection-start-line="166" selection-start-column="71" selection-end-line="166" selection-end-column="71" />
               <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#12;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#12;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="thanks.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/soscon-2018/src/components/thanks.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -163,8 +179,8 @@
       <file leaf-file-name="en.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/soscon-2018/static/lang/en.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10020">
-              <caret line="334" column="17" selection-start-line="334" selection-start-column="17" selection-end-line="334" selection-end-column="17" />
+            <state relative-caret-position="2190">
+              <caret line="335" column="36" lean-forward="true" selection-start-line="335" selection-start-column="36" selection-end-line="335" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -181,17 +197,8 @@
       <file leaf-file-name="zhCHT.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/soscon-2018/static/lang/zhCHT.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10200">
-              <caret line="340" column="4" selection-start-line="336" selection-start-column="4" selection-end-line="340" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="news.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/soscon-2018/src/components/news.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1110">
-              <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+            <state relative-caret-position="464">
+              <caret line="339" column="120" selection-start-line="339" selection-start-column="120" selection-end-line="339" selection-end-column="120" />
             </state>
           </provider>
         </entry>
@@ -199,8 +206,8 @@
       <file leaf-file-name="agenda10.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/soscon-2018/src/components/agenda10.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="169" column="25" selection-start-line="169" selection-start-column="25" selection-end-line="169" selection-end-column="25" />
+            <state relative-caret-position="267">
+              <caret line="177" column="53" selection-start-line="177" selection-start-column="53" selection-end-line="177" selection-end-column="53" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
@@ -243,12 +250,12 @@
         <option value="$PROJECT_DIR$/soscon-2018/src/components/bottomBar.vue" />
         <option value="$PROJECT_DIR$/soscon-2018/src/components/agenda.vue" />
         <option value="$PROJECT_DIR$/soscon-2018/src/components/news.vue" />
-        <option value="$PROJECT_DIR$/soscon-2018/src/components/community.vue" />
         <option value="$PROJECT_DIR$/soscon-2018/index.html" />
+        <option value="$PROJECT_DIR$/soscon-2018/src/components/aboutUs.vue" />
+        <option value="$PROJECT_DIR$/soscon-2018/src/components/community.vue" />
         <option value="$PROJECT_DIR$/soscon-2018/static/lang/zhCHS.js" />
         <option value="$PROJECT_DIR$/soscon-2018/static/lang/zhCHT.js" />
         <option value="$PROJECT_DIR$/soscon-2018/static/lang/en.js" />
-        <option value="$PROJECT_DIR$/soscon-2018/src/components/aboutUs.vue" />
         <option value="$PROJECT_DIR$/soscon-2018/src/components/agenda10.vue" />
       </list>
     </option>
@@ -412,18 +419,19 @@
       <workItem from="1528357878307" duration="14782000" />
       <workItem from="1528393344910" duration="14000" />
       <workItem from="1528417987465" duration="145000" />
-      <workItem from="1528424423326" duration="790000" />
+      <workItem from="1528424423326" duration="1349000" />
+      <workItem from="1528428809750" duration="1901000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169928000" />
+    <option name="totallyTimeSpent" value="172388000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17578125" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17903645" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -769,13 +777,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/soscon-2018/src/components/thanks.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5430">
-          <caret line="181" column="59" selection-start-line="181" selection-start-column="59" selection-end-line="181" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/soscon-2018/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4110">
@@ -843,17 +844,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/soscon-2018/src/components/community.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6480">
-          <caret line="216" column="64" selection-start-line="216" selection-start-column="64" selection-end-line="216" selection-end-column="64" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#12;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#12;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/soscon-2018/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
@@ -861,43 +851,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/soscon-2018/static/lang/zhCHT.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10200">
-          <caret line="340" column="4" selection-start-line="336" selection-start-column="4" selection-end-line="340" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/soscon-2018/static/lang/zhCHS.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10230">
-          <caret line="341" column="18" selection-start-line="341" selection-start-column="18" selection-end-line="341" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/soscon-2018/static/lang/en.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10020">
-          <caret line="334" column="17" selection-start-line="334" selection-start-column="17" selection-end-line="334" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/soscon-2018/src/components/agenda.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2790">
-          <caret line="93" column="12" selection-start-line="93" selection-start-column="12" selection-end-line="93" selection-end-column="12" />
-          <folding>
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#3;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/soscon-2018/src/components/aboutUs.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="131" column="35" lean-forward="true" selection-start-line="131" selection-start-column="35" selection-end-line="131" selection-end-column="35" />
+        <state relative-caret-position="3930">
+          <caret line="131" column="35" selection-start-line="131" selection-start-column="35" selection-end-line="131" selection-end-column="35" />
           <folding>
             <element signature="n#style#0;n#p#0;n#div#0;n#div#13;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#1;n#div#0;n#div#13;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
@@ -991,10 +948,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/soscon-2018/src/components/thanks.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soscon-2018/src/components/community.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="166" column="71" lean-forward="true" selection-start-line="166" selection-start-column="71" selection-end-line="166" selection-end-column="71" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#12;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#12;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soscon-2018/static/lang/zhCHT.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="339" column="120" selection-start-line="339" selection-start-column="120" selection-end-line="339" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soscon-2018/static/lang/en.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2190">
+          <caret line="335" column="36" lean-forward="true" selection-start-line="335" selection-start-column="36" selection-end-line="335" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soscon-2018/src/components/agenda.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="93" column="12" selection-start-line="93" selection-start-column="12" selection-end-line="93" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#3;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soscon-2018/static/lang/zhCHS.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2490">
+          <caret line="340" column="14" lean-forward="true" selection-start-line="340" selection-start-column="14" selection-end-line="340" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/soscon-2018/src/components/agenda10.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="169" column="25" selection-start-line="169" selection-start-column="25" selection-end-line="169" selection-end-column="25" />
+        <state relative-caret-position="267">
+          <caret line="177" column="53" selection-start-line="177" selection-start-column="53" selection-end-line="177" selection-end-column="53" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />

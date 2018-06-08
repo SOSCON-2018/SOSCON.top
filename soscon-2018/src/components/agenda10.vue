@@ -175,7 +175,7 @@
       </div>
       <div id="modal21" class="modal">
         <div class="modal-content">
-          <!--<img src="../../static/img/speaker4.jpg" class="headpic" align="right" hspace="5" vspace="5">-->
+          <img src="../../static/img/headPortrait.jpg" class="headpic" align="right" hspace="5" vspace="5">
           <h4>{{$t("Agenda10.speach59")}}</h4>
           <p>{{$t("Agenda10.speach60")}}</p>
           <p>{{$t("Agenda10.speach61")}}</p>
@@ -185,7 +185,7 @@
       </div>
       <div id="modal22" class="modal">
         <div class="modal-content">
-          <!--<img src="../../static/img/speaker4.jpg" class="headpic" align="right" hspace="5" vspace="5">-->
+          <img src="../../static/img/speaker8.jpg" class="headpic" align="right" hspace="5" vspace="5">
           <h4>{{$t("Agenda10.speach63")}}</h4>
           <p>{{$t("Agenda10.speach64")}}</p>
           <p>{{$t("Agenda10.speach65")}}</p>

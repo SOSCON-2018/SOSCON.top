@@ -164,7 +164,7 @@
                   <img src="../../static/img/ls.png">
                 </div>
                 <div class="card-action" style="background-color:#282828">
-                  <a href="https://linuxstory.org/" style="color: white">Linuxstory</a>
+                  <a href="https://linuxstory.org/" style="color: white">LinuxStory</a>
                 </div>
               </div>
             </div>
