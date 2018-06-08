@@ -133,7 +133,7 @@
           <img src="../../static/img/wudif.jpg" class="headpic" align="right" hspace="5" vspace="5">
           <p style="vertical-align: top;font-size: x-large;font-weight: 700">{{$t("AboutUs.about3")}}</p>
           <p style="vertical-align: top;font-size: x-large;font-weight: 500">吴迪峰</p>
-          <p style="vertical-align: top;font-size: x-large;font-weight: 500">Email: miniwa_meow_tsumiki@gmail.com</p>
+          <p style="vertical-align: top;font-size: x-large;font-weight: 500">Email: miniwa.meow.tsumiki@gmail.com</p>
         </div>
       </div>
       <div id="modal14" class="modal">
