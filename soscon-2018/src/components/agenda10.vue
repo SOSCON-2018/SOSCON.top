@@ -124,6 +124,7 @@
       </div>
       <div id="modal18" class="modal">
         <div class="modal-content">
+          <img src="../../static/img/lin.jpg" class="headpic" align="right" hspace="5" vspace="5">
           <h4>{{$t("Agenda10.speach35")}}</h4>
           <p>{{$t("Agenda10.speach36")}}</p>
           <br/>
