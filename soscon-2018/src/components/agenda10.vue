@@ -192,6 +192,16 @@
           <p>{{$t("Agenda10.extra1")}}</p>
         </div>
       </div>
+      <div id="modal23" class="modal">
+        <div class="modal-content">
+          <img src="../../static/img/daixiaodai.jpg" class="headpic" align="right" hspace="5" vspace="5">
+          <h4>{{$t("Agenda10.speach67")}}</h4>
+          <p>{{$t("Agenda10.speach68")}}</p>
+          <p>{{$t("Agenda10.speach69")}}</p>
+          <p>{{$t("Agenda10.speach70")}}</p>
+          <p>{{$t("Agenda10.extra1")}}</p>
+        </div>
+      </div>
       <div id="test1" class="col s12" style="height: 520px;overflow: auto;width: 100%;">
         <a class="waves-effect waves-light modal-trigger processstyle">
           <div class="AgendaProcess colorA">
@@ -353,7 +363,7 @@
             <span class="process">{{$t("Agenda10.speach49")}}</span>
           </div>
         </a>-->
-        <a class="waves-effect waves-light modal-trigger processstyle">
+        <a class="waves-effect waves-light modal-trigger processstyle" @click="open23">
           <div class="AgendaProcess colorA">
             <span class="time">11:20-12:00</span>
             <span class="process">{{$t("Agenda10.b2")}}</span>
@@ -494,6 +504,10 @@
       open22() {
         $('.modal').modal();
         $('#modal22').modal('open');
+      },
+      open23(){
+        $('.modal').modal();
+        $('#modal23').modal('open');
       },
     },
     mounted:function(){
