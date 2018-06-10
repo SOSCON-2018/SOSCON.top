@@ -137,7 +137,7 @@
             </div>
           </div>
 
-          <div class="col s12 m6 l3" style="margin-top: 3%">
+          <!--<div class="col s12 m6 l3" style="margin-top: 3%">
             <div class="card" style="width: 225px;height: 256px;">
               <div class="card-image" style="height: 220px;" >
                 <img src="../../static/img/taiwandaxue.png"style="position: relative;top:70px" >
@@ -146,7 +146,7 @@
                 <a href="https://ntuosc.org/" style="color: white">臺灣大學開源社</a>
               </div>
             </div>
-          </div>
+          </div>-->
 
           </div>
           </p>
